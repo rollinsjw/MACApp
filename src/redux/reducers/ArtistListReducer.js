@@ -1,17 +1,16 @@
-import { }
 
 const INITIAL_STATE = {
   artists: {
     john: {
-      medium : 'oil'
+      medium : 'oil',
       location: 'georgia'
     }
   }
 }
 
-export default (state = INITIAL, action_ =>{
+export default (state = INITIAL_STATE, action) =>{
   switch(action.type) {
     default:
       return state;
   }
-})
+}

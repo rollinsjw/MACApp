@@ -11,17 +11,21 @@ import {
   Text,
   View
 } from 'react-native';
+import { Provider } from 'react-redux';
 import {createStore} from 'redux';
 import {provider} from 'react-redux';
-import ArtistInfo from './components/ArtistInfo'
+import ArtistInfo from './components/ArtistInfo';
+import reducers from './redux/reducers';
 
 
 export default class Mac extends Component {
 
   render() {
+    const store = createStore(reducers);
     return (
-      <ArtistInfo name={'jorge'} location = {'georgia'} medium= {'human skin'}/>
-
+      <Provider store={store}>
+        <ArtistInfo name={'jorge'} location = {'georgia'} medium= {'human skin'}/>
+      </Provider>
     );
   }
 }
