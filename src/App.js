@@ -14,12 +14,15 @@ import {
 import { Provider } from 'react-redux';
 import {createStore} from 'redux';
 import {provider} from 'react-redux';
+import { StackNavigator } from 'react-navigation';
 import ArtistInfo from './components/ArtistInfo';
 import reducers from './redux/reducers';
 
 
 export default class Mac extends Component {
-
+  static navigationOptions = {
+    title: 'Welcome',
+  };
   render() {
     const store = createStore(reducers);
     return (
