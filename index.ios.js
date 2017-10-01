@@ -40,4 +40,4 @@ const styles = StyleSheet.create({
   },
 });
 
-// AppRegistry.registerComponent('Mac', () => Mac);
+AppRegistry.registerComponent('Mac', () => Mac);
