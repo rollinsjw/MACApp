@@ -1,12 +1,5 @@
-
-const INITIAL_STATE = {
-  artists: {
-    john: {
-      medium : 'oil',
-      location: 'georgia'
-    }
-  }
-}
+var artists = require('../../data/artists.json');
+const INITIAL_STATE = artists
 
 export default (state = INITIAL_STATE, action) =>{
   switch(action.type) {

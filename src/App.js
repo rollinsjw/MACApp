@@ -35,7 +35,7 @@ const mapStateToProps = (state) => ({
 const AppWithNavigationState = connect(mapStateToProps)(App);
 
 class Root extends Component {
-  
+
   render() {
     const store = createStore(reducers);
     return (
