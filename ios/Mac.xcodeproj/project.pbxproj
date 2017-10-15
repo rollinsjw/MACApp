@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -22,6 +23,7 @@
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		1AD621C744184BBAB4E32078 /* libAirMaps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B709BF1ED53241BA9DC4E6DA /* libAirMaps.a */; };
+		2309B7AC586D4EEF9421D455 /* doors_color_row.png in Resources */ = {isa = PBXBuildFile; fileRef = A504FCDCDAED4088AD2BB5D9 /* doors_color_row.png */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -34,9 +36,17 @@
 		2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */; };
 		2D02E4C91E0B4AEC006451C7 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* MacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MacTests.m */; };
+		2EE83411EED5479F91050AEA /* 2017logo_color copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 856B7177348245C6B70F3810 /* 2017logo_color copy.png */; };
+		31C3DE449017475B9B5E9423 /* Instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BF8A46649674C8DB1D66BA2 /* Instagram.png */; };
+		39231DCFE6ED48C2A0179389 /* sweezbold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6392F7EC10D4A9F91861915 /* sweezbold.ttf */; };
+		5BDA6648E1B847D7990BDB14 /* Facebook_white_nobox.png in Resources */ = {isa = PBXBuildFile; fileRef = D0C895AF25E34F7DA8EDC783 /* Facebook_white_nobox.png */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
+		62574B9C2697400BACDB073B /* Instagram_white and clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA391FC9ADC40C598C50705 /* Instagram_white and clear.png */; };
+		625E71D79731401682FE63B1 /* sweez.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 805FD3532B1B4641B756E1BC /* sweez.ttf */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		B65233DC057A431A8410452B /* 2017logo_color.png in Resources */ = {isa = PBXBuildFile; fileRef = A557CE03E2B043DD9E6E6A52 /* 2017logo_color.png */; };
+		C87FD662D983440AAF96102F /* Facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EAABEFEBBBA415BA1D4A767 /* Facebook.png */; };
 		C8E74FAD1F80A26800399154 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8E74FA31F80A26800399154 /* Entypo.ttf */; };
 		C8E74FAE1F80A26800399154 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8E74FA41F80A26800399154 /* EvilIcons.ttf */; };
 		C8E74FAF1F80A26800399154 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8E74FA51F80A26800399154 /* FontAwesome.ttf */; };
@@ -47,20 +57,11 @@
 		C8E74FB41F80A26800399154 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8E74FAA1F80A26800399154 /* Octicons.ttf */; };
 		C8E74FB51F80A26800399154 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8E74FAB1F80A26800399154 /* SimpleLineIcons.ttf */; };
 		C8E74FB61F80A26800399154 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8E74FAC1F80A26800399154 /* Zocial.ttf */; };
-		DF083AE6084A4D91834004D8 /* FrancophilSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1645BC81123F4CE1A5642C10 /* FrancophilSans.ttf */; };
-		625E71D79731401682FE63B1 /* sweez.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 805FD3532B1B4641B756E1BC /* sweez.ttf */; };
-		FD1A6942A5164CBE8E11D90E /* main.png in Resources */ = {isa = PBXBuildFile; fileRef = E994A78F15664008865A8E6E /* main.png */; };
-		2EE83411EED5479F91050AEA /* 2017logo_color copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 856B7177348245C6B70F3810 /* 2017logo_color copy.png */; };
-		B65233DC057A431A8410452B /* 2017logo_color.png in Resources */ = {isa = PBXBuildFile; fileRef = A557CE03E2B043DD9E6E6A52 /* 2017logo_color.png */; };
-		2309B7AC586D4EEF9421D455 /* doors_color_row.png in Resources */ = {isa = PBXBuildFile; fileRef = A504FCDCDAED4088AD2BB5D9 /* doors_color_row.png */; };
-		5BDA6648E1B847D7990BDB14 /* Facebook_white_nobox.png in Resources */ = {isa = PBXBuildFile; fileRef = D0C895AF25E34F7DA8EDC783 /* Facebook_white_nobox.png */; };
-		62574B9C2697400BACDB073B /* Instagram_white and clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA391FC9ADC40C598C50705 /* Instagram_white and clear.png */; };
 		CC3C052EC957483A956C9994 /* Twitter_whitenobox.png in Resources */ = {isa = PBXBuildFile; fileRef = C9313472B4714FD795B93742 /* Twitter_whitenobox.png */; };
-		39231DCFE6ED48C2A0179389 /* sweezbold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6392F7EC10D4A9F91861915 /* sweezbold.ttf */; };
 		DC03D5E111564247BA600A38 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 28553DB0C82E4752B87EF6EB /* Logo.png */; };
-		C87FD662D983440AAF96102F /* Facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EAABEFEBBBA415BA1D4A767 /* Facebook.png */; };
-		31C3DE449017475B9B5E9423 /* Instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BF8A46649674C8DB1D66BA2 /* Instagram.png */; };
 		DD24D6085A1C45E2947B4F6B /* Twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 24507474F4B04F48BE54E7AF /* Twitter.png */; };
+		DF083AE6084A4D91834004D8 /* FrancophilSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1645BC81123F4CE1A5642C10 /* FrancophilSans.ttf */; };
+		FD1A6942A5164CBE8E11D90E /* main.png in Resources */ = {isa = PBXBuildFile; fileRef = E994A78F15664008865A8E6E /* main.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -324,11 +325,22 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Mac/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Mac/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		1645BC81123F4CE1A5642C10 /* FrancophilSans.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FrancophilSans.ttf; path = ../src/assets/fonts/FrancophilSans.ttf; sourceTree = "<group>"; };
+		24507474F4B04F48BE54E7AF /* Twitter.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Twitter.png; path = ../src/assets/images/socialMedia/Twitter.png; sourceTree = "<group>"; };
+		28553DB0C82E4752B87EF6EB /* Logo.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Logo.png; path = ../src/assets/images/logos/Logo.png; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* Mac-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mac-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* Mac-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mac-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF8A46649674C8DB1D66BA2 /* Instagram.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Instagram.png; path = ../src/assets/images/socialMedia/Instagram.png; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
+		805FD3532B1B4641B756E1BC /* sweez.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = sweez.ttf; path = ../src/assets/fonts/sweez.ttf; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		856B7177348245C6B70F3810 /* 2017logo_color copy.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "2017logo_color copy.png"; path = "../src/assets/images/logos/2017logo_color copy.png"; sourceTree = "<group>"; };
+		8CA391FC9ADC40C598C50705 /* Instagram_white and clear.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Instagram_white and clear.png"; path = "../src/assets/images/socialMedia/Instagram_white and clear.png"; sourceTree = "<group>"; };
+		9EAABEFEBBBA415BA1D4A767 /* Facebook.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Facebook.png; path = ../src/assets/images/socialMedia/Facebook.png; sourceTree = "<group>"; };
+		A504FCDCDAED4088AD2BB5D9 /* doors_color_row.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = doors_color_row.png; path = ../src/assets/images/logos/doors_color_row.png; sourceTree = "<group>"; };
+		A557CE03E2B043DD9E6E6A52 /* 2017logo_color.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = 2017logo_color.png; path = ../src/assets/images/logos/2017logo_color.png; sourceTree = "<group>"; };
+		A6392F7EC10D4A9F91861915 /* sweezbold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = sweezbold.ttf; path = ../src/assets/fonts/sweezbold.ttf; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		B709BF1ED53241BA9DC4E6DA /* libAirMaps.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libAirMaps.a; sourceTree = "<group>"; };
 		C8E74FA31F80A26800399154 /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
@@ -341,21 +353,10 @@
 		C8E74FAA1F80A26800399154 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
 		C8E74FAB1F80A26800399154 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
 		C8E74FAC1F80A26800399154 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
+		C9313472B4714FD795B93742 /* Twitter_whitenobox.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Twitter_whitenobox.png; path = ../src/assets/images/socialMedia/Twitter_whitenobox.png; sourceTree = "<group>"; };
+		D0C895AF25E34F7DA8EDC783 /* Facebook_white_nobox.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Facebook_white_nobox.png; path = ../src/assets/images/socialMedia/Facebook_white_nobox.png; sourceTree = "<group>"; };
+		E994A78F15664008865A8E6E /* main.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = main.png; path = ../src/assets/images/backgrounds/main.png; sourceTree = "<group>"; };
 		F2F75EF820704B38952665A6 /* AirMaps.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AirMaps.xcodeproj; path = "../node_modules/react-native-maps/lib/ios/AirMaps.xcodeproj"; sourceTree = "<group>"; };
-		1645BC81123F4CE1A5642C10 /* FrancophilSans.ttf */ = {isa = PBXFileReference; name = "FrancophilSans.ttf"; path = "../src/assets/fonts/FrancophilSans.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		805FD3532B1B4641B756E1BC /* sweez.ttf */ = {isa = PBXFileReference; name = "sweez.ttf"; path = "../src/assets/fonts/sweez.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E994A78F15664008865A8E6E /* main.png */ = {isa = PBXFileReference; name = "main.png"; path = "../src/assets/images/backgrounds/main.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		856B7177348245C6B70F3810 /* 2017logo_color copy.png */ = {isa = PBXFileReference; name = "2017logo_color copy.png"; path = "../src/assets/images/logos/2017logo_color copy.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A557CE03E2B043DD9E6E6A52 /* 2017logo_color.png */ = {isa = PBXFileReference; name = "2017logo_color.png"; path = "../src/assets/images/logos/2017logo_color.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A504FCDCDAED4088AD2BB5D9 /* doors_color_row.png */ = {isa = PBXFileReference; name = "doors_color_row.png"; path = "../src/assets/images/logos/doors_color_row.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D0C895AF25E34F7DA8EDC783 /* Facebook_white_nobox.png */ = {isa = PBXFileReference; name = "Facebook_white_nobox.png"; path = "../src/assets/images/socialMedia/Facebook_white_nobox.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8CA391FC9ADC40C598C50705 /* Instagram_white and clear.png */ = {isa = PBXFileReference; name = "Instagram_white and clear.png"; path = "../src/assets/images/socialMedia/Instagram_white and clear.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C9313472B4714FD795B93742 /* Twitter_whitenobox.png */ = {isa = PBXFileReference; name = "Twitter_whitenobox.png"; path = "../src/assets/images/socialMedia/Twitter_whitenobox.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A6392F7EC10D4A9F91861915 /* sweezbold.ttf */ = {isa = PBXFileReference; name = "sweezbold.ttf"; path = "../src/assets/fonts/sweezbold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		28553DB0C82E4752B87EF6EB /* Logo.png */ = {isa = PBXFileReference; name = "Logo.png"; path = "../src/assets/images/logos/Logo.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9EAABEFEBBBA415BA1D4A767 /* Facebook.png */ = {isa = PBXFileReference; name = "Facebook.png"; path = "../src/assets/images/socialMedia/Facebook.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4BF8A46649674C8DB1D66BA2 /* Instagram.png */ = {isa = PBXFileReference; name = "Instagram.png"; path = "../src/assets/images/socialMedia/Instagram.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		24507474F4B04F48BE54E7AF /* Twitter.png */ = {isa = PBXFileReference; name = "Twitter.png"; path = "../src/assets/images/socialMedia/Twitter.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -579,6 +580,7 @@
 				00E356EF1AD99517003FC87E /* MacTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				9FC247855DA14E3193356C39 /* Resources */,
+				C82B1C8E1F9263D600E17332 /* Recovered References */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -596,6 +598,27 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		9FC247855DA14E3193356C39 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1645BC81123F4CE1A5642C10 /* FrancophilSans.ttf */,
+				805FD3532B1B4641B756E1BC /* sweez.ttf */,
+				E994A78F15664008865A8E6E /* main.png */,
+				856B7177348245C6B70F3810 /* 2017logo_color copy.png */,
+				A557CE03E2B043DD9E6E6A52 /* 2017logo_color.png */,
+				A504FCDCDAED4088AD2BB5D9 /* doors_color_row.png */,
+				D0C895AF25E34F7DA8EDC783 /* Facebook_white_nobox.png */,
+				8CA391FC9ADC40C598C50705 /* Instagram_white and clear.png */,
+				C9313472B4714FD795B93742 /* Twitter_whitenobox.png */,
+				A6392F7EC10D4A9F91861915 /* sweezbold.ttf */,
+				28553DB0C82E4752B87EF6EB /* Logo.png */,
+				9EAABEFEBBBA415BA1D4A767 /* Facebook.png */,
+				4BF8A46649674C8DB1D66BA2 /* Instagram.png */,
+				24507474F4B04F48BE54E7AF /* Twitter.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		ADBDB9201DFEBF0600ED6528 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -603,6 +626,14 @@
 				C8E74FBD1F80A26800399154 /* libRCTBlob-tvOS.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C82B1C8E1F9263D600E17332 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				B709BF1ED53241BA9DC4E6DA /* libAirMaps.a */,
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 		C86A25E81F80B71900592886 /* Products */ = {
@@ -630,28 +661,6 @@
 			name = Fonts;
 			path = "../../../../sides/sidesDirectorTake2/node_modules/react-native-vector-icons/Fonts";
 			sourceTree = "<group>";
-		};
-		9FC247855DA14E3193356C39 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				1645BC81123F4CE1A5642C10 /* FrancophilSans.ttf */,
-				805FD3532B1B4641B756E1BC /* sweez.ttf */,
-				E994A78F15664008865A8E6E /* main.png */,
-				856B7177348245C6B70F3810 /* 2017logo_color copy.png */,
-				A557CE03E2B043DD9E6E6A52 /* 2017logo_color.png */,
-				A504FCDCDAED4088AD2BB5D9 /* doors_color_row.png */,
-				D0C895AF25E34F7DA8EDC783 /* Facebook_white_nobox.png */,
-				8CA391FC9ADC40C598C50705 /* Instagram_white and clear.png */,
-				C9313472B4714FD795B93742 /* Twitter_whitenobox.png */,
-				A6392F7EC10D4A9F91861915 /* sweezbold.ttf */,
-				28553DB0C82E4752B87EF6EB /* Logo.png */,
-				9EAABEFEBBBA415BA1D4A767 /* Facebook.png */,
-				4BF8A46649674C8DB1D66BA2 /* Instagram.png */,
-				24507474F4B04F48BE54E7AF /* Twitter.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 

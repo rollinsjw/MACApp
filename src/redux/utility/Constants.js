@@ -1,0 +1,3 @@
+export const HANDICAP_ACCESSIBLE = "HANDICAP_ACCESSIBLE";
+export const OPEN_FRIDAY = "OPEN_FRIDAY";
+export const SORT_BY_NAME = "SORT_BY_NAME";

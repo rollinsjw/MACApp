@@ -2,9 +2,18 @@ import React, { Component } from 'react';
 import { Text, View } from 'react-native';
 import { Button, SocialIcon } from 'react-native-elements';
 import { connect } from 'react-redux';
+import _ from 'lodash';
+import { sortByName, handicapAccessible, openFriday } from '../redux/actions/ArtistListActions';
+
 //TODO: how to turn off the header for this specific one
 
 class ArtistsContainer extends React.Component {
+
+  navigateAndSort(sortFunction) {
+      sortFunction;
+      this.props.navigation.navigate('ArtistListContainer');
+  }
+
   render() {
     const { columnStyle, rowStyle, buttonStyle} = styles;
     return(
@@ -14,6 +23,7 @@ class ArtistsContainer extends React.Component {
             title={'Artist by Last Name'}
             textStyle={{textAlign: 'center'}}
             style={buttonStyle}
+            onPress={this.navigateAndSort(this.props.sortByName).bind(this)}
           />
           <Button
             title={'Medium'}
@@ -24,6 +34,7 @@ class ArtistsContainer extends React.Component {
             title={'Open Friday'}
             textStyle={{textAlign: 'center'}}
             style={buttonStyle}
+            onPress={this.navigateAndSort(this.props.openFriday.bind(this)}
           />
           <Button
             title={'Handicap Accessible'}
@@ -45,7 +56,7 @@ mapStateToProps = (state) => {
   return { artists: state.artistList }
 }
 
-export default connect(mapStateToProps, null)(ArtistsContainer);
+export default connect(mapStateToProps, { sortByName, handicapAccessible, openFriday })(ArtistsContainer);
 
 const styles = {
   columnStyle: {

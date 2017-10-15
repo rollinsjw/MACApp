@@ -7,8 +7,6 @@ import { CustomIcon } from '../components/commonComponents/CustomIcon';
 
 export default class MainMenu extends React.Component {
 
-
-
   render() {
     const { textRowStyle, copyStyle, iconStyle, backgroundImageStyle, doorStyle, doorStyleView, logoStyle, containerStyle, buttonTextStyle, logoViewStyle, logoImageStyle, dateStyle, greenvilleStyle, openStyle, studiosStyle, clearBackground, columnStyle, rowStyle, imageStyle, imageViewStyle, buttonStyle, H1, H3, GreenvilleStyle } = styles;
     return(
