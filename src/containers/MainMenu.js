@@ -28,7 +28,6 @@ export default class MainMenu extends React.Component {
                   style={buttonStyle}
                   onPress={() => this.props.navigation.navigate('Artists')}
                 />
-
                 <Button
                   backgroundColor={'rgba(51, 53, 61, .451)'}
                   title={'Maps'}
@@ -111,7 +110,6 @@ const styles = {
     alignItems: 'center'
   },
   logoStyle: {
-    resizeMode: 'contain',
     width: null,
     height: null,
     flex: .5,
