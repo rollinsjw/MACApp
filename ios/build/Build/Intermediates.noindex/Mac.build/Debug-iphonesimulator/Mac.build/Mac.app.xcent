@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>6A7H2NH7AW.com.stepUpInovation.Mac</string>
+	<string>EYR7KLL5A8.com.stepUpInnovation.MACApp</string>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>6A7H2NH7AW.com.stepUpInovation.Mac</string>
+		<string>EYR7KLL5A8.com.stepUpInnovation.MACApp</string>
 	</array>
 </dict>
 </plist>

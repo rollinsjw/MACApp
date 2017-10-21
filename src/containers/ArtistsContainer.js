@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Text, View } from 'react-native';
+import { Text, View, TouchableOpacity, Image } from 'react-native';
 import { Button, SocialIcon } from 'react-native-elements';
 import { connect } from 'react-redux';
 import _ from 'lodash';
@@ -9,7 +9,7 @@ import { sortByName, handicapAccessible, openFriday } from '../redux/actions/Art
 
 class ArtistsContainer extends React.Component {
 
-  navigateAndSort(sortFunction) {
+  navigateAndSort = (sortFunction) => {
       sortFunction;
       this.props.navigation.navigate('ArtistListContainer');
   }
@@ -23,7 +23,7 @@ class ArtistsContainer extends React.Component {
             title={'Artist by Last Name'}
             textStyle={{textAlign: 'center'}}
             style={buttonStyle}
-            onPress={this.navigateAndSort(this.props.sortByName).bind(this)}
+            onPress={() => this.navigateAndSort(this.props.sortByName())}
           />
           <Button
             title={'Medium'}
@@ -34,27 +34,52 @@ class ArtistsContainer extends React.Component {
             title={'Open Friday'}
             textStyle={{textAlign: 'center'}}
             style={buttonStyle}
-            onPress={this.navigateAndSort(this.props.openFriday.bind(this)}
+            onPress={() => this.navigateAndSort(this.props.openFriday())}
           />
           <Button
             title={'Handicap Accessible'}
             textStyle={{textAlign: 'center'}}
             style={buttonStyle}
+            onPress={() => this.navigateAndSort(this.props.handicapAccessible())}
           />
         </View>
         <View style={rowStyle}>
-          <SocialIcon type={'facebook'}/>
-          <SocialIcon type={'twitter'}/>
-          <SocialIcon type={'instagram'}/>
+          <TouchableOpacity
+            onPress={()=>'https://www.google.com'}
+            style={{ flex: 1, alignItems: 'center', height: 30}}
+          >
+            <Image
+              style={{flex: 1,  resizeMode: 'contain'}}
+              source={require('../assets/images/socialMedia/Facebook.png')}
+            />
+          </TouchableOpacity>
+          <TouchableOpacity
+            onPress={()=>'https://www.google.com'}
+            style={{flex: 1, alignItems: 'center', height: 30}}
+          >
+            <Image
+              style={{flex: 1, resizeMode: 'contain'}}
+              source={require('../assets/images/socialMedia/Instagram.png')}
+            />
+          </TouchableOpacity>
+          <TouchableOpacity
+            onPress={()=>'https://www.google.com'}
+            style={{flex: 1, alignItems: 'center', height: 30}}
+          >
+            <Image
+              style={{flex: 1, resizeMode: 'contain'}}
+              source={require('../assets/images/socialMedia/Twitter.png')}
+            />
+          </TouchableOpacity>
         </View>
       </View>
     )
   }
-}
+};
 
-mapStateToProps = (state) => {
-  return { artists: state.artistList }
-}
+  const mapStateToProps = (state) => {
+    return ({ artists: state.artistList });
+  };
 
 export default connect(mapStateToProps, { sortByName, handicapAccessible, openFriday })(ArtistsContainer);
 

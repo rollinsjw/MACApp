@@ -9,18 +9,15 @@ export default (state = INITIAL_STATE, action) =>{
     case SORT_BY_NAME:
       return _.sortBy(INITIAL_STATE, "Last Name")
     case OPEN_FRIDAY:
-      return _.map(INITIAL_STATE, (val, id) => {
-        if(val["Open FRIDAY?"] == "Yes"){
-          return {...val}
-        }
+      return _.filter(INITIAL_STATE, (val, id) => {
+        return val["Open FRIDAY?"] === "Yes"
       });
     case HANDICAP_ACCESSIBLE:
-      return _.map(INITIAL_STATE, (val, id) => {
-        if(val["W/chair Accessible?"] == "Yes"){
-          return {...val}
-        }
+      return _.filter(INITIAL_STATE, (val, id) => {
+        return val["W/char Accessible?"] === "Yes"
       });
     default:
+      console.log(state);
       return state;
   }
 }

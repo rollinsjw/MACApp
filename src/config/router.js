@@ -5,6 +5,7 @@ import { StackNavigator } from 'react-navigation';
 import MainMenu from '../containers/MainMenu';
 import ArtistsContainer from '../containers/ArtistsContainer';
 import MapsContainer from '../containers/MapsContainer';
+import ArtistListContainer from '../containers/ArtistListContainer';
 
 
 const routeConfiguration= {
@@ -15,10 +16,16 @@ const routeConfiguration= {
       header: null
       }
   },
+  ArtistListContainer:{
+    screen: ArtistListContainer,
+    navigationOptions: {
+      title: 'Artists'
+    }
+  },
   Artists: {
     screen: ArtistsContainer,
     navigationOptions: {
-      title: 'Artists'
+      title: 'Sort the Artists'
     }
   },
   Map: {

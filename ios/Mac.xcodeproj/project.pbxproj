@@ -39,9 +39,7 @@
 		2EE83411EED5479F91050AEA /* 2017logo_color copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 856B7177348245C6B70F3810 /* 2017logo_color copy.png */; };
 		31C3DE449017475B9B5E9423 /* Instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BF8A46649674C8DB1D66BA2 /* Instagram.png */; };
 		39231DCFE6ED48C2A0179389 /* sweezbold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6392F7EC10D4A9F91861915 /* sweezbold.ttf */; };
-		5BDA6648E1B847D7990BDB14 /* Facebook_white_nobox.png in Resources */ = {isa = PBXBuildFile; fileRef = D0C895AF25E34F7DA8EDC783 /* Facebook_white_nobox.png */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
-		62574B9C2697400BACDB073B /* Instagram_white and clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA391FC9ADC40C598C50705 /* Instagram_white and clear.png */; };
 		625E71D79731401682FE63B1 /* sweez.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 805FD3532B1B4641B756E1BC /* sweez.ttf */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
@@ -57,7 +55,6 @@
 		C8E74FB41F80A26800399154 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8E74FAA1F80A26800399154 /* Octicons.ttf */; };
 		C8E74FB51F80A26800399154 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8E74FAB1F80A26800399154 /* SimpleLineIcons.ttf */; };
 		C8E74FB61F80A26800399154 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8E74FAC1F80A26800399154 /* Zocial.ttf */; };
-		CC3C052EC957483A956C9994 /* Twitter_whitenobox.png in Resources */ = {isa = PBXBuildFile; fileRef = C9313472B4714FD795B93742 /* Twitter_whitenobox.png */; };
 		DC03D5E111564247BA600A38 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 28553DB0C82E4752B87EF6EB /* Logo.png */; };
 		DD24D6085A1C45E2947B4F6B /* Twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 24507474F4B04F48BE54E7AF /* Twitter.png */; };
 		DF083AE6084A4D91834004D8 /* FrancophilSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1645BC81123F4CE1A5642C10 /* FrancophilSans.ttf */; };
@@ -336,7 +333,6 @@
 		805FD3532B1B4641B756E1BC /* sweez.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = sweez.ttf; path = ../src/assets/fonts/sweez.ttf; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		856B7177348245C6B70F3810 /* 2017logo_color copy.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "2017logo_color copy.png"; path = "../src/assets/images/logos/2017logo_color copy.png"; sourceTree = "<group>"; };
-		8CA391FC9ADC40C598C50705 /* Instagram_white and clear.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Instagram_white and clear.png"; path = "../src/assets/images/socialMedia/Instagram_white and clear.png"; sourceTree = "<group>"; };
 		9EAABEFEBBBA415BA1D4A767 /* Facebook.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Facebook.png; path = ../src/assets/images/socialMedia/Facebook.png; sourceTree = "<group>"; };
 		A504FCDCDAED4088AD2BB5D9 /* doors_color_row.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = doors_color_row.png; path = ../src/assets/images/logos/doors_color_row.png; sourceTree = "<group>"; };
 		A557CE03E2B043DD9E6E6A52 /* 2017logo_color.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = 2017logo_color.png; path = ../src/assets/images/logos/2017logo_color.png; sourceTree = "<group>"; };
@@ -353,8 +349,6 @@
 		C8E74FAA1F80A26800399154 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
 		C8E74FAB1F80A26800399154 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
 		C8E74FAC1F80A26800399154 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
-		C9313472B4714FD795B93742 /* Twitter_whitenobox.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Twitter_whitenobox.png; path = ../src/assets/images/socialMedia/Twitter_whitenobox.png; sourceTree = "<group>"; };
-		D0C895AF25E34F7DA8EDC783 /* Facebook_white_nobox.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Facebook_white_nobox.png; path = ../src/assets/images/socialMedia/Facebook_white_nobox.png; sourceTree = "<group>"; };
 		E994A78F15664008865A8E6E /* main.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = main.png; path = ../src/assets/images/backgrounds/main.png; sourceTree = "<group>"; };
 		F2F75EF820704B38952665A6 /* AirMaps.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AirMaps.xcodeproj; path = "../node_modules/react-native-maps/lib/ios/AirMaps.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -607,9 +601,6 @@
 				856B7177348245C6B70F3810 /* 2017logo_color copy.png */,
 				A557CE03E2B043DD9E6E6A52 /* 2017logo_color.png */,
 				A504FCDCDAED4088AD2BB5D9 /* doors_color_row.png */,
-				D0C895AF25E34F7DA8EDC783 /* Facebook_white_nobox.png */,
-				8CA391FC9ADC40C598C50705 /* Instagram_white and clear.png */,
-				C9313472B4714FD795B93742 /* Twitter_whitenobox.png */,
 				A6392F7EC10D4A9F91861915 /* sweezbold.ttf */,
 				28553DB0C82E4752B87EF6EB /* Logo.png */,
 				9EAABEFEBBBA415BA1D4A767 /* Facebook.png */,
@@ -751,6 +742,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = EYR7KLL5A8;
 						ProvisioningStyle = Manual;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
@@ -1096,9 +1088,6 @@
 				2EE83411EED5479F91050AEA /* 2017logo_color copy.png in Resources */,
 				B65233DC057A431A8410452B /* 2017logo_color.png in Resources */,
 				2309B7AC586D4EEF9421D455 /* doors_color_row.png in Resources */,
-				5BDA6648E1B847D7990BDB14 /* Facebook_white_nobox.png in Resources */,
-				62574B9C2697400BACDB073B /* Instagram_white and clear.png in Resources */,
-				CC3C052EC957483A956C9994 /* Twitter_whitenobox.png in Resources */,
 				39231DCFE6ED48C2A0179389 /* sweezbold.ttf in Resources */,
 				DC03D5E111564247BA600A38 /* Logo.png in Resources */,
 				C87FD662D983440AAF96102F /* Facebook.png in Resources */,
@@ -1276,9 +1265,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = EYR7KLL5A8;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
@@ -1290,9 +1280,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.stepUpInovation.Mac;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stepUpInnovation.MACApp;
 				PRODUCT_NAME = Mac;
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "84f6e09f-8bcc-4847-95ec-0098ba831d0f";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.stepUpInnovation.MACApp 1508093251";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1303,7 +1294,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = EYR7KLL5A8;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
@@ -1315,9 +1306,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.stepUpInovation.Mac;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stepUpInnovation.MACApp;
 				PRODUCT_NAME = Mac;
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "84f6e09f-8bcc-4847-95ec-0098ba831d0f";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.stepUpInnovation.MACApp 1508093251";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
