@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import { Text, View, StyleSheet } from 'react-native';
+import { Text, View, StyleSheet, Image } from 'react-native';
 
 export default class Sponsors extends Component{
   render(){
      const {containerStyle, columnStyle, rowStyle, textStyle, } = styles;
     return(
       <View style = {containerStyle}>
-        backgroundColor: {'rgb(255,255,255)'}
-        <View style = {columnStyle}>//add padding
+
+        <View style = {columnStyle}>
 
           <Text style = {textStyle}>
           The Board of Directors and Staff of the Metropolitan Arts
@@ -63,10 +63,11 @@ const styles = {
       flexDirection: 'column',
       justifyContent: 'space-between',
       flex: 1,
+      backgroundColor: 'white'
     },
   textStyle:{//TODO figure this out
-    fontsize:18,
-    //fontFamily:
+    fontSize:14,
+    fontFamily:'sweez',
     //fontWeight
     textAlign: 'justify'
   },

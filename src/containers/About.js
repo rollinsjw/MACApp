@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import { Text, View, StyleSheet } from 'react-native';
+import { Text, View, StyleSheet, Image} from 'react-native';
 
 export default class Sponsors extends Component{
   render(){
      const {containerStyle, backgroundImageStyle, columnStyle, titleTextStyle, mainTextStyle} = styles;
      return(
        <View style = {containerStyle}>
-        <View style = {backgroundImageStyle}
+        <Image style = {backgroundImageStyle}
           source = {require('../assets/images/backgrounds/aboutbackground.png')}
           >
           <View style = {columnStyle}>
-            <View>//give this view a style
+            <View>
             <Text style = {titleTextStyle}>
               weekend hours
             </Text>
@@ -26,7 +26,7 @@ export default class Sponsors extends Component{
             <Text style= {mainTextStyle}>
               Sunday November 12th | Noon-6:00PM
             </Text>
-          </View>
+
             <Text style = {titleTextStyle}>
               about
             </Text>
@@ -54,12 +54,18 @@ export default class Sponsors extends Component{
               edition of the Greenville Journal.
             </Text>
           </View>
-        </View>
+          </View>
+        </Image>
        </View>
      )
    }
  }
 const styles = {
+  containerStyle:{
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+    flex:1,
+  },
   backgroundImageStyle: {
       resizeMode: 'contain',
       width: null,
@@ -71,7 +77,6 @@ const styles = {
     color: 'rgb(183, 86,114)',
     fontFamily: 'sweez',
     fontSize: 16,
-    fontWeight: 600,
     textAlign: 'center',
   },
   mainTextStyle:{

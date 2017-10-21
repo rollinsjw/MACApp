@@ -6,7 +6,8 @@ import MainMenu from '../containers/MainMenu';
 import ArtistsContainer from '../containers/ArtistsContainer';
 import MapsContainer from '../containers/MapsContainer';
 import ArtistListContainer from '../containers/ArtistListContainer';
-
+import About from '../containers/About';
+import Sponsors from '../containers/Sponsors'
 
 const routeConfiguration= {
   Home: {
@@ -32,6 +33,18 @@ const routeConfiguration= {
     screen: MapsContainer,
     navigationOptions: {
       title: 'Map'
+    }
+  },
+  About: {
+    screen: About,
+    navigationOptions: {
+      title: 'About'
+    }
+  },
+  Sponsors: {
+    screen: Sponsors,
+    navigationOptions: {
+      title: 'Sponsors'
     }
   }
 }

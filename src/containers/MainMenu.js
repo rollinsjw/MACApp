@@ -41,12 +41,14 @@ export default class MainMenu extends React.Component {
                   textStyle={buttonTextStyle}
                   style={buttonStyle}
                   backgroundColor={'rgba(51, 53, 61, .451)'}
+                  onPress={() => this.props.navigation.navigate('About')}
                 />
                 <Button
                   title={'Sponsors'}
                   textStyle={buttonTextStyle}
                   style={buttonStyle}
                   backgroundColor={'rgba(51, 53, 61, .451)'}
+                  onPress={()=> this.props.navigation.navigate('Sponsors')}
                 />
               </View>
               <View style={rowStyle}>
