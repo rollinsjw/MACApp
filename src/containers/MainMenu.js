@@ -111,7 +111,7 @@ const styles = {
     alignItems: 'center'
   },
   logoStyle: {
-    resizeMode: 'cover',
+    resizeMode: 'contain',
     width: null,
     height: null,
     flex: .5,
