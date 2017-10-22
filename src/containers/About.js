@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
-import { Text, View, StyleSheet, Image} from 'react-native';
+import { Text, View, ScrollView, StyleSheet, Image} from 'react-native';
 
 export default class Sponsors extends Component{
   render(){
      const {containerStyle, backgroundImageStyle, columnStyle, titleTextStyle, mainTextStyle} = styles;
      return(
-       <View style = {containerStyle}>
-        <Image style = {backgroundImageStyle}
-          source = {require('../assets/images/backgrounds/aboutbackground.png')}
-          >
+       <Image style = {backgroundImageStyle}
+         source = {require('../assets/images/backgrounds/aboutbackground.png')}
+         >
+       <View contentContainerStyle = {containerStyle}>
+
           <View style = {columnStyle}>
             <View>
             <Text style = {titleTextStyle}>
@@ -55,8 +56,9 @@ export default class Sponsors extends Component{
             </Text>
           </View>
           </View>
-        </Image>
-       </View>
+      </View>
+    </Image>
+
      )
    }
  }
@@ -67,7 +69,7 @@ const styles = {
     flex:1,
   },
   backgroundImageStyle: {
-      resizeMode: 'contain',
+      resizeMode: 'cover',
       width: null,
       height: null,
       flex: 1,
@@ -76,21 +78,26 @@ const styles = {
   titleTextStyle:{
     color: 'rgb(183, 86,114)',
     fontFamily: 'sweez',
-    fontSize: 16,
+    fontSize: 22,
     textAlign: 'center',
+    backgroundColor: 'transparent',
+    paddingTop: 15
   },
   mainTextStyle:{
     fontFamily: 'sweez',
-    fontSize: 12,
-    textAlign: 'center'
-    //fontWeight:
-
+    fontSize: 15,
+    textAlign: 'center',
+        //fontWeight:
+    backgroundColor: 'transparent',
+    color: 'white',
+    paddingLeft: 25,
+    paddingRight: 25
   },
   columnStyle: {
     flexDirection: 'column',
     justifyContent: 'space-around',
     flex: 1,
-    alignItems: 'center'
+    alignItems: 'center',
     // flex: 1,
     // paddingTop: 10
   },

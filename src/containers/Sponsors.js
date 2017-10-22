@@ -66,10 +66,12 @@ const styles = {
       backgroundColor: 'white'
     },
   textStyle:{//TODO figure this out
-    fontSize:14,
+    fontSize:16,
     fontFamily:'sweez',
-    //fontWeight
-    textAlign: 'justify'
+    fontWeight: 'bold',
+    textAlign: 'justify',
+    paddingLeft: 25,
+    paddingRight: 25
   },
   columnStyle: {
     flexDirection: 'column',
