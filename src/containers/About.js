@@ -78,11 +78,13 @@ const styles = {
     fontFamily: 'sweez',
     fontSize: 16,
     textAlign: 'center',
+    fontWeight: '500',
   },
   mainTextStyle:{
     fontFamily: 'sweez',
     fontSize: 12,
-    textAlign: 'center'
+    textAlign: 'center',
+    color: 'white',
     //fontWeight:
 
   },
