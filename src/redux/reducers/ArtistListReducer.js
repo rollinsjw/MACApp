@@ -14,7 +14,7 @@ export default (state = INITIAL_STATE, action) =>{
       });
     case HANDICAP_ACCESSIBLE:
       return _.filter(INITIAL_STATE, (val, id) => {
-        return val["W/char Accessible?"] === "Yes"
+        return val["W/chair Accessible?"] === "Yes"
       });
     default:
       console.log(state);
