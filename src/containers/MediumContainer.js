@@ -31,7 +31,7 @@ class MediumContainer extends React.Component {
     <View style={styles.containerStyle}>
       <Image
           style={styles.backgroundImageStyle}
-          source={require( '../assets/images/backgrounds/mediumbackground.png')}
+          source={require( '../assets/images/backgrounds/mediumbackground.jpeg')}
         >
 
             <View style={styles.columnStyle}>

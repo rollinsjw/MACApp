@@ -22,7 +22,7 @@ class ArtistsContainer extends React.Component {
       <View style={{flex: 1}}>
         <Image
             style={backgroundImageStyle}
-            source={require('../assets/images/backgrounds/artistSort.png')}
+            source={require('../assets/images/backgrounds/artistSort.jpeg')}
           >
           <View style={columnStyle}>
             <Button

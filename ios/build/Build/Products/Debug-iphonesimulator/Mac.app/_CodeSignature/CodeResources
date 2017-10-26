@@ -74,7 +74,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		GT7/UDOjJAZdwIpCUgp+ugR76lw=
+		bCcwzZAQTJpWxmZCXOi7nfnPMpQ=
 		</data>
 		<key>BMWlogo.png</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		tJiuhKdGRqZpdWPzvrZTSctBuTo=
+		tYwhQ7zc7wHiNVmUMSLCZ++vQmk=
 		</data>
 		<key>Beckham-Davis.jpg</key>
 		<data>
@@ -239,7 +239,7 @@
 		</data>
 		<key>PlugIns/MacTests.xctest/MacTests</key>
 		<data>
-		FoPbKdymLICSuyHdoYFOke2xebU=
+		Etrt0Iq1bvGzIsiYwQcXOfkFpi0=
 		</data>
 		<key>PlugIns/MacTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
@@ -265,21 +265,17 @@
 		<data>
 		C9pZx7zT05J94EfgkYdaRCi/0as=
 		</data>
-		<key>aboutbackground.png</key>
+		<key>accessibilitybackground.jpeg</key>
 		<data>
-		WJYOPVcBQk8q/wfK4jt1AmpTNPk=
+		Fn8TvwAhIrERU9Q8GXwPEwMD10g=
 		</data>
-		<key>accessibilitybackground.png</key>
+		<key>artistSort.jpeg</key>
 		<data>
-		de1Hu8OO2OJ7wxgrJbtK3SO+fQw=
+		6H4SYt+/KOx6gEsBhqhYM8osZIc=
 		</data>
 		<key>at.png</key>
 		<data>
 		/rjoplLSez1ys8avlBqK0zyy+gc=
-		</data>
-		<key>background.png</key>
-		<data>
-		imv+xwYAKamWZFVi3KfGHbUczdA=
 		</data>
 		<key>bellows-kiah.jpg</key>
 		<data>
@@ -517,10 +513,6 @@
 		<data>
 		7TsDxYT7lrhaNZi5PK4pex1Jtgc=
 		</data>
-		<key>individualbackground.png</key>
-		<data>
-		Hckd2yhRIwdYau28UC1uj/i7IbI=
-		</data>
 		<key>jardines.jpg</key>
 		<data>
 		3UrbsqWxbLjD4CUr/pwBGT/JXfs=
@@ -577,9 +569,9 @@
 		<data>
 		x4O6Hfd0t6IBrWL4+txEblLAvbE=
 		</data>
-		<key>main.png</key>
+		<key>main.jpg</key>
 		<data>
-		4imjWZNp1LWzyF+AeE8kNYNHbuw=
+		3q9QDZ3qM87lcA/cmRgcQGNReXI=
 		</data>
 		<key>mattox.jpg</key>
 		<data>
@@ -597,9 +589,9 @@
 		<data>
 		dDB9ZNMgjMpgPFRGa21pYSXRLww=
 		</data>
-		<key>mediumbackground.png</key>
+		<key>mediumbackground.jpeg</key>
 		<data>
-		s9R2234j9fy6XAESkD2XxUsIb5g=
+		xbZi2ZOXSU+Egow5xtQx7Fd2XXw=
 		</data>
 		<key>mele.jpg</key>
 		<data>
@@ -728,6 +720,10 @@
 		<key>smith-blake.jpg</key>
 		<data>
 		dwaMKOKfEWZByziMM1Aj9Xn+DGc=
+		</data>
+		<key>sort.jpeg</key>
+		<data>
+		UEg0lkHYVvf6jE030Af3D+Z6Qb8=
 		</data>
 		<key>speaker,-elizabeth.jpg</key>
 		<data>
@@ -1047,11 +1043,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GT7/UDOjJAZdwIpCUgp+ugR76lw=
+			bCcwzZAQTJpWxmZCXOi7nfnPMpQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			bBXikFKgeNxV+RG5aqE4QI4AMrenqMt7hlbW6uc+9KE=
+			22VPGoevVzf1mbW6YDGe1ijwZIBBHM9jA12oKFlwTxI=
 			</data>
 		</dict>
 		<key>BMWlogo.png</key>
@@ -1069,11 +1065,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tJiuhKdGRqZpdWPzvrZTSctBuTo=
+			tYwhQ7zc7wHiNVmUMSLCZ++vQmk=
 			</data>
 			<key>hash2</key>
 			<data>
-			B9T/txmZeXZL+Cy4arLcr/6ZniW1+kRttyouOBuMOPQ=
+			O3/ERD1NAw0yAEXZBPlEnNIaZ0JOukyvsAfyCj9A4ys=
 			</data>
 		</dict>
 		<key>Beckham-Davis.jpg</key>
@@ -1467,11 +1463,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FoPbKdymLICSuyHdoYFOke2xebU=
+			Etrt0Iq1bvGzIsiYwQcXOfkFpi0=
 			</data>
 			<key>hash2</key>
 			<data>
-			g7PkuOrD7EB+gMncoXIg9ia+iLR/LKtx286zFORIsao=
+			fGCpJBydp8byoIz7VfnuxWMQKh2SEthn0+JT/BWrrSI=
 			</data>
 		</dict>
 		<key>PlugIns/MacTests.xctest/_CodeSignature/CodeResources</key>
@@ -1540,26 +1536,26 @@
 			17EKHr4YMOWi8I9JA7moDiwZEsDdL3O5P88r+DIhZgI=
 			</data>
 		</dict>
-		<key>aboutbackground.png</key>
+		<key>accessibilitybackground.jpeg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WJYOPVcBQk8q/wfK4jt1AmpTNPk=
+			Fn8TvwAhIrERU9Q8GXwPEwMD10g=
 			</data>
 			<key>hash2</key>
 			<data>
-			BGpOVwu8bAqOLDX0yz6/evCscbwWNSQRf7W0gVXYeTM=
+			sCxDPKA90rRmQp5Sb4zXaJZEY4IoSqDW4NRYnhq7ZZg=
 			</data>
 		</dict>
-		<key>accessibilitybackground.png</key>
+		<key>artistSort.jpeg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			de1Hu8OO2OJ7wxgrJbtK3SO+fQw=
+			6H4SYt+/KOx6gEsBhqhYM8osZIc=
 			</data>
 			<key>hash2</key>
 			<data>
-			+0dVA7mDeo2b8kSjisf7WGnMKHotveKSJ7rbYpFWu5I=
+			n0KmhwxRC7eYh7Lv1QmCkbWku9IS16fPTei4DYStZL8=
 			</data>
 		</dict>
 		<key>at.png</key>
@@ -1571,17 +1567,6 @@
 			<key>hash2</key>
 			<data>
 			5GlTMFHaY4nM3vmER2RPdpsaaivJFePmuYuXFMj5QKc=
-			</data>
-		</dict>
-		<key>background.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			imv+xwYAKamWZFVi3KfGHbUczdA=
-			</data>
-			<key>hash2</key>
-			<data>
-			zM/iCA/ZARHRLlDVcd7kxhyxZAK28J8WjtLJlToHOJM=
 			</data>
 		</dict>
 		<key>bellows-kiah.jpg</key>
@@ -2233,17 +2218,6 @@
 			nJfXc4GgXZKimlvd69rjl1mqqrAivR75QaDAVRacxQI=
 			</data>
 		</dict>
-		<key>individualbackground.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Hckd2yhRIwdYau28UC1uj/i7IbI=
-			</data>
-			<key>hash2</key>
-			<data>
-			AkhvppjU1W9DfNQbei2xirxI+qEy1GHYLsFaOIj9vCM=
-			</data>
-		</dict>
 		<key>jardines.jpg</key>
 		<dict>
 			<key>hash</key>
@@ -2398,15 +2372,15 @@
 			xg140ARIgVgSEuyEE2ERw1TnthZvho1gaZgfeHeq9a0=
 			</data>
 		</dict>
-		<key>main.png</key>
+		<key>main.jpg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4imjWZNp1LWzyF+AeE8kNYNHbuw=
+			3q9QDZ3qM87lcA/cmRgcQGNReXI=
 			</data>
 			<key>hash2</key>
 			<data>
-			RrTqEC1r1I1ReUJ/Fh5HINvCnrN7jOSav8gco9xoiOw=
+			6nOmTeDj0MKb0UI3Q/IlzGMMFgn3IitKOfUbv2YicW8=
 			</data>
 		</dict>
 		<key>mattox.jpg</key>
@@ -2453,15 +2427,15 @@
 			oJoUFUsOf8ye0AnEbBVGD8VmW2gKhaGyI9wX6z21f88=
 			</data>
 		</dict>
-		<key>mediumbackground.png</key>
+		<key>mediumbackground.jpeg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			s9R2234j9fy6XAESkD2XxUsIb5g=
+			xbZi2ZOXSU+Egow5xtQx7Fd2XXw=
 			</data>
 			<key>hash2</key>
 			<data>
-			txZ3dHl692RPw2slJEgQDDAmpk16dc+g53vUYlhlbQo=
+			B/ureX+ZSVyzOehe5YnuaZX9EYMXp+UrlQr0OQhBmZo=
 			</data>
 		</dict>
 		<key>mele.jpg</key>
@@ -2814,6 +2788,17 @@
 			<key>hash2</key>
 			<data>
 			OsBXzof6e7zTeI0/zzc+FCZzMeLX4C1kCBkfTPJEIG0=
+			</data>
+		</dict>
+		<key>sort.jpeg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UEg0lkHYVvf6jE030Af3D+Z6Qb8=
+			</data>
+			<key>hash2</key>
+			<data>
+			K/AThBbqOOFpRDQk7uLK3jG5VXgy0Y7tmQA+URtLImk=
 			</data>
 		</dict>
 		<key>speaker,-elizabeth.jpg</key>

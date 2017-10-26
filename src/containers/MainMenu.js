@@ -12,7 +12,7 @@ export default class MainMenu extends React.Component {
       <View style={containerStyle}>
         <Image
             style={backgroundImageStyle}
-            source={require( '../assets/images/backgrounds/main.png')}
+            source={require( '../assets/images/backgrounds/main.jpg')}
           >
                 <Image
                   style={logoStyle}

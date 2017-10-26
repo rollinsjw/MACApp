@@ -6,7 +6,7 @@ export default class Sponsors extends Component{
      const {containerStyle, backgroundImageStyle, columnStyle, titleTextStyle, mainTextStyle} = styles;
      return(
        <Image style = {backgroundImageStyle}
-         source = {require('../assets/images/backgrounds/aboutbackground.png')}
+         source = {require('../assets/images/backgrounds/aboutbackground.jpg')}
          >
        <View contentContainerStyle = {containerStyle}>
 

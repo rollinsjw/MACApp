@@ -11,7 +11,7 @@ export default class ArtistPageContainer extends React.Component{
     return(
       <View style = {containerStyle}>
         <Image style = {backgroundImageStyle}
-          source = {require('../assets/images/backgrounds/individualbackground.png')}>
+          source = {require('../assets/images/backgrounds/individualbackground.jpg')}>
           <View style = {columnStyle}>
           <Image
             source = {param.artistInfo["Img"]}
