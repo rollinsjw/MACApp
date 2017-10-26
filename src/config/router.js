@@ -9,6 +9,7 @@ import ArtistListContainer from '../containers/ArtistListContainer';
 import About from '../containers/About';
 import Sponsors from '../containers/Sponsors';
 import ArtistPageContainer from '../containers/ArtistPageContainer';
+import MediumContainer from '../containers/MediumContainer';
 
 const routeConfiguration= {
   Home: {
@@ -49,11 +50,14 @@ const routeConfiguration= {
     }
   },
   ArtistPageContainer:{
-    screen: ArtistPageContainer,
-    navigationOptions: {
-      title: 'ArtistPageContainer'
-    }
+    screen: ArtistPageContainer
   },
+  MediumContainer:{
+    screen: MediumContainer,
+    navigationOptions: {
+      title: 'Mediums'
+    }
+  }
 }
 
 const stackNavigatorConfiguration = {

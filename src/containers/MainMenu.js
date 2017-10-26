@@ -103,7 +103,7 @@ const styles = {
      paddingTop: 18
   },
   backgroundImageStyle: {
-    resizeMode: 'contain',
+    resizeMode: 'cover',
     width: null,
     height: null,
     flex: 1,

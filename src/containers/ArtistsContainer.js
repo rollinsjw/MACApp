@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Text, View, TouchableOpacity, Image } from 'react-native';
 import { Button, SocialIcon } from 'react-native-elements';
 import { connect } from 'react-redux';
+import { screen } from '../config/Metrics';
+
 import _ from 'lodash';
 import { sortByName, handicapAccessible, openFriday } from '../redux/actions/ArtistListActions';
 
@@ -15,63 +17,79 @@ class ArtistsContainer extends React.Component {
   }
 
   render() {
-    const { columnStyle, rowStyle, buttonStyle} = styles;
+    const { columnStyle, rowStyle, buttonStyle, buttonTextStyle, backgroundImageStyle} = styles;
     return(
       <View style={{flex: 1}}>
-        <View style={columnStyle}>
-          <Button
-            title={'Artist by Last Name'}
-            textStyle={{textAlign: 'center'}}
-            style={buttonStyle}
-            onPress={() => this.navigateAndSort(this.props.sortByName())}
-          />
-          <Button
-            title={'Medium'}
-            textStyle={{textAlign: 'center'}}
-            style={buttonStyle}
-          />
-          <Button
-            title={'Open Friday'}
-            textStyle={{textAlign: 'center'}}
-            style={buttonStyle}
-            onPress={() => this.navigateAndSort(this.props.openFriday())}
-          />
-          <Button
-            title={'Handicap Accessible'}
-            textStyle={{textAlign: 'center'}}
-            style={buttonStyle}
-            onPress={() => this.navigateAndSort(this.props.handicapAccessible())}
-          />
-        </View>
-        <View style={rowStyle}>
-          <TouchableOpacity
-            onPress={()=>'https://www.google.com'}
-            style={{ flex: 1, alignItems: 'center', height: 30}}
+        <Image
+            style={backgroundImageStyle}
+            source={require('../assets/images/backgrounds/artistSort.png')}
           >
-            <Image
-              style={{flex: 1,  resizeMode: 'contain'}}
-              source={require('../assets/images/socialMedia/Facebook.png')}
+          <View style={columnStyle}>
+            <Button
+              title={'Name'}
+              textStyle={buttonTextStyle}
+              style={buttonStyle}
+              color={'rgb(255, 255, 255)'}
+              backgroundColor={'rgba(51, 53, 61, .451)'}
+              onPress={() => this.navigateAndSort(this.props.sortByName())}
             />
-          </TouchableOpacity>
-          <TouchableOpacity
-            onPress={()=>'https://www.google.com'}
-            style={{flex: 1, alignItems: 'center', height: 30}}
-          >
-            <Image
-              style={{flex: 1, resizeMode: 'contain'}}
-              source={require('../assets/images/socialMedia/Instagram.png')}
+            <Button
+              title={'Medium'}
+              textStyle={buttonTextStyle}
+              style={buttonStyle}
+              color={'rgb(255, 255, 255)'}
+              backgroundColor={'rgba(51, 53, 61, .451)'}
+              onPress={() => this.props.navigation.navigate('MediumContainer')}
+
             />
-          </TouchableOpacity>
-          <TouchableOpacity
-            onPress={()=>'https://www.google.com'}
-            style={{flex: 1, alignItems: 'center', height: 30}}
-          >
-            <Image
-              style={{flex: 1, resizeMode: 'contain'}}
-              source={require('../assets/images/socialMedia/Twitter.png')}
+            <Button
+              title={'Open Friday'}
+              textStyle={buttonTextStyle}
+              style={buttonStyle}
+              color={'rgb(255, 255, 255)'}
+              backgroundColor={'rgba(51, 53, 61, .451)'}
+              onPress={() => this.navigateAndSort(this.props.openFriday())}
             />
-          </TouchableOpacity>
-        </View>
+            <Button
+              title={'Handicap Accessible'}
+              color={'rgb(255, 255, 255)'}
+              backgroundColor={'rgba(51, 53, 61, .451)'}
+              textStyle={buttonTextStyle}
+              style={buttonStyle}
+
+              onPress={() => this.navigateAndSort(this.props.handicapAccessible())}
+            />
+          </View>
+          <View style={rowStyle}>
+            <TouchableOpacity
+              onPress={()=>'https://www.google.com'}
+              style={{ flex: 1, alignItems: 'center', height: 30}}
+            >
+              <Image
+                style={{flex: 1,  resizeMode: 'contain'}}
+                source={require('../assets/images/socialMedia/Facebook.png')}
+              />
+            </TouchableOpacity>
+            <TouchableOpacity
+              onPress={()=>'https://www.google.com'}
+              style={{flex: 1, alignItems: 'center', height: 30}}
+            >
+              <Image
+                style={{flex: 1, resizeMode: 'contain'}}
+                source={require('../assets/images/socialMedia/Instagram.png')}
+              />
+            </TouchableOpacity>
+            <TouchableOpacity
+              onPress={()=>'https://www.google.com'}
+              style={{flex: 1, alignItems: 'center', height: 30}}
+            >
+              <Image
+                style={{flex: 1, resizeMode: 'contain'}}
+                source={require('../assets/images/socialMedia/Twitter.png')}
+              />
+            </TouchableOpacity>
+          </View>
+        </Image>
       </View>
     )
   }
@@ -86,8 +104,11 @@ export default connect(mapStateToProps, { sortByName, handicapAccessible, openFr
 const styles = {
   columnStyle: {
     flexDirection: 'column',
-    justifyContent: 'flex-start',
-    flex: 1
+    justifyContent: 'space-around',
+    flex: 1,
+    alignItems: 'center',
+    paddingTop: 120,
+    paddingBottom: 120
     // flex: 1,
     // paddingTop: 10
   },
@@ -100,7 +121,24 @@ const styles = {
     paddingTop: 20
   },
   buttonStyle: {
-    height: 50,
-    marginTop: 50
-  }
+    borderWidth: 2,
+    borderColor: 'rgb(255, 255, 255)',
+    width: screen.width * .627,
+    // height: screen.height * .082
+
+  },
+  buttonTextStyle: {
+    fontSize: 18,
+    fontFamily: 'sweez',
+    fontWeight: '600'
+    // lineHeight: 1.2,
+    // color: 'rgb(255, 255, 255)',
+  },
+  backgroundImageStyle: {
+    resizeMode: 'cover',
+    width: null,
+    height: null,
+    flex: 1,
+    alignItems: 'center'
+  },
 }

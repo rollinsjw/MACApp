@@ -1,3 +1,11 @@
 export const HANDICAP_ACCESSIBLE = "HANDICAP_ACCESSIBLE";
 export const OPEN_FRIDAY = "OPEN_FRIDAY";
 export const SORT_BY_NAME = "SORT_BY_NAME";
+export const DRAWING_PAPER = "DRAWING_AND_PAPER";
+export const CLAY_AND_WOOD = "CLAY_AND_WOOD";
+export const DIGITAL_ARTS = "DIGITAL_ARTS";
+export const FIBER_ARTS = "FIBER_ARTS";
+export const JEWELRY_AND_GLASS = "JEWELRY_AND_GLASS";
+export const MIXED_MEDIA = "MIXED_MEDIA";
+export const PAINTING = "PAINTING";
+export const PRINT_MAKING = "PRINT_MAKING";
