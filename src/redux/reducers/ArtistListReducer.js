@@ -1,8 +1,9 @@
-var artists = require('../../data/artists.json');
 import _ from 'lodash';
 import {HANDICAP_ACCESSIBLE, OPEN_FRIDAY, SORT_BY_NAME} from '../utility/Constants';
+import artists from '../../data/artists';
 
 const INITIAL_STATE = artists
+
 
 export default (state = INITIAL_STATE, action) =>{
   switch(action.type) {

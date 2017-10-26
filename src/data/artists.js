@@ -1,4 +1,4 @@
-[
+export default artists = [
   {
     "Last Name": "Aiken",
     "First Name": "Laura Kennedy",
