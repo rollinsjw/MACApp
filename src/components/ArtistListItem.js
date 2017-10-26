@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import { Text, View, TouchableOpacity } from 'react-native';
 
 
-const ArtistListItem = ({artistInfo}) => {
+const ArtistListItem = ({artistInfo, navigate}) => {
   return(
-    <TouchableOpacity>
+    <TouchableOpacity
+      onPress= {() => navigate()}>
       <View style={styles.rowStyle}>
         <View style={{flex: 1, height: 80, width: 20, borderWidth: 1, backgroundColor: 'orange'}}/>
         <View style={styles.columnStyle}>

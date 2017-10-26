@@ -1,4 +1,4 @@
-var artists = require('../../data/artists.json');
+var artists = require('../../data/artists.js');
 import _ from 'lodash';
 import {HANDICAP_ACCESSIBLE, OPEN_FRIDAY, SORT_BY_NAME} from '../utility/Constants';
 

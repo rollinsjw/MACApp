@@ -10,7 +10,7 @@ const ArtistInfo = ({medium, location, name}) =>{
         {name}
       </Text>
       <View style = {row}>
-        <View syle = {column}>
+        <View style = {column}>
           <Text>
             {medium}
           </Text>

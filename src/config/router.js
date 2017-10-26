@@ -7,7 +7,8 @@ import ArtistsContainer from '../containers/ArtistsContainer';
 import MapsContainer from '../containers/MapsContainer';
 import ArtistListContainer from '../containers/ArtistListContainer';
 import About from '../containers/About';
-import Sponsors from '../containers/Sponsors'
+import Sponsors from '../containers/Sponsors';
+import ArtistPageContainer from '../containers/ArtistPageContainer';
 
 const routeConfiguration= {
   Home: {
@@ -46,7 +47,13 @@ const routeConfiguration= {
     navigationOptions: {
       title: 'Sponsors'
     }
-  }
+  },
+  ArtistPageContainer:{
+    screen: ArtistPageContainer,
+    navigationOptions: {
+      title: 'ArtistPageContainer'
+    }
+  },
 }
 
 const stackNavigatorConfiguration = {

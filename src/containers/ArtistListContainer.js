@@ -15,6 +15,7 @@ class ArtistListContainer extends React.Component {
         data={this.props.artistList}
         renderItem={({item}) => <ArtistListItem
           artistInfo = {item}
+          navigate={() => this.props.navigation.navigate('ArtistPageContainer', {artistInfo: item})}
         />}
       />
     )

@@ -1,4 +1,4 @@
-[
+export default artists = [
   {
     "Last Name": "Aiken",
     "First Name": "Laura Kennedy",
@@ -19,7 +19,8 @@
     "Map #": 1,
     "fullAddress": "10 Central Avenue ,Greenville, SC  29601",
     "Lat": 34.8578305,
-    "Lng": -82.3985151
+    "Lng": -82.3985151,
+    "Img": require("../assets/images/artistpics/Aiken.jpg")
   },
   {
     "Last Name": "Albertelli",
@@ -41,7 +42,8 @@
     "Map #": 2,
     "fullAddress": "209 N. Main Street,Greenville, SC 29601",
     "Lat": 34.8528884,
-    "Lng": -82.3984116
+    "Lng": -82.3984116,
+    "Img": "Albertelli.jpg"
   },
   {
     "Last Name": "Allen",
@@ -63,7 +65,8 @@
     "Map #": 5,
     "fullAddress": "18 Vickilyn Court,Greenville, SC 29611",
     "Lat": 34.804063,
-    "Lng": -82.446912
+    "Lng": -82.446912,
+    "Img": "Allen,-Michael.jpg"
   },
   {
     "Last Name": "Ambler",
@@ -416,28 +419,6 @@
     "fullAddress": "1000 N. Parker,Greenville, SC 29609",
     "Lat": 34.922233,
     "Lng": -82.409147
-  },
-  {
-    "Last Name": "Brock",
-    "First Name": "Pamela Esteppe",
-    "Studio Name": "",
-    "STUDIO Address": "115 Summer Oak Lane",
-    "STUDIO City, State, Zip": "Simpsonville, SC 29680",
-    "STUDIO phone number": "",
-    "Email Address": "brockpamela22@gmail.com",
-    "Website Address": "",
-    "Directions": "From downtown Greenville, take I-385 to W. Georgia Rd (exit 29). Yield to right and stay on W. Georgia Road for 2 miles. Turn right onto N. Moore Rd for .4 miles. Turn right into Brockfield Gardens - #115 Summer Oak Lane is the 2nd house on the left.",
-    "W/chair Accessible?": "Yes",
-    "Open FRIDAY?": "No",
-    "Artist's medium (used in web app searches)": "PAINTING + DRAWING",
-    "Publicity piece title": "St. Lucia",
-    "Publicity piece medium": "Watercolor",
-    "Publicity piece size": "20.5 x 12.5 inches",
-    "STUDIO#": 19,
-    "Map #": 6,
-    "fullAddress": "115 Summer Oak Lane,Simpsonville, SC 29680",
-    "Lat": "",
-    "Lng": ""
   },
   {
     "Last Name": "Brown",
