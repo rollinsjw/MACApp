@@ -22,7 +22,7 @@ class MapsContainer extends React.Component {
       if(index + 1 == original.length){
         markers = overLapItems.map(mapArtist => {
           return (
-            <TouchableOpacity >
+            <TouchableOpacity style={{backgroundColor: 'white', borderWidth: 1, flex: 1}} onPress={() => this.props.navigation.navigate('ArtistPageContainer', {artistInfo: mapArtist})}>
               <View style={{backgroundColor: 'blue', flex: 1}}>
                 <Text>{mapArtist["Last Name"]}</Text>
               </View>
@@ -52,7 +52,7 @@ class MapsContainer extends React.Component {
         const tempItems = overLapItems;
         markers = tempItems.map(mapArtist => {
           return (
-            <TouchableOpacity style={{backgroundColor: 'white', borderWidth: 1, flex: 1}}>
+            <TouchableOpacity style={{backgroundColor: 'white', borderWidth: 1, flex: 1}} onPress={() => this.props.navigation.navigate('ArtistPageContainer', {artistInfo: mapArtist})}>
               <Text>{mapArtist["Last Name"]}</Text>
             </TouchableOpacity>
           )

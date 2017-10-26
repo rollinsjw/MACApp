@@ -342,7 +342,7 @@ export default artists = [
     "fullAddress": "10 Central Avenue ,Greenville, SC  29601",
     "Lat": 34.8578305,
     "Lng": -82.3985151,
-    //"Img": require("../assets/images/artistpics/blinkoff.jpg")
+    "Img": require("../assets/images/artistpics/blinkoff.jpg")
   },
   {
     "Last Name": "Bolz",
@@ -388,7 +388,7 @@ export default artists = [
     "fullAddress": "1320 Pendleton Street,Greenville, SC 29611",
     "Lat": 34.8470715,
     "Lng": -82.4324146,
-    //"Img": require("../assets/images/artistpics/boyd-alexia.jpg")
+    "Img": require("../assets/images/artistpics/boyd-alexia.jpg")
   },
   {
     "Last Name": "Bradley",
@@ -410,7 +410,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "1211 Pendleton St.,Greenville, SC 29611",
     "Lat": 34.8467015,
-    "Lng": -82.4275864
+    "Lng": -82.4275864,
+    "Img": require("../assets/images/artistpics/bradley.jpg")
   },
   {
     "Last Name": "Brady",
@@ -432,7 +433,8 @@ export default artists = [
     "Map #": 3,
     "fullAddress": "1000 N. Parker,Greenville, SC 29609",
     "Lat": 34.922233,
-    "Lng": -82.409147
+    "Lng": -82.409147,
+    "Img": require("../assets/images/artistpics/brady.jpg")
   },
   {
     "Last Name": "Brown",
@@ -454,7 +456,8 @@ export default artists = [
     "Map #": 4,
     "fullAddress": "232 Lake Fairfield Drive,Greenville, SC 29615",
     "Lat": 34.878036,
-    "Lng": -82.3437919
+    "Lng": -82.3437919,
+    "Img": require("../assets/images/artistpics/brown.jpg")
   },
   {
     "Last Name": "Bruckner",
@@ -476,7 +479,8 @@ export default artists = [
     "Map #": 4,
     "fullAddress": "3110 Wade Hampton Blvd. #8,Taylors, SC 29687",
     "Lat": 34.9096658,
-    "Lng": -82.3255953
+    "Lng": -82.3255953,
+    "Img": require("../assets/images/artistpics/bruckner.jpg")
   },
   {
     "Last Name": "Bryant",
@@ -498,7 +502,8 @@ export default artists = [
     "Map #": 4,
     "fullAddress": "250 Mill Street, PW1251,Taylors, SC 29687",
     "Lat": 34.9201003,
-    "Lng": -82.287138
+    "Lng": -82.287138,
+    "Img": require("../assets/images/artistpics/bryant.jpg")
   },
   {
     "Last Name": "Bucher",
@@ -520,7 +525,8 @@ export default artists = [
     "Map #": 4,
     "fullAddress": "9 Braelock Court,Greenville, SC 29615",
     "Lat": 34.8428458,
-    "Lng": -82.236767
+    "Lng": -82.236767,
+    "Img": require("../assets/images/artistpics/bucher.jpg")
   },
   {
     "Last Name": "Burnett",
@@ -542,7 +548,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "300 River Street, Studio 112,Greenville, SC 29601",
     "Lat": 34.84736,
-    "Lng": -82.403175
+    "Lng": -82.403175,
+    "Img": require("../assets/images/artistpics/Burnett.jpg")
   },
   {
     "Last Name": "Butcher",
@@ -564,7 +571,8 @@ export default artists = [
     "Map #": 4,
     "fullAddress": "216 Keeneland Way,Greer, SC 29651",
     "Lat": 34.8367519,
-    "Lng": -82.2232814
+    "Lng": -82.2232814,
+    "Img": require("../assets/images/artistpics/butcher.jpg")
   },
   {
     "Last Name": "Calloway",
@@ -586,7 +594,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "12 Andrews Street,Greenville, SC  29601",
     "Lat": 34.8404739,
-    "Lng": -82.4242513
+    "Lng": -82.4242513,
+    "Img": require("../assets/images/artistpics/calloway.jpg")
   },
   {
     "Last Name": "Campbell",
@@ -608,7 +617,8 @@ export default artists = [
     "Map #": 5,
     "fullAddress": "407 Hodgens Drive,Travelers Rest, SC 29690",
     "Lat": 34.969896,
-    "Lng": -82.472721
+    "Lng": -82.472721,
+    "Img": require("../assets/images/artistpics/campbell.jpg")
   },
   {
     "Last Name": "Campbell",
@@ -630,7 +640,8 @@ export default artists = [
     "Map #": 5,
     "fullAddress": "407 Hodgens Drive,Travelers Rest, SC 29690",
     "Lat": 34.969896,
-    "Lng": -82.472721
+    "Lng": -82.472721,
+    "Img": require("../assets/images/artistpics/campbell-sharon.jpg")
   },
   {
     "Last Name": "Chance",
@@ -652,7 +663,8 @@ export default artists = [
     "Map #": 3,
     "fullAddress": "43 Crestline Road,Greenville, SC 29609",
     "Lat": 34.908451,
-    "Lng": -82.4164119
+    "Lng": -82.4164119,
+    "Img": require("../assets/images/artistpics/chance.jpg")
   },
   {
     "Last Name": "Christy",
@@ -674,7 +686,8 @@ export default artists = [
     "Map #": 3,
     "fullAddress": "311 McCrary Street,Greenville, SC 29609",
     "Lat": 34.8772202,
-    "Lng": -82.4204198
+    "Lng": -82.4204198,
+    "Img": require("../assets/images/artistpics/christy.jpg")
   },
   {
     "Last Name": "Condon",
@@ -696,7 +709,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "1320 Pendleton Street,Greenville, SC 29611",
     "Lat": 34.8470715,
-    "Lng": -82.4324146
+    "Lng": -82.4324146,
+    "Img": require("../assets/images/artistpics/condon.jpg")
   },
   {
     "Last Name": "Conley",
@@ -718,7 +732,8 @@ export default artists = [
     "Map #": 3,
     "fullAddress": "24 Overton Avenue,Greenville, SC 29617",
     "Lat": 34.898658,
-    "Lng": -82.426605
+    "Lng": -82.426605,
+    "Img": require("../assets/images/artistpics/conley.jpg")
   },
   {
     "Last Name": "Courchaine",
@@ -740,7 +755,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "25 Draper Street, Studio 3,Greenville, SC 29611",
     "Lat": 34.844619,
-    "Lng": -82.4317752
+    "Lng": -82.4317752,
+    "Img": require("../assets/images/artistpics/courchaine.jpg")
   },
   {
     "Last Name": "Daly-Korybski",
@@ -762,7 +778,8 @@ export default artists = [
     "Map #": 1,
     "fullAddress": "1801 Rutherford Road, Studio 106,Greenville, SC 29609",
     "Lat": 34.901856,
-    "Lng": -82.35914
+    "Lng": -82.35914,
+    "Img": require("../assets/images/artistpics/daly.jpg")
   },
   {
     "Last Name": "Davis",
@@ -784,7 +801,8 @@ export default artists = [
     "Map #": 1,
     "fullAddress": "409 Wilton Street,Greenville, SC 29609",
     "Lat": 34.865297,
-    "Lng": -82.398674
+    "Lng": -82.398674,
+    "Img": require("../assets/images/artistpics/davis.jpg")
   },
   {
     "Last Name": "DeBruhl",
@@ -806,7 +824,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "1320 Pendleton Street,Greenville, SC 29611",
     "Lat": 34.8470715,
-    "Lng": -82.4324146
+    "Lng": -82.4324146,
+    "Img": require("../assets/images/artistpics/debruhl.jpg")
   },
   {
     "Last Name": "Demidovich",
@@ -828,7 +847,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "233 North Main Street, #12,Greenville, SC  29601",
     "Lat": 34.8535098,
-    "Lng": -82.3982038
+    "Lng": -82.3982038,
+    "Img": require("../assets/images/artistpics/demidovich.jpg")
   },
   {
     "Last Name": "Dickey",
@@ -850,7 +870,8 @@ export default artists = [
     "Map #": 4,
     "fullAddress": "250 Mill Street, PW2215,Taylors, SC 29687",
     "Lat": 34.9201003,
-    "Lng": -82.287138
+    "Lng": -82.287138,
+    "Img": require("../assets/images/artistpics/dickey.jpg")
   },
   {
     "Last Name": "Dillingham",
@@ -872,7 +893,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "12 Andrews Street,Greenville, SC 29611",
     "Lat": 34.8418806,
-    "Lng": -82.4250128
+    "Lng": -82.4250128,
+    "Img": require("../assets/images/artistpics/Dillingham.jpg")
   },
   {
     "Last Name": "Donovan",
@@ -894,7 +916,8 @@ export default artists = [
     "Map #": 3,
     "fullAddress": "104 E. Blue Ridge Drive,Greenville, SC 29609",
     "Lat": 34.8898728,
-    "Lng": -82.4143475
+    "Lng": -82.4143475,
+    "Img": require("../assets/images/artistpics/donovan.jpg")
   },
   {
     "Last Name": "Doyle",
@@ -916,7 +939,8 @@ export default artists = [
     "Map #": 4,
     "fullAddress": "400 Summerplace Court,Greer, SC 29650",
     "Lat": 34.861358,
-    "Lng": -82.290691
+    "Lng": -82.290691,
+    "Img": require("../assets/images/artistpics/doyle.jpg")
   },
   {
     "Last Name": "Dudar",
@@ -938,7 +962,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "300 Riverplace, Studio 105,Greenville, SC 29601",
     "Lat": 34.8466206,
-    "Lng": -82.402654
+    "Lng": -82.402654,
+    "Img": require("../assets/images/artistpics/dudar.jpg")
   },
   {
     "Last Name": "Dudar",
@@ -960,7 +985,8 @@ export default artists = [
     "Map #": 6,
     "fullAddress": "103 Loraine Drive,Simpsonville, SC 29680",
     "Lat": 34.6445814,
-    "Lng": -82.3072335
+    "Lng": -82.3072335,
+    "Img": require("../assets/images/artistpics/dudar-steve.jpg")
   },
   {
     "Last Name": "DuRant",
@@ -982,7 +1008,8 @@ export default artists = [
     "Map #": 1,
     "fullAddress": "1801 Rutherford Road,Greenville, SC 29609",
     "Lat": 34.901856,
-    "Lng": -82.35914
+    "Lng": -82.35914,
+    "Img": require("../assets/images/artistpics/durant.jpg")
   },
   {
     "Last Name": "Edwards",
@@ -1004,7 +1031,8 @@ export default artists = [
     "Map #": 3,
     "fullAddress": "1000 N. Parker,Greenville, SC 29609",
     "Lat": 34.922233,
-    "Lng": -82.409147
+    "Lng": -82.409147,
+    "Img": require("../assets/images/artistpics/edwards.jpg")
   },
   {
     "Last Name": "Ellis",
@@ -1026,7 +1054,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "1207 Pendleton Street,Greenville, SC 29611",
     "Lat": 34.846674,
-    "Lng": -82.4274478
+    "Lng": -82.4274478,
+    "Img": require("../assets/images/artistpics/ellis.jpg")
   },
   {
     "Last Name": "Farrar",
@@ -1048,7 +1077,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "25 Draper Street, Studio F,Greenville, SC 29611",
     "Lat": 34.844619,
-    "Lng": -82.4317752
+    "Lng": -82.4317752,
+    "Img": require("../assets/images/artistpics/farfan.jpg")
   },
   {
     "Last Name": "Fields",
@@ -1070,7 +1100,8 @@ export default artists = [
     "Map #": 3,
     "fullAddress": "4 Devonshire Lane,Greenville, SC 29617",
     "Lat": 34.9088083,
-    "Lng": -82.4311532
+    "Lng": -82.4311532,
+    "Img": require("../assets/images/artistpics/fields-drew.jpg")
   },
   {
     "Last Name": "Flint",
@@ -1092,7 +1123,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "1320 Pendleton Street,Greenville, SC 29611",
     "Lat": 34.8470715,
-    "Lng": -82.4324146
+    "Lng": -82.4324146,
+    "Img": require("../assets/images/artistpics/flint-greg.jpg")
   },
   {
     "Last Name": "Flint",
@@ -1114,7 +1146,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "1320 Pendleton Street,Greenville, SC 29611",
     "Lat": 34.8470715,
-    "Lng": -82.4324146
+    "Lng": -82.4324146,
+    "Img": require("../assets/images/artistpics/flint-paul.jpg")
   },
   {
     "Last Name": "Flowers",
@@ -1136,7 +1169,8 @@ export default artists = [
     "Map #": 1,
     "fullAddress": "100 W. Mountainview Avenue,Greenville, SC 29609",
     "Lat": 34.8695898,
-    "Lng": -82.3953309
+    "Lng": -82.3953309,
+    "Img": require("../assets/images/artistpics/flowers-tom.jpg")
   },
   {
     "Last Name": "Fontaine",
@@ -1158,7 +1192,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "25 Draper Street, Studio 1,Greenville, SC 29611",
     "Lat": 34.844619,
-    "Lng": -82.4317752
+    "Lng": -82.4317752,
+    "Img": require("../assets/images/artistpics/fontaine.jpg")
   },
   {
     "Last Name": "Furman",
@@ -1180,7 +1215,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "547 Perry Avenue,Greenville, SC 29611",
     "Lat": 34.847603,
-    "Lng": -82.427178
+    "Lng": -82.427178,
+    "Img": require("../assets/images/artistpics/furman-kate.jpg")
   },
   {
     "Last Name": "Furman",
@@ -1202,7 +1238,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "547 Perry Avenue,Greenville, SC 29611",
     "Lat": 34.847603,
-    "Lng": -82.427178
+    "Lng": -82.427178,
+    "Img": require("../assets/images/artistpics/furman-linda.jpg")
   },
   {
     "Last Name": "Gaillard",
@@ -1224,7 +1261,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "25 Draper Street, Studio 3,Greenville, SC 29611",
     "Lat": 34.844619,
-    "Lng": -82.4317752
+    "Lng": -82.4317752,
+    "Img": require("../assets/images/artistpics/gaillard.jpg")
   },
   {
     "Last Name": "Garcia",
@@ -1246,7 +1284,8 @@ export default artists = [
     "Map #": 4,
     "fullAddress": "904 B North Main Street,Greer, SC 29651",
     "Lat": 34.9535645,
-    "Lng": -82.2258609
+    "Lng": -82.2258609,
+    "Img": require("../assets/images/artistpics/garcia-philip.jpg")
   },
   {
     "Last Name": "Gehrke",
@@ -1268,7 +1307,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "1205 Pendleton Street,Greenville, SC 29611",
     "Lat": 34.8466539,
-    "Lng": -82.4273699
+    "Lng": -82.4273699,
+    "Img": require("../assets/images/artistpics/gehrke.jpg")
   },
   {
     "Last Name": "Gillen",
@@ -1290,7 +1330,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "300 River Street, Studio 110,Greenville, SC 29601",
     "Lat": 34.84736,
-    "Lng": -82.403175
+    "Lng": -82.403175,
+    "Img": require("../assets/images/artistpics/gillen-ron.jpg")
   },
   {
     "Last Name": "Greer",
@@ -1312,7 +1353,8 @@ export default artists = [
     "Map #": 1,
     "fullAddress": "118 W. Montclair Avenue,Greenville, SC 29609",
     "Lat": 34.8719899,
-    "Lng": -82.393493
+    "Lng": -82.393493,
+    "Img": require("../assets/images/artistpics/greer.jpg")
   },
   {
     "Last Name": "Grushovenko",
@@ -1334,7 +1376,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "1203 Pendleton Street,Greenville, SC 29611",
     "Lat": 34.8466332,
-    "Lng": -82.4273264
+    "Lng": -82.4273264,
+    "Img": require("../assets/images/artistpics/grushovenko.jpg")
   },
   {
     "Last Name": "Hammond",
@@ -1356,7 +1399,8 @@ export default artists = [
     "Map #": 6,
     "fullAddress": "316 North Main Street,Fountain Inn, SC 29644",
     "Lat": 34.6968085,
-    "Lng": -82.2031335
+    "Lng": -82.2031335,
+    "Img": require("../assets/images/artistpics/hammond-cindy.jpg")
   },
   {
     "Last Name": "Haney",
@@ -1378,7 +1422,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "300 River Street, #201,Greenville, SC 29601",
     "Lat": 34.84736,
-    "Lng": -82.403175
+    "Lng": -82.403175,
+    "Img": require("../assets/images/artistpics/haney.jpg")
   },
   {
     "Last Name": "Hassold",
@@ -1400,7 +1445,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "1279 Pendleton Street,Greenville, SC 29611",
     "Lat": 34.847218,
-    "Lng": -82.429526
+    "Lng": -82.429526,
+    "Img": require("../assets/images/artistpics/hassold.jpg")
   },
   {
     "Last Name": "Hill",
@@ -1422,7 +1468,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "1172 Pendleton Street,Greenville, SC 29611",
     "Lat": 34.8460933,
-    "Lng": -82.4250063
+    "Lng": -82.4250063,
+    "Img": require("../assets/images/artistpics/hill.jpg")
   },
   {
     "Last Name": "Hill",
@@ -1444,7 +1491,8 @@ export default artists = [
     "Map #": 1,
     "fullAddress": "25 Pinehurst Drive,Greenville, SC 29609",
     "Lat": 34.8772888,
-    "Lng": -82.3852988
+    "Lng": -82.3852988,
+    "Img": require("../assets/images/artistpics/hill-sherril.jpg")
   },
   {
     "Last Name": "Hopkins-Hughs",
@@ -1466,7 +1514,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "811 Pendleton, Suite 18,Greenville, SC 29601",
     "Lat": 34.8431823,
-    "Lng": -82.416669
+    "Lng": -82.416669,
+    "Img": require("../assets/images/artistpics/hopkins-hughs.jpg")
   },
   {
     "Last Name": "Jardines",
@@ -1488,7 +1537,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "12 Andrews Street,Greenville, SC 29601",
     "Lat": 34.8404739,
-    "Lng": -82.4242513
+    "Lng": -82.4242513,
+    "Img": require("../assets/images/artistpics/jardines.jpg")
   },
   {
     "Last Name": "Johnson",
@@ -1510,7 +1560,8 @@ export default artists = [
     "Map #": 6,
     "fullAddress": "286 Hewitt Road,Fountain Inn, SC 29644",
     "Lat": 34.7376453,
-    "Lng": -82.1956846
+    "Lng": -82.1956846,
+    "Img": require("../assets/images/artistpics/johnson-brad.jpg")
   },
   {
     "Last Name": "Johnson",
@@ -1532,7 +1583,8 @@ export default artists = [
     "Map #": 6,
     "fullAddress": "280 Hewitt Road,Fountain Inn, SC 29644",
     "Lat": 34.738111,
-    "Lng": -82.196218
+    "Lng": -82.196218,
+    "Img": require("../assets/images/artistpics/johnson-deborah.jpg")
   },
   {
     "Last Name": "Johnson",
@@ -1554,7 +1606,8 @@ export default artists = [
     "Map #": "",
     "fullAddress": "250 Mill Street,Taylors, SC 29687",
     "Lat": 34.9201003,
-    "Lng": -82.287138
+    "Lng": -82.287138,
+    "Img": require("../assets/images/artistpics/johnson-lonnieandmargie.jpg")
   },
   {
     "Last Name": "Keiser",
@@ -1576,7 +1629,8 @@ export default artists = [
     "Map #": 1,
     "fullAddress": "107 Berrow Way,Taylors, SC 29687",
     "Lat": 34.9350831,
-    "Lng": -82.3648357
+    "Lng": -82.3648357,
+    "Img": require("../assets/images/artistpics/keiser.jpg")
   },
   {
     "Last Name": "Kelly",
@@ -1598,7 +1652,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "25 Draper Street, Studio 6,Greenville, SC 29611",
     "Lat": 34.844619,
-    "Lng": -82.4317752
+    "Lng": -82.4317752,
+    "Img": require("../assets/images/artistpics/kelly.jpg")
   },
   {
     "Last Name": "Kennedy",
@@ -1620,7 +1675,8 @@ export default artists = [
     "Map #": 4,
     "fullAddress": "103 Birnam Court,Greenville, SC 29615",
     "Lat": 34.8584689,
-    "Lng": -82.3091961
+    "Lng": -82.3091961,
+    "Img": require("../assets/images/artistpics/kennedy.jpg")
   },
   {
     "Last Name": "Kilburg",
@@ -1642,7 +1698,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "1209 Pendleton Street,Greenville, SC 29611",
     "Lat": 34.8467917,
-    "Lng": -82.4274686
+    "Lng": -82.4274686,
+    "Img": require("../assets/images/artistpics/kilburg.jpg")
   },
   {
     "Last Name": "Kirby",
@@ -1664,7 +1721,8 @@ export default artists = [
     "Map #": 3,
     "fullAddress": "25 Zelma Drive,Greenville, SC 29617",
     "Lat": 34.9148703,
-    "Lng": -82.4450837
+    "Lng": -82.4450837,
+    "Img": require("../assets/images/artistpics/kirby-j.jpg")
   },
   {
     "Last Name": "Kirk",
@@ -1686,7 +1744,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "25 Draper Street,Greenville, SC 29611",
     "Lat": 34.844619,
-    "Lng": -82.4317752
+    "Lng": -82.4317752,
+    "Img": require("../assets/images/artistpics/kirk.jpg")
   },
   {
     "Last Name": "Lea",
@@ -1708,7 +1767,8 @@ export default artists = [
     "Map #": 1,
     "fullAddress": "208 McIver Street,Greenville, SC 29601",
     "Lat": 34.8338087,
-    "Lng": -82.3910031
+    "Lng": -82.3910031,
+    "Img": require("../assets/images/artistpics/lea-cathy-zaden.jpg")
   },
   {
     "Last Name": "Little",
@@ -1730,7 +1790,8 @@ export default artists = [
     "Map #": 3,
     "fullAddress": "2210 Old Buncombe Road, Apt. C-303,Greenville, SC 29609",
     "Lat": 34.8745887,
-    "Lng": -82.4156544
+    "Lng": -82.4156544,
+    "Img": require("../assets/images/artistpics/little.jpg")
   },
   {
     "Last Name": "Luce",
@@ -1752,7 +1813,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "300 River Street, #3,Greenville, SC 29601",
     "Lat": 34.84736,
-    "Lng": -82.403175
+    "Lng": -82.403175,
+    "Img": require("../assets/images/artistpics/luce-laura-lynn.jpg")
   },
   {
     "Last Name": "Mahanes",
@@ -1774,7 +1836,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "5 Smith Street,Greenville, SC 29611",
     "Lat": 34.8467686,
-    "Lng": -82.4297918
+    "Lng": -82.4297918,
+    "Img": require("../assets/images/artistpics/mahanes.jpg")
   },
   {
     "Last Name": "Mattox",
@@ -1796,7 +1859,8 @@ export default artists = [
     "Map #": 3,
     "fullAddress": "401 Smythe Street,Greenville, SC 29611",
     "Lat": 34.8647782,
-    "Lng": -82.4259421
+    "Lng": -82.4259421,
+    "Img": require("../assets/images/artistpics/mattox.jpg")
   },
   {
     "Last Name": "McCall",
@@ -1818,7 +1882,8 @@ export default artists = [
     "Map #": 1,
     "fullAddress": "205 Tindal Avenue,Greenville, SC 29605",
     "Lat": 34.834066,
-    "Lng": -82.398433
+    "Lng": -82.398433,
+    "Img": require("../assets/images/artistpics/mccall.jpg")
   },
   {
     "Last Name": "McGowan",
@@ -1840,7 +1905,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "547 Perry Avenue,Greenville, SC 29611",
     "Lat": 34.847603,
-    "Lng": -82.427178
+    "Lng": -82.427178,
+    "Img": require("../assets/images/artistpics/mcgowan.jpg")
   },
   {
     "Last Name": "McPhail",
@@ -1862,7 +1928,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "233 North Main Street, #12,Greenville, SC  29601",
     "Lat": 34.8535098,
-    "Lng": -82.3982038
+    "Lng": -82.3982038,
+    "Img": require("../assets/images/artistpics/mcphail.jpg")
   },
   {
     "Last Name": "Mele",
@@ -1884,7 +1951,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "25 Draper Street,Greenville, SC 29611",
     "Lat": 34.844619,
-    "Lng": -82.4317752
+    "Lng": -82.4317752,
+    "Img": require("../assets/images/artistpics/mele.jpg")
   },
   {
     "Last Name": "Miller",
@@ -1906,7 +1974,8 @@ export default artists = [
     "Map #": 3,
     "fullAddress": "56 Montague Circle,Greenville, SC 29617",
     "Lat": 34.9158419,
-    "Lng": -82.4481426
+    "Lng": -82.4481426,
+    "Img": require("../assets/images/artistpics/miller-glen.jpg")
   },
   {
     "Last Name": "Miller-Gilliam",
@@ -1928,7 +1997,8 @@ export default artists = [
     "Map #": 1,
     "fullAddress": "23 Sevier Street,Greenville, SC 29605",
     "Lat": 34.823884,
-    "Lng": -82.396179
+    "Lng": -82.396179,
+    "Img": require("../assets/images/artistpics/miller-gilliam.jpg")
   },
   {
     "Last Name": "Mitchell-Rogers",
@@ -1950,7 +2020,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "1320 Pendleton Street,Greenville, SC 29611",
     "Lat": 34.8470715,
-    "Lng": -82.4324146
+    "Lng": -82.4324146,
+    "Img": require("../assets/images/artistpics/mitchell-rogers.jpg")
   },
   {
     "Last Name": "Morgan",
@@ -1972,7 +2043,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "12 Andrews Street,Greenville, SC 29601",
     "Lat": 34.8404739,
-    "Lng": -82.4242513
+    "Lng": -82.4242513,
+    "Img": require("../assets/images/artistpics/morgan.jpg")
   },
   {
     "Last Name": "Morris",
@@ -1994,7 +2066,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "200 N. Main Street,Greenville, SC 29601",
     "Lat": 34.8526051,
-    "Lng": -82.3977527
+    "Lng": -82.3977527,
+    "Img": require("../assets/images/artistpics/morris.jpg")
   },
   {
     "Last Name": "Nance",
@@ -2016,7 +2089,8 @@ export default artists = [
     "Map #": 6,
     "fullAddress": "121 Pond Terrace Lane,Simpsonville, SC 29681",
     "Lat": 34.8103648,
-    "Lng": -82.203769
+    "Lng": -82.203769,
+    "Img": require("../assets/images/artistpics/nance.jpg")
   },
   {
     "Last Name": "Newell",
@@ -2038,7 +2112,8 @@ export default artists = [
     "Map #": 3,
     "fullAddress": "401 Smythe Street,Greenville, SC 29611",
     "Lat": 34.8647782,
-    "Lng": -82.4259421
+    "Lng": -82.4259421,
+    "Img": require("../assets/images/artistpics/newell.jpg")
   },
   {
     "Last Name": "Novak",
@@ -2060,7 +2135,8 @@ export default artists = [
     "Map #": 4,
     "fullAddress": "11 Picadilly Street,Taylors, SC 29687",
     "Lat": 34.9010806,
-    "Lng": -82.3243887
+    "Lng": -82.3243887,
+    "Img": require("../assets/images/artistpics/novak.jpg")
   },
   {
     "Last Name": "Owens",
@@ -2082,7 +2158,8 @@ export default artists = [
     "Map #": 3,
     "fullAddress": "12 Windtree Court,Travelers Rest, SC 29690",
     "Lat": 34.959851,
-    "Lng": -82.4041419
+    "Lng": -82.4041419,
+    "Img": require("../assets/images/artistpics/owens.jpg")
   },
   {
     "Last Name": "Peart",
@@ -2104,7 +2181,8 @@ export default artists = [
     "Map #": 5,
     "fullAddress": "104 Foster Bin Way,Marietta, SC 29661",
     "Lat": 34.9974459,
-    "Lng": -82.558301
+    "Lng": -82.558301,
+    "Img": require("../assets/images/artistpics/peart.jpg")
   },
   {
     "Last Name": "Peña",
@@ -2126,7 +2204,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "1320 Pendleton Street,Greenville, SC 29611",
     "Lat": 34.8470715,
-    "Lng": -82.4324146
+    "Lng": -82.4324146,
+    "Img": require("../assets/images/artistpics/pena.jpg")
   },
   {
     "Last Name": "Peters",
@@ -2148,7 +2227,8 @@ export default artists = [
     "Map #": 1,
     "fullAddress": "10 Central Avenue ,Greenville, SC  29601",
     "Lat": 34.8578305,
-    "Lng": -82.3985151
+    "Lng": -82.3985151,
+    "Img": require("../assets/images/artistpics/peters.jpg")
   },
   {
     "Last Name": "Piper",
@@ -2170,7 +2250,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "300 River Street, Studio 104,Greenville, SC  29601",
     "Lat": 34.84736,
-    "Lng": -82.403175
+    "Lng": -82.403175,
+    "Img": require("../assets/images/artistpics/piper-doug.jpg")
   },
   {
     "Last Name": "Piper",
@@ -2192,7 +2273,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "300 River Street, Studio 104,Greenville, SC  29601",
     "Lat": 34.84736,
-    "Lng": -82.403175
+    "Lng": -82.403175,
+    "Img": require("../assets/images/artistpics/piper-meredith.jpg")
   },
   {
     "Last Name": "Pouch",
@@ -2214,7 +2296,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "300 River Place, Suite 201,Greenville, SC 29601",
     "Lat": 34.8466206,
-    "Lng": -82.402654
+    "Lng": -82.402654,
+    "Img": require("../assets/images/artistpics/pouch-melanie.jpg")
   },
   {
     "Last Name": "Powell",
@@ -2236,7 +2319,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "300 River Street, Suite 201,Greenville, SC  29601",
     "Lat": 34.84736,
-    "Lng": -82.403175
+    "Lng": -82.403175,
+    "Img": require("../assets/images/artistpics/powell.jpg")
   },
   {
     "Last Name": "Pryor",
@@ -2258,7 +2342,8 @@ export default artists = [
     "Map #": 3,
     "fullAddress": "1418 North Parker Road,Greenville, SC 29609",
     "Lat": 34.909689,
-    "Lng": -82.419348
+    "Lng": -82.419348,
+    "Img": require("../assets/images/artistpics/pryor.jpg")
   },
   {
     "Last Name": "Ragsdale",
@@ -2280,7 +2365,8 @@ export default artists = [
     "Map #": 5,
     "fullAddress": "25 Grove Valley Way,Greenville, SC  29605",
     "Lat": 34.8234963,
-    "Lng": -82.4051666
+    "Lng": -82.4051666,
+    "Img": require("../assets/images/artistpics/ragsdale.jpg")
   },
   {
     "Last Name": "Reel",
@@ -2302,7 +2388,8 @@ export default artists = [
     "Map #": 1,
     "fullAddress": "7 Merimac Court,Greenville, SC 29609",
     "Lat": 34.878085,
-    "Lng": -82.375018
+    "Lng": -82.375018,
+    "Img": require("../assets/images/artistpics/reel.jpg")
   },
   {
     "Last Name": "Ripley",
@@ -2324,7 +2411,8 @@ export default artists = [
     "Map #": 4,
     "fullAddress": "250 Mill Street, BL1237,Taylors, SC 29687",
     "Lat": 34.9201003,
-    "Lng": -82.287138
+    "Lng": -82.287138,
+    "Img": require("../assets/images/artistpics/ripley.jpg")
   },
   {
     "Last Name": "Roche",
@@ -2346,7 +2434,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "16 Aiken Street,Greenville, SC 29611",
     "Lat": 34.8456577,
-    "Lng": -82.426134
+    "Lng": -82.426134,
+    "Img": require("../assets/images/artistpics/roche.jpg")
   },
   {
     "Last Name": "Roddey",
@@ -2368,7 +2457,8 @@ export default artists = [
     "Map #": 1,
     "fullAddress": "314 West Stone Avenue,Greenville, SC 29609",
     "Lat": 34.8625221,
-    "Lng": -82.4022055
+    "Lng": -82.4022055,
+    "Img": require("../assets/images/artistpics/roddey.jpg")
   },
   {
     "Last Name": "Rollins",
@@ -2390,7 +2480,8 @@ export default artists = [
     "Map #": 3,
     "fullAddress": "416 Audubon Road,Greenville, SC 29609",
     "Lat": 34.914095,
-    "Lng": -82.3878545
+    "Lng": -82.3878545,
+    "Img": require("../assets/images/artistpics/rollins.jpg")
   },
   {
     "Last Name": "Schulze",
@@ -2412,7 +2503,8 @@ export default artists = [
     "Map #": 1,
     "fullAddress": "3 Crabapple Court,Greenville, SC 29605",
     "Lat": 34.8130564,
-    "Lng": -82.3844288
+    "Lng": -82.3844288,
+    "Img": require("../assets/images/artistpics/schulze.jpg")
   },
   {
     "Last Name": "Scott",
@@ -2434,7 +2526,8 @@ export default artists = [
     "Map #": 1,
     "fullAddress": "2407 Augusta Street,Greenville, SC 29605",
     "Lat": 34.8219677,
-    "Lng": -82.3890349
+    "Lng": -82.3890349,
+    "Img": require("../assets/images/artistpics/scott-marie.jpg")
   },
   {
     "Last Name": "Selwyn",
@@ -2456,7 +2549,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "300 River Street, Studio 101,Greenville, SC  29601",
     "Lat": 34.84736,
-    "Lng": -82.403175
+    "Lng": -82.403175,
+    "Img": require("../assets/images/artistpics/selwyn.jpg")
   },
   {
     "Last Name": "Shabkie",
@@ -2478,7 +2572,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "1272 Pendleton Street,Greenville, SC 29611",
     "Lat": 34.847678,
-    "Lng": -82.429219
+    "Lng": -82.429219,
+    "Img": require("../assets/images/artistpics/shabkie.jpg")
   },
   {
     "Last Name": "Slate",
@@ -2500,7 +2595,8 @@ export default artists = [
     "Map #": 1,
     "fullAddress": "314 Wilton Street ,Greenville, SC 29609",
     "Lat": 34.8643134,
-    "Lng": -82.3979708
+    "Lng": -82.3979708,
+    "Img": require("../assets/images/artistpics/slate-charlie.jpg")
   },
   {
     "Last Name": "Slate",
@@ -2522,7 +2618,8 @@ export default artists = [
     "Map #": 1,
     "fullAddress": "314 Wilton Street ,Greenville, SC 29609",
     "Lat": 34.8643134,
-    "Lng": -82.3979708
+    "Lng": -82.3979708,
+    "Img": require("../assets/images/artistpics/slate-charlotte.jpg")
   },
   {
     "Last Name": "Smith",
@@ -2544,7 +2641,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "1320 Pendleton Street,Greenville, SC 29611",
     "Lat": 34.8470715,
-    "Lng": -82.4324146
+    "Lng": -82.4324146,
+    "Img": require("../assets/images/artistpics/smith-blake.jpg")
   },
   {
     "Last Name": "Speaker",
@@ -2566,7 +2664,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "1320 Pendleton Street,Greenville, SC 29611",
     "Lat": 34.8470715,
-    "Lng": -82.4324146
+    "Lng": -82.4324146,
+    "Img": require("../assets/images/artistpics/speaker,-elizabeth.jpg")
   },
   {
     "Last Name": "Speaker",
@@ -2588,7 +2687,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "1320 Pendleton Street,Greenville, SC 29611",
     "Lat": 34.8470715,
-    "Lng": -82.4324146
+    "Lng": -82.4324146,
+    "Img": require("../assets/images/artistpics/speaker.jpg")
   },
   {
     "Last Name": "St. Denis",
@@ -2610,7 +2710,8 @@ export default artists = [
     "Map #": 5,
     "fullAddress": "196 Doberman Trail,Easley, SC 29640",
     "Lat": 34.875412,
-    "Lng": -82.622986
+    "Lng": -82.622986,
+    "Img": require("../assets/images/artistpics/stdenis.jpg")
   },
   {
     "Last Name": "Stanberry",
@@ -2632,7 +2733,8 @@ export default artists = [
     "Map #": 6,
     "fullAddress": "111 Rabon Court,Simpsonville, SC 29681",
     "Lat": 34.7260745,
-    "Lng": -82.2504378
+    "Lng": -82.2504378,
+    "Img": require("../assets/images/artistpics/stanberry.jpg")
   },
   {
     "Last Name": "Stiegler",
@@ -2654,7 +2756,8 @@ export default artists = [
     "Map #": 3,
     "fullAddress": "Art Up Studios, Hampton Station 1320 Hampton Avenue,Greenville, SC  29601",
     "Lat": 34.8659538,
-    "Lng": -82.4164682
+    "Lng": -82.4164682,
+    "Img": require("../assets/images/artistpics/stiegler.jpg")
   },
   {
     "Last Name": "Stitt",
@@ -2676,7 +2779,8 @@ export default artists = [
     "Map #": 6,
     "fullAddress": "103 Long Point Way,Simpsonville, SC 29681",
     "Lat": 34.785102,
-    "Lng": -82.2615326
+    "Lng": -82.,
+    "Img": require("../assets/images/artistpics/stitt.jpg")
   },
   {
     "Last Name": "Stone",
@@ -2698,7 +2802,8 @@ export default artists = [
     "Map #": 3,
     "fullAddress": "1707 Highway 86,Piedmont, SC 29673",
     "Lat": 34.7076224,
-    "Lng": -82.4928105
+    "Lng": -82.4928105,
+    "Img": require("../assets/images/artistpics/stone-jess.jpg")
   },
   {
     "Last Name": "Stone",
@@ -2720,7 +2825,8 @@ export default artists = [
     "Map #": 5,
     "fullAddress": "13 Woodhaven Drive,Greenville, SC  29609",
     "Lat": 34.9120324,
-    "Lng": -82.3880088
+    "Lng": -82.3880088,
+    "Img": require("../assets/images/artistpics/stone-angie.jpg")
   },
   {
     "Last Name": "Stoner",
@@ -2742,7 +2848,8 @@ export default artists = [
     "Map #": 5,
     "fullAddress": "201 N. Bates Road,Taylors, SC 29687",
     "Lat": 35.089067,
-    "Lng": -82.349116
+    "Lng": -82.349116,
+    "Img": require("../assets/images/artistpics/stoner.jpg")
   },
   {
     "Last Name": "Sue",
@@ -2764,7 +2871,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "Ivey Square, 200 North Main Street, Suite #302,Greenville, SC  29601",
     "Lat": 34.8526051,
-    "Lng": -82.3977527
+    "Lng": -82.3977527,
+    "Img": require("../assets/images/artistpics/sue-freda.jpg")
   },
   {
     "Last Name": "Tate",
@@ -2786,7 +2894,8 @@ export default artists = [
     "Map #": 4,
     "fullAddress": "8 Greenwood Avenue,Greenville, SC 29615",
     "Lat": 34.868027,
-    "Lng": -82.341499
+    "Lng": -82.341499,
+    "Img": require("../assets/images/artistpics/tate.jpg")
   },
   {
     "Last Name": "Taylor",
@@ -2808,7 +2917,8 @@ export default artists = [
     "Map #": 1,
     "fullAddress": "1112 Rutherford Road,Greenville, SC 29609",
     "Lat": 34.8833659,
-    "Lng": -82.3784974
+    "Lng": -82.3784974,
+    "Img": require("../assets/images/artistpics/taylor-dan.jpg")
   },
   {
     "Last Name": "Taylor",
@@ -2830,7 +2940,8 @@ export default artists = [
     "Map #": 5,
     "fullAddress": "961 Freeman Bridge Road,Easley, SC 29640",
     "Lat": 34.9849603,
-    "Lng": -82.5457455
+    "Lng": -82.5457455,
+    "Img": require("../assets/images/artistpics/taylor-joann.jpg")
   },
   {
     "Last Name": "Thompson",
@@ -2852,7 +2963,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "1288 Pendleton Street,Greenville, SC 29611",
     "Lat": 34.8476118,
-    "Lng": -82.4304207
+    "Lng": -82.4304207,
+    "Img": require("../assets/images/artistpics/thompson-grey.jpg")
   },
   {
     "Last Name": "Tinsley",
@@ -2874,7 +2986,8 @@ export default artists = [
     "Map #": 3,
     "fullAddress": "401 Montebello Drive,Greenville, SC 29609",
     "Lat": 34.8942951,
-    "Lng": -82.3916063
+    "Lng": -82.3916063,
+    "Img": require("../assets/images/artistpics/tinsely.jpg")
   },
   {
     "Last Name": "van den Broek",
@@ -2896,7 +3009,8 @@ export default artists = [
     "Map #": 6,
     "fullAddress": "22 Carolina Avenue,Greenville, SC 29607",
     "Lat": 34.8330993,
-    "Lng": -82.3537798
+    "Lng": -82.3537798,
+    "Img": require("../assets/images/artistpics/van-den-broek.jpg")
   },
   {
     "Last Name": "Vatalaro",
@@ -2918,7 +3032,8 @@ export default artists = [
     "Map #": 4,
     "fullAddress": "Taylors Mill 250 Mill Street, Studio BL1235,Taylors, SC 29687",
     "Lat": 34.9192757,
-    "Lng": -82.2849205
+    "Lng": -82.2849205,
+    "Img": require("../assets/images/artistpics/vatalaro.jpg")
   },
   {
     "Last Name": "Verhoeven",
@@ -2940,7 +3055,8 @@ export default artists = [
     "Map #": 1,
     "fullAddress": "134 Knollwood Lane,Greenville, SC 29607",
     "Lat": 34.844799,
-    "Lng": -82.381801
+    "Lng": -82.381801,
+    "Img": require("../assets/images/artistpics/verhoeven.jpg")
   },
   {
     "Last Name": "Vitti",
@@ -2962,7 +3078,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "12 Andrews Street,Greenville, SC 29601",
     "Lat": 34.8404739,
-    "Lng": -82.4242513
+    "Lng": -82.4242513,
+    "Img": require("../assets/images/artistpics/vitti.jpg")
   },
   {
     "Last Name": "Walker",
@@ -2984,7 +3101,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "1320 Pendleton Street,Greenville, SC 29611",
     "Lat": 34.8470715,
-    "Lng": -82.4324146
+    "Lng": -82.4324146,
+    "Img": require("../assets/images/artistpics/walker.jpg")
   },
   {
     "Last Name": "Wenc",
@@ -3006,7 +3124,8 @@ export default artists = [
     "Map #": 4,
     "fullAddress": "250 Mill Street, Suite PW3204,Taylors, SC 29687",
     "Lat": 34.9201003,
-    "Lng": -82.287138
+    "Lng": -82.287138,
+    "Img": require("../assets/images/artistpics/wenc.jpg")
   },
   {
     "Last Name": "Williams",
@@ -3028,7 +3147,8 @@ export default artists = [
     "Map #": 1,
     "fullAddress": "231 E. Avondale Drive,Greenville, SC 29609",
     "Lat": 34.8758394,
-    "Lng": -82.3875739
+    "Lng": -82.3875739,
+    "Img": require("../assets/images/artistpics/williams-dan.jpg")
   },
   {
     "Last Name": "Wixon",
@@ -3050,7 +3170,8 @@ export default artists = [
     "Map #": 3,
     "fullAddress": "5 Zelma Drive,Greenville, SC 29617",
     "Lat": 34.9167822,
-    "Lng": -82.4431964
+    "Lng": -82.4431964,
+    "Img": require("../assets/images/artistpics/wixon.jpg")
   },
   {
     "Last Name": "Woolf",
@@ -3072,7 +3193,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "200 Perry Avenue,Greenville, SC 29601",
     "Lat": 34.844676,
-    "Lng": -82.415535
+    "Lng": -82.415535,
+    "Img": require("../assets/images/artistpics/woolf.jpg")
   },
   {
     "Last Name": "Wubben",
@@ -3094,7 +3216,8 @@ export default artists = [
     "Map #": 3,
     "fullAddress": "Hampton Station 1320 Hampton Avenue,Greenville, SC 29601",
     "Lat": 34.8657737,
-    "Lng": -82.4158292
+    "Lng": -82.4158292,
+    "Img": require("../assets/images/artistpics/wubben.jpg")
   },
   {
     "Last Name": "Yerkes",
@@ -3116,7 +3239,8 @@ export default artists = [
     "Map #": 1,
     "fullAddress": "10 Central Avenue ,Greenville, SC 29601",
     "Lat": 34.8578305,
-    "Lng": -82.3985151
+    "Lng": -82.3985151,
+    "Img": require("../assets/images/artistpics/yerkes.jpg")
   },
   {
     "Last Name": "Young",
@@ -3138,7 +3262,8 @@ export default artists = [
     "Map #": 1,
     "fullAddress": "36 Westview Ave.,Greenville, SC 29609",
     "Lat": 34.8727579,
-    "Lng": -82.3850424
+    "Lng": -82.3850424,
+    "Img": require("../assets/images/artistpics/young-david.jpg")
   },
   {
     "Last Name": "Young",
@@ -3160,7 +3285,8 @@ export default artists = [
     "Map #": 4,
     "fullAddress": "3110 Wade Hampton Blvd. #19,Taylors, SC 29687",
     "Lat": 34.9096658,
-    "Lng": -82.3255953
+    "Lng": -82.3255953,
+    "Img": require("../assets/images/artistpics/young-doug.jpg")
   },
   {
     "Last Name": "Zedler",
@@ -3182,6 +3308,7 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "300 River Street, Suite 106,Greenville, SC 29601",
     "Lat": 34.84736,
-    "Lng": -82.403175
+    "Lng": -82.403175,
+    "Img": require("../assets/images/artistpics/zedler.jpg")
   }
 ]

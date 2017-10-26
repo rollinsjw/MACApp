@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Text, View, TouchableOpacity } from 'react-native';
+import { Text, View, TouchableOpacity, Image} from 'react-native';
 
 
 const ArtistListItem = ({artistInfo, navigate}) => {
@@ -7,7 +7,7 @@ const ArtistListItem = ({artistInfo, navigate}) => {
     <TouchableOpacity
       onPress= {() => navigate()}>
       <View style={styles.rowStyle}>
-        <View style={{flex: 1, height: 80, width: 20, borderWidth: 1, backgroundColor: 'orange'}}/>
+        <Image source={artistInfo["Img"]} style={{flex: 1, height: 80, width: 20, borderWidth: 1}}/>
         <View style={styles.columnStyle}>
           <Text>{artistInfo["Last Name"]}, {artistInfo["First Name"]} - {artistInfo["STUDIO#"]}</Text>
           <Text>Lorem ipsum, will import this field from the data</Text>
