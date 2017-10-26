@@ -23,8 +23,6 @@ class ArtistListContainer extends React.Component {
 }
 
 const mapStateToProps = (state) => {
-  console.log(state);
-  console.log('noooooo')
   return {...state};
 }
 

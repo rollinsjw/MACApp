@@ -42,8 +42,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "209 N. Main Street,Greenville, SC 29601",
     "Lat": 34.8528884,
-    "Lng": -82.3984116,
-    "Img": "Albertelli.jpg"
+    "Lng": -82.39841,
+    "Img": require("../assets/images/artistpics/Albertelli.jpg")
   },
   {
     "Last Name": "Allen",
@@ -66,7 +66,7 @@ export default artists = [
     "fullAddress": "18 Vickilyn Court,Greenville, SC 29611",
     "Lat": 34.804063,
     "Lng": -82.446912,
-    "Img": "Allen,-Michael.jpg"
+    "Img": require("../assets/images/artistpics/Allen,-Michael.jpg")
   },
   {
     "Last Name": "Ambler",
@@ -88,7 +88,8 @@ export default artists = [
     "Map #": 3,
     "fullAddress": "265 Phillips Trail,Greenville, SC 29609",
     "Lat": 34.926056,
-    "Lng": -82.40974
+    "Lng": -82.40974,
+    "Img": require("../assets/images/artistpics/Ambler.jpg")
   },
   {
     "Last Name": "Amos",
@@ -110,7 +111,8 @@ export default artists = [
     "Map #": 4,
     "fullAddress": "314 Tumbleweed Terrace,Taylors, SC 29687",
     "Lat": 34.9383129,
-    "Lng": -82.288461
+    "Lng": -82.288461,
+    "Img": require("../assets/images/artistpics/Amos,-Barbel.jpg")
   },
   {
     "Last Name": "Anderson",
@@ -132,7 +134,8 @@ export default artists = [
     "Map #": 1,
     "fullAddress": "3 Fairview Avenue,Greenville, SC 29601",
     "Lat": 34.8357221,
-    "Lng": -82.3916184
+    "Lng": -82.3916184,
+    "Img": require("../assets/images/artistpics/Anderson,-Melissa.jpg")
   },
   {
     "Last Name": "Andrews",
@@ -154,7 +157,8 @@ export default artists = [
     "Map #": 4,
     "fullAddress": "11 Winthrop Avenue,Greenville, SC 29607",
     "Lat": 34.866839,
-    "Lng": -82.3597733
+    "Lng": -82.3597733,
+    "Img": require("../assets/images/artistpics/Andrews.jpg")
   },
   {
     "Last Name": "Arrowood",
@@ -176,7 +180,8 @@ export default artists = [
     "Map #": 6,
     "fullAddress": "7 Shady Brook Lane,Greenville, SC 29615",
     "Lat": 34.826733,
-    "Lng": -82.258694
+    "Lng": -82.258694,
+    "Img": require("../assets/images/artistpics/Arrowood.jpg")
   },
   {
     "Last Name": "Beckham-Davis",
@@ -198,7 +203,8 @@ export default artists = [
     "Map #": 4,
     "fullAddress": "40 Pine Knoll Drive,Greenville, SC 29609",
     "Lat": 34.8832968,
-    "Lng": -82.3580974
+    "Lng": -82.3580974,
+    "Img": require("../assets/images/artistpics/Beckham-Davis.jpg")
   },
   {
     "Last Name": "Bellows",
@@ -220,7 +226,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "16 Aiken Street,Greenville, SC 29611",
     "Lat": 34.8456577,
-    "Lng": -82.426134
+    "Lng": -82.426134,
+    "Img": require("../assets/images/artistpics/bellows-kiah.jpg")
   },
   {
     "Last Name": "Bender",
@@ -242,7 +249,8 @@ export default artists = [
     "Map #": 3,
     "fullAddress": "710 Hunts Bridge Road, Unit 8,Greenville, SC 29617",
     "Lat": 34.90057,
-    "Lng": -82.459051
+    "Lng": -82.459051,
+    "Img": require("../assets/images/artistpics/bender.jpg")
   },
   {
     "Last Name": "Benjamin",
@@ -264,7 +272,8 @@ export default artists = [
     "Map #": 1,
     "fullAddress": "1738 E. North Street,Greenville, SC 29607",
     "Lat": 34.86117,
-    "Lng": -82.370559
+    "Lng": -82.370559,
+    "Img": require("../assets/images/artistpics/benjamin.jpg")
   },
   {
     "Last Name": "Bertling",
@@ -286,7 +295,8 @@ export default artists = [
     "Map #": 4,
     "fullAddress": "250 Mill Street, Print Works No. 3, WKR GRP #3211,Taylors, SC 29687",
     "Lat": 34.9201003,
-    "Lng": -82.287138
+    "Lng": -82.287138,
+    "Img": require("../assets/images/artistpics/bertling.jpg")
   },
   {
     "Last Name": "Bethea",
@@ -308,7 +318,8 @@ export default artists = [
     "Map #": 4,
     "fullAddress": "206 Dellrose Circle,Taylors, SC 29687",
     "Lat": 34.8881219,
-    "Lng": -82.3140145
+    "Lng": -82.3140145,
+    "Img": require("../assets/images/artistpics/bethea.jpg")
   },
   {
     "Last Name": "Blinkoff",
@@ -330,7 +341,8 @@ export default artists = [
     "Map #": 1,
     "fullAddress": "10 Central Avenue ,Greenville, SC  29601",
     "Lat": 34.8578305,
-    "Lng": -82.3985151
+    "Lng": -82.3985151,
+    //"Img": require("../assets/images/artistpics/blinkoff.jpg")
   },
   {
     "Last Name": "Bolz",
@@ -352,7 +364,8 @@ export default artists = [
     "Map #": 6,
     "fullAddress": "341-B Miller Road,Mauldin, SC 29662",
     "Lat": 34.7920091,
-    "Lng": -82.3038308
+    "Lng": -82.3038308,
+    "Img": require("../assets/images/artistpics/bethea.jpg")
   },
   {
     "Last Name": "Boyd",
@@ -374,7 +387,8 @@ export default artists = [
     "Map #": 2,
     "fullAddress": "1320 Pendleton Street,Greenville, SC 29611",
     "Lat": 34.8470715,
-    "Lng": -82.4324146
+    "Lng": -82.4324146,
+    //"Img": require("../assets/images/artistpics/boyd-alexia.jpg")
   },
   {
     "Last Name": "Bradley",

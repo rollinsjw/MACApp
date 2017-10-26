@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Text, View, StyleSheet } from 'react-native';
+import { Text, View, StyleSheet, TouchableOpacity} from 'react-native';
+import _ from 'lodash';
 import { Button, SocialIcon } from 'react-native-elements';
 import { connect } from 'react-redux';
 import MapView from 'react-native-maps';
@@ -9,6 +10,72 @@ class MapsContainer extends React.Component {
 
 
   render() {
+    artistList = _.sortBy(this.props.artistList, ["Lat", "Lng"]);
+
+    var overLapItems = [];
+    var previous = this.props.artistList[20];
+
+    mapMarkers = this.props.artistList.map((artist, index, original) => {
+      nextArtist = original[index + 1];
+
+
+      if(index + 1 == original.length){
+        markers = overLapItems.map(mapArtist => {
+          return (
+            <TouchableOpacity >
+              <View style={{backgroundColor: 'blue', flex: 1}}>
+                <Text>{mapArtist["Last Name"]}</Text>
+              </View>
+            </TouchableOpacity>
+          )
+        })
+        return (
+          <MapView.Marker
+            coordinate={{
+              latitude: Number(artist["Lat"]),
+              longitude: Number(artist["Lng"])
+            }} >
+            {markers}
+          </MapView.Marker>
+        );
+      }
+
+
+
+
+      overLapItems.push(artist)
+      console.log("ART")
+      console.log(nextArtist["Lat"])
+      console.log(artist["Lat"])
+      console.log(overLapItems);
+      if(((nextArtist["Lat"] != artist["Lat"]) || (nextArtist["Lng"] != artist["Lng"]))){
+        const tempItems = overLapItems;
+        markers = tempItems.map(mapArtist => {
+          return (
+            <TouchableOpacity style={{backgroundColor: 'white', borderWidth: 1, flex: 1}}>
+              <Text>{mapArtist["Last Name"]}</Text>
+            </TouchableOpacity>
+          )
+        })
+        overLapItems = [];
+        return (
+          <MapView.Marker
+            coordinate={{
+              latitude: Number(artist["Lat"]),
+              longitude: Number(artist["Lng"])
+            }}>
+            <View>
+              {markers.map(item =>{
+                return(item);
+              }
+            )}
+            </View>
+          </MapView.Marker>
+        );
+      }
+    })
+
+
 
     return (
       <View style ={styles.container}>
@@ -22,15 +89,18 @@ class MapsContainer extends React.Component {
           }}
         >
           {
-            this.props.artistList.map(artist => (
-              <MapView.Marker
-                coordinate={{
-                  latitude: Number(artist["Lat"]),
-                  longitude: Number(artist["Lng"])
-                }}
-                title={artist["First Name"] + " " + artist["Last Name"]}
-              />
-            ))
+            mapMarkers
+            // this.props.mapMarkers.map(artist => (
+            //   <MapView.Marker
+            //     coordinate={{
+            //       latitude: Number(artist["Lat"]),
+            //       longitude: Number(artist["Lng"])
+            //     }}
+            //     title={artist["First Name"] + " " + artist["Last Name"]}
+            //   >
+            //
+            //   </MapView.Marker>
+            // ))
           }
         </MapView>
       </View>

@@ -13,12 +13,11 @@ export default class ArtistPageContainer extends React.Component{
         <Image style = {backgroundImageStyle}
           source = {require('../assets/images/backgrounds/individualbackground.png')}>
           <View style = {columnStyle}>
-            <Image
-              source = {img}
-              style = {{height:90, width: 90, resizeMode: 'contain'}}>
-            </Image>
+          <Image
+            source = {param.artistInfo["Img"]}
+            style = {{height: 140, width: 140, resizeMode: 'contain'}}></Image>
           <Text
-            style = {{fontFamily: 'sweez', fontSize: 18, fontWeight: "400", color: 'white'}}> {param.artistInfo["First Name"]} {param.artistInfo["Last Name"]}</Text>
+            style = {{fontFamily: 'sweez', fontSize: 24, fontWeight: "400", color: 'white'}}> {param.artistInfo["First Name"]} {param.artistInfo["Last Name"]}</Text>
           </View>
           <View style = {{flexDirection: 'column', alignItems: 'flex-start'}}>
           <View style = {rowStyle}>
