@@ -11,14 +11,15 @@ class MapsContainer extends React.Component {
 
   render() {
     artistList = _.sortBy(this.props.artistList, ["Lat", "Lng"]);
+    console.log(artistList)
 
     var overLapItems = [];
     var previous = this.props.artistList[20];
 
-    mapMarkers = this.props.artistList.map((artist, index, original) => {
+    mapMarkers = artistList.map((artist, index, original) => {
       nextArtist = original[index + 1];
 
-
+      overLapItems.push(artist)
       if(index + 1 == original.length){
         markers = overLapItems.map(mapArtist => {
           return (
@@ -40,15 +41,8 @@ class MapsContainer extends React.Component {
         );
       }
 
-
-
-
-      overLapItems.push(artist)
-      console.log("ART")
-      console.log(nextArtist["Lat"])
-      console.log(artist["Lat"])
-      console.log(overLapItems);
       if(((nextArtist["Lat"] != artist["Lat"]) || (nextArtist["Lng"] != artist["Lng"]))){
+        console.log(overLapItems)
         const tempItems = overLapItems;
         markers = tempItems.map(mapArtist => {
           return (
@@ -110,7 +104,6 @@ class MapsContainer extends React.Component {
 
 
 const mapStateToProps = (state) => {
-  console.log(state);
   return {...state};
 }
 
