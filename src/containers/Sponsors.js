@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import { Text, View, StyleSheet, Image } from 'react-native';
+import { Text, View, StyleSheet, Image, ScrollView } from 'react-native';
 
 export default class Sponsors extends Component{
   render(){
      const {containerStyle, columnStyle, rowStyle, textStyle, } = styles;
     return(
-      <View style = {containerStyle}>
+      <ScrollView contentContainerStyle={{backgroundColor: 'white'}}>
 
-        <View style = {columnStyle}>
+        <View >
 
           <Text style = {textStyle}>
           The Board of Directors and Staff of the Metropolitan Arts
@@ -24,34 +24,138 @@ export default class Sponsors extends Component{
           <View style = {rowStyle}>
             <Image
               style={{flex: 1, resizeMode: 'contain'}}
-              source={require('../assets/images/logos/SEWlogo.png')}
+              source={require('../assets/images/logos/1.jpg')}
             />
             <Image
               style = {{flex: 1, resizeMode: 'contain'}}
-              source = {require('../assets/images/logos/SSBanklogo.png')}
+              source = {require('../assets/images/logos/2.jpg')}
             />
             <Image
               style = {{flex: 1, resizeMode: 'contain'}}
-              source = {require('../assets/images/logos/GClogo.png')}
+              source = {require('../assets/images/logos/3.jpg')}
             />
           </View>
           <View style = {rowStyle}>
             <Image
               style = {{flex: 1, resizeMode: 'contain'}}
-              source = {require('../assets/images/logos/GHSlogo.png')}
+              source = {require('../assets/images/logos/4.jpg')}
             />
             <Image
               style = {{flex: 1, resizeMode: 'contain'}}
-              source = {require('../assets/images/logos/BMWlogo.png')}
+              source = {require('../assets/images/logos/5.jpg')}
             />
             <Image
               style = {{flex: 1, resizeMode: 'contain'}}
-              source = {require('../assets/images/logos/Michelin.png')}
+              source = {require('../assets/images/logos/6.jpg')}
+            />
+          </View>
+          <View style = {rowStyle}>
+            <Image
+              style={{flex: 1, resizeMode: 'contain'}}
+              source={require('../assets/images/logos/10.jpg')}
+            />
+            <Image
+              style = {{flex: 1, resizeMode: 'contain'}}
+              source = {require('../assets/images/logos/11.jpg')}
+            />
+            <Image
+              style = {{flex: 1, resizeMode: 'contain'}}
+              source = {require('../assets/images/logos/12.jpg')}
+            />
+          </View>
+          <View style = {rowStyle}>
+            <Image
+              style={{flex: 1, resizeMode: 'contain'}}
+              source={require('../assets/images/logos/14.jpg')}
+            />
+            <Image
+              style = {{flex: 1, resizeMode: 'contain'}}
+              source = {require('../assets/images/logos/15.jpg')}
+            />
+            <Image
+              style = {{flex: 1, resizeMode: 'contain'}}
+              source = {require('../assets/images/logos/16.jpg')}
+            />
+          </View>
+          <View style = {rowStyle}>
+            <Image
+              style={{flex: 1, resizeMode: 'contain'}}
+              source={require('../assets/images/logos/17.jpg')}
+            />
+            <Image
+              style = {{flex: 1, resizeMode: 'contain'}}
+              source = {require('../assets/images/logos/19.jpg')}
+            />
+            <Image
+              style = {{flex: 1, resizeMode: 'contain'}}
+              source = {require('../assets/images/logos/20.jpg')}
+            />
+          </View>
+          <View style = {rowStyle}>
+            <Image
+              style={{flex: 1, resizeMode: 'contain'}}
+              source={require('../assets/images/logos/21.jpg')}
+            />
+            <Image
+              style = {{flex: 1, resizeMode: 'contain'}}
+              source = {require('../assets/images/logos/23.jpg')}
+            />
+            <Image
+              style = {{flex: 1, resizeMode: 'contain'}}
+              source = {require('../assets/images/logos/24.jpg')}
+            />
+          </View>
+          <View style = {rowStyle}>
+            <Image
+              style={{flex: 1, resizeMode: 'contain'}}
+              source={require('../assets/images/logos/25.jpg')}
+            />
+            <Image
+              style = {{flex: 1, resizeMode: 'contain'}}
+              source = {require('../assets/images/logos/26.jpg')}
+            />
+            <Image
+              style = {{flex: 1, resizeMode: 'contain'}}
+              source = {require('../assets/images/logos/28.jpg')}
+            />
+          </View>
+          <View style = {rowStyle}>
+            <Image
+              style={{flex: 1, resizeMode: 'contain'}}
+              source={require('../assets/images/logos/29.jpg')}
+            />
+            <Image
+              style = {{flex: 1, resizeMode: 'contain'}}
+              source = {require('../assets/images/logos/30.jpg')}
+            />
+            <Image
+              style = {{flex: 1, resizeMode: 'contain'}}
+              source = {require('../assets/images/logos/31.jpg')}
+            />
+          </View>
+          <View style = {rowStyle}>
+            <Image
+              style={{flex: 1, resizeMode: 'contain'}}
+              source={require('../assets/images/logos/32.jpg')}
+            />
+            <Image
+              style = {{flex: 1, resizeMode: 'contain'}}
+              source = {require('../assets/images/logos/33.jpg')}
+            />
+            <Image
+              style = {{flex: 1, resizeMode: 'contain'}}
+              source = {require('../assets/images/logos/34.jpg')}
+            />
+          </View>
+          <View style = {rowStyle}>
+            <Image
+              style={{flex: 1, resizeMode: 'contain'}}
+              source={require('../assets/images/logos/35.jpg')}
             />
           </View>
         </View>
 
-      </View>
+      </ScrollView>
         //TODO add navigation header && color (90, 1 57, 200)
 
     )
@@ -67,17 +171,18 @@ const styles = {
     },
   textStyle:{//TODO figure this out
     fontSize:16,
-    fontFamily:'sweez',
+    fontFamily:'FrancophilSans',
     fontWeight: 'bold',
     textAlign: 'justify',
     paddingLeft: 25,
-    paddingRight: 25
+    paddingRight: 25,
+    paddingTop: 20
   },
   columnStyle: {
     flexDirection: 'column',
     justifyContent: 'space-around',
     flex: 1,
-    alignItems: 'center'
+    alignItems: 'center',
     // flex: 1,
     // paddingTop: 10
   },
@@ -86,9 +191,11 @@ const styles = {
     flexDirection: 'row',
     justifyContent: 'space-around',
     height: 90,
-    paddingBottom: 20,//TODO adjust padding
-    paddingTop: 20,
-    padding: 50
+    // paddingBottom: 20,//TODO adjust padding
+    paddingTop: 70,
+    padding: 50,
+    paddingLeft: 5,
+    paddingRight: 5
   },
 
 }

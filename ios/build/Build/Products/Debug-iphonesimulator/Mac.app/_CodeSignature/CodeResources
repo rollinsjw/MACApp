@@ -187,7 +187,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Ycls+I561l9p4uAp/2YeDAbUXyA=
+		cA4slT+H0cG9sX10l8z05AYzXyo=
 		</data>
 		<key>Instagram.png</key>
 		<data>
@@ -227,7 +227,7 @@
 		</data>
 		<key>PlugIns/MacTests.xctest.dSYM/Contents/Info.plist</key>
 		<data>
-		8eG+k/8/bH6vbNZovaH1lt+6TNk=
+		REeJetaKD5mH6JHpzD1RdbePwTA=
 		</data>
 		<key>PlugIns/MacTests.xctest.dSYM/Contents/Resources/DWARF/MacTests</key>
 		<data>
@@ -235,15 +235,15 @@
 		</data>
 		<key>PlugIns/MacTests.xctest/Info.plist</key>
 		<data>
-		EFNPLF6zfPfLScz329BZ8aaZsEw=
+		McJGCCU9v7/+VyoIrKsZzBFm1Vo=
 		</data>
 		<key>PlugIns/MacTests.xctest/MacTests</key>
 		<data>
-		Etrt0Iq1bvGzIsiYwQcXOfkFpi0=
+		6ENuIbxpHS6Y3KvCDSKCPpT7S9U=
 		</data>
 		<key>PlugIns/MacTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
-		eTCKAx7WWRHh0j1iQn3vrVWuSTI=
+		eWNLutIFyadlCmj8IIBWgPbTLDM=
 		</data>
 		<key>SEWlogo.png</key>
 		<data>
@@ -1430,11 +1430,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8eG+k/8/bH6vbNZovaH1lt+6TNk=
+			REeJetaKD5mH6JHpzD1RdbePwTA=
 			</data>
 			<key>hash2</key>
 			<data>
-			jlHkdDjrbL3pNt9mNurJxEYocZwiEUC8SkoO4rzWrNE=
+			wONrSeFGeQNmZ74XDD8o993zGRUF3ikTyeluwRnsTjc=
 			</data>
 		</dict>
 		<key>PlugIns/MacTests.xctest.dSYM/Contents/Resources/DWARF/MacTests</key>
@@ -1452,33 +1452,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EFNPLF6zfPfLScz329BZ8aaZsEw=
+			McJGCCU9v7/+VyoIrKsZzBFm1Vo=
 			</data>
 			<key>hash2</key>
 			<data>
-			v3nx6oCPaOGtxtDVHCIIKuabI4A7HuWcWGRD/ZsC1Xc=
+			5Rxa+1hMTGEM7F5ZVD0RwhNQcgDWBFqQipWE5YVimcY=
 			</data>
 		</dict>
 		<key>PlugIns/MacTests.xctest/MacTests</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Etrt0Iq1bvGzIsiYwQcXOfkFpi0=
+			6ENuIbxpHS6Y3KvCDSKCPpT7S9U=
 			</data>
 			<key>hash2</key>
 			<data>
-			fGCpJBydp8byoIz7VfnuxWMQKh2SEthn0+JT/BWrrSI=
+			5qHJZF+z3zOFjqzLb5bWi/K1nvV7lNpwDUico59hrxk=
 			</data>
 		</dict>
 		<key>PlugIns/MacTests.xctest/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eTCKAx7WWRHh0j1iQn3vrVWuSTI=
+			eWNLutIFyadlCmj8IIBWgPbTLDM=
 			</data>
 			<key>hash2</key>
 			<data>
-			Jm1HCI+hdjt8uItmL2OsQwqu3KSKgrVH59OsXrC7Cow=
+			FPo3+I3rfQeEc1k40XsW9pg/PjrXBazr+fdHdQzdwMQ=
 			</data>
 		</dict>
 		<key>SEWlogo.png</key>

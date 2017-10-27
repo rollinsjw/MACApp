@@ -1,6 +1,7 @@
 import React from 'react';
 import { StackNavigator } from 'react-navigation';
-
+import {CustomIcon} from '../components/commonComponents/CustomIcon';
+import { TouchableOpacity, Image } from 'react-native';
 //screen imports
 import MainMenu from '../containers/MainMenu';
 import ArtistsContainer from '../containers/ArtistsContainer';
@@ -16,52 +17,81 @@ const routeConfiguration= {
     screen: MainMenu,
     navigationOptions: {
       title: 'Home Page',
-      header: null
+      header: null,
       }
   },
   ArtistListContainer:{
     screen: ArtistListContainer,
     navigationOptions: {
-      title: 'Artists'
+      title: 'Artists',
+      headerStyle: {...navStyle, backgroundColor: 'rgb(171, 202, 191)'},
+      // headerRight: <TouchableOpacity
+      //   onPress={() => navigate("Home")}
+      //   style={{ alignItems: 'flex-end', height: 30}}
+      // >
+      //   <Image
+      //     style={{flex: 1,  resizeMode: 'contain'}}
+      //     source={require('../assets/images/socialMedia/Homeicon.png')}
+      //   />
+      // </TouchableOpacity>
     }
   },
   Artists: {
     screen: ArtistsContainer,
     navigationOptions: {
-      title: 'Sort the Artists'
+      title: 'Artists',
+      headerStyle: {...navStyle, backgroundColor: 'rgb(171, 202, 191)' }
     }
   },
   Map: {
     screen: MapsContainer,
     navigationOptions: {
-      title: 'Map'
+      title: 'Map',
+      headerStyle: {...navStyle, backgroundColor: 'rgb(223, 184, 89)'}
     }
   },
   About: {
     screen: About,
     navigationOptions: {
-      title: 'About'
+      title: 'About',
+      headerStyle: {...navStyle, backgroundColor: 'rgb(171, 91, 114)'}
     }
   },
   Sponsors: {
     screen: Sponsors,
     navigationOptions: {
-      title: 'Sponsors'
+      title: 'Sponsors',
+      headerStyle: {...navStyle, backgroundColor: 'rgb(106, 155, 196)'}
+
     }
   },
   ArtistPageContainer:{
-    screen: ArtistPageContainer
+    screen: ArtistPageContainer,
+    navigationOptions: {
+      headerStyle: {...navStyle, backgroundColor: 'rgb(171, 202, 191)'}
+    }
   },
   MediumContainer:{
     screen: MediumContainer,
     navigationOptions: {
-      title: 'Mediums'
+      title: 'Mediums',
+      headerStyle: {...navStyle, backgroundColor: 'rgb(171, 202, 191)'}
+
     }
   }
 }
 
 const stackNavigatorConfiguration = {
   initialRouteName: 'Home',
+}
+
+const navStyle = {
+  height: 50
+}
+
+const headerText = {
+  fontFamily: 'FrancophilSans',
+  size: 22
 }
 
 export const AppNavigator = StackNavigator(routeConfiguration, stackNavigatorConfiguration);

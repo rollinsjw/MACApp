@@ -7,10 +7,15 @@ const ArtistListItem = ({artistInfo, navigate}) => {
     <TouchableOpacity
       onPress= {() => navigate()}>
       <View style={styles.rowStyle}>
-        <Image source={artistInfo["Img"]} style={{flex: 1, height: 80, width: 20, borderWidth: 1}}/>
+        <Image source={artistInfo["Img"]} style={{flex: 1, height: 80, width: 40, paddingRight: 10, resizeMode: 'contain'}}/>
         <View style={styles.columnStyle}>
-          <Text>{artistInfo["Last Name"]}, {artistInfo["First Name"]} - {artistInfo["STUDIO#"]}</Text>
-          <Text>Lorem ipsum, will import this field from the data</Text>
+          <Text style={styles.textStyleTitle}>{artistInfo["First Name"]} {artistInfo["Last Name"]} -# {artistInfo["STUDIO#"]}</Text>
+          <Text style={styles.textStyle}>{artistInfo["STUDIO Address"]}</Text>
+          <Text style={styles.textStyle}>{artistInfo["STUDIO City, State, Zip"]}</Text>
+          <Text style={styles.textStyle}>{artistInfo["STUDIO phone number"]}</Text>
+          <Text style={styles.textStyle}>{artistInfo["Email Address"]}</Text>
+          <Text style={styles.textStyle}>{artistInfo["Website Address"]}</Text>
+
         </View>
       </View>
     </TouchableOpacity>
@@ -29,15 +34,29 @@ const styles = {
     alignItems: 'center',
     flexDirection: 'row',
     justifyContent: 'space-around',
-    height: 90,
+    height: 170,
     paddingBottom: 20,
     paddingTop: 20,
     flex: 1,
-    borderWidth: 1
+    borderTopWidth: .5,
+    backgroundColor: 'transparent',
+    borderColor: 'white',
+    paddingLeft: 10,
+    paddingRight: 10
   },
   buttonStyle: {
     height: 50,
     marginTop: 50
+  },
+  textStyle: {
+    fontFamily: "FrancophilSans",
+    fontSize: 14,
+    color: 'white'
+  },
+  textStyleTitle: {
+    fontFamily: "FrancophilSans",
+    fontSize: 18,
+    color: 'white'
   }
 }
 

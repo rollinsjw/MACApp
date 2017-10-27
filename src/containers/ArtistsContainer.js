@@ -50,42 +50,13 @@ class ArtistsContainer extends React.Component {
               backgroundColor={'rgba(51, 53, 61, .451)'}
               onPress={() => this.navigateAndSort(this.props.openFriday())}
             />
-            <Button
-              title={'Handicap Accessible'}
-              color={'rgb(255, 255, 255)'}
-              backgroundColor={'rgba(51, 53, 61, .451)'}
-              textStyle={buttonTextStyle}
-              style={buttonStyle}
-
-              onPress={() => this.navigateAndSort(this.props.handicapAccessible())}
-            />
-          </View>
-          <View style={rowStyle}>
             <TouchableOpacity
-              onPress={()=>'https://www.google.com'}
-              style={{ flex: 1, alignItems: 'center', height: 30}}
+              onPress={()=> this.navigateAndSort(this.props.handicapAccessible())}
+              style={{...buttonStyle, alignItems: 'center', justifyContent: 'center'}}
             >
               <Image
-                style={{flex: 1,  resizeMode: 'contain'}}
-                source={require('../assets/images/socialMedia/Facebook.png')}
-              />
-            </TouchableOpacity>
-            <TouchableOpacity
-              onPress={()=>'https://www.google.com'}
-              style={{flex: 1, alignItems: 'center', height: 30}}
-            >
-              <Image
-                style={{flex: 1, resizeMode: 'contain'}}
-                source={require('../assets/images/socialMedia/Instagram.png')}
-              />
-            </TouchableOpacity>
-            <TouchableOpacity
-              onPress={()=>'https://www.google.com'}
-              style={{flex: 1, alignItems: 'center', height: 30}}
-            >
-              <Image
-                style={{flex: 1, resizeMode: 'contain'}}
-                source={require('../assets/images/socialMedia/Twitter.png')}
+                style={{height: 40,  resizeMode: 'contain'}}
+                source={require('../assets/images/socialMedia/handicapicon.png')}
               />
             </TouchableOpacity>
           </View>
@@ -124,6 +95,7 @@ const styles = {
     borderWidth: 2,
     borderColor: 'rgb(255, 255, 255)',
     width: screen.width * .627,
+    height: 50
     // height: screen.height * .082
 
   },

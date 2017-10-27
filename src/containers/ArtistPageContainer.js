@@ -17,7 +17,7 @@ export default class ArtistPageContainer extends React.Component{
             source = {param.artistInfo["Img"]}
             style = {{height: 140, width: 140, resizeMode: 'contain'}}></Image>
           <Text
-            style = {{fontFamily: 'sweez', fontSize: 24, fontWeight: "400", color: 'white'}}> {param.artistInfo["First Name"]} {param.artistInfo["Last Name"]}</Text>
+            style = {{fontFamily: 'sweez', fontSize: 24, fontWeight: "400", color: 'white', backgroundColor: 'transparent'}}> {param.artistInfo["First Name"]} {param.artistInfo["Last Name"]}</Text>
           </View>
           <View style = {{flexDirection: 'column', alignItems: 'flex-start'}}>
           <View style = {rowStyle}>
@@ -34,14 +34,14 @@ export default class ArtistPageContainer extends React.Component{
             source = {require('../assets/images/socialMedia/phoneicon.png')}></Image>
           <TouchableOpacity
             onPress = {() => Communications.phonecall(param.artistInfo["STUDIO phone number"], true)}>
-              <Text style = {{fontSize:18, color:"white", fontFamily: 'sweez', textDecorationLine: 'underline'}}> {param.artistInfo["STUDIO phone number"]}</Text>
+              <Text style = {{fontSize:18, color:"white", fontFamily: 'sweez', textDecorationLine: 'underline', backgroundColor: 'transparent'}}> {param.artistInfo["STUDIO phone number"]}</Text>
             </TouchableOpacity>
           </View>
           <View style = {rowStyle}>
           <Image style = {{height:30, resizeMode:'contain'}}
             source = {require('../assets/images/socialMedia/at.png')}></Image>
 
-              <Text style = {{fontSize:18, color:"white", fontFamily: 'sweez', textDecorationLine: 'underline'}}> {param.artistInfo["Email Adress"]}</Text>
+              <Text style = {{fontSize:18, color:"white", fontFamily: 'sweez', textDecorationLine: 'underline', backgroundColor: 'transparent'}}> {param.artistInfo["Email Address"]}</Text>
 
           </View>
           <View style = {rowStyle}>
@@ -49,7 +49,7 @@ export default class ArtistPageContainer extends React.Component{
             source = {require('../assets/images/socialMedia/Globeicon.png')}></Image>
           <TouchableOpacity
             onPress = {() => Linking.openURL("http://" + param.artistInfo["Website Address"])}>
-              <Text style = {{fontSize:18, color:"white", fontFamily: 'sweez', textDecorationLine: 'underline'}}> {param.artistInfo["Website Address"]}</Text>
+              <Text style = {{fontSize:18, color:"white", fontFamily: 'sweez', textDecorationLine: 'underline', backgroundColor: 'transparent'}}> {param.artistInfo["Website Address"]}</Text>
             </TouchableOpacity>
           </View>
           </View>
@@ -69,7 +69,8 @@ export default class ArtistPageContainer extends React.Component{
       fontSize: 18,
       fontWeight: "400",
       color: 'white',
-      textDecorationLine: 'underline'
+      textDecorationLine: 'underline',
+      backgroundColor: 'transparent'
 
     },
     textStyle:{
@@ -85,6 +86,7 @@ export default class ArtistPageContainer extends React.Component{
 
     },
     iconStyle: {
+      backgroundColor: 'transparent'
 
     },
     backgroundImageStyle: {
