@@ -4,7 +4,6 @@ import _ from 'lodash';
 import { Button, SocialIcon } from 'react-native-elements';
 import { connect } from 'react-redux';
 import MapView from 'react-native-maps';
-//TODO: how to turn off the header for this specific one
 
 class MapsContainer extends React.Component {
 
@@ -23,10 +22,8 @@ class MapsContainer extends React.Component {
       if(index + 1 == original.length){
         markers = overLapItems.map(mapArtist => {
           return (
-            <TouchableOpacity style={{backgroundColor: 'white', borderWidth: 1, flex: 1}} onPress={() => this.props.navigation.navigate('ArtistPageContainer', {artistInfo: mapArtist})}>
-              <View style={{backgroundColor: 'blue', flex: 1}}>
-                <Text>{mapArtist["Last Name"]}</Text>
-              </View>
+            <TouchableOpacity style={styles.calloutItemStyle} onPress={() => this.props.navigation.navigate('ArtistPageContainer', {artistInfo: mapArtist})}>
+              <Text style={styles.calloutTextStyle}>{mapArtist["Studio Name"]}, {mapArtist["First Name"]} {mapArtist["Last Name"]}</Text>
             </TouchableOpacity>
           )
         })
@@ -35,8 +32,18 @@ class MapsContainer extends React.Component {
             coordinate={{
               latitude: Number(artist["Lat"]),
               longitude: Number(artist["Lng"])
-            }} >
-            {markers}
+            }}>
+              <MapView.Callout tooltip={true}>
+                <View style={styles.columnStyle}>
+                  <View style={styles.calloutStyle}>
+                    {markers.map(item =>{
+                      return(item);
+                    }
+                  )}
+                  </View>
+                  {/* <View style={styles.arrowDown} /> */}
+                </View>
+              </MapView.Callout>
           </MapView.Marker>
         );
       }
@@ -46,8 +53,8 @@ class MapsContainer extends React.Component {
         const tempItems = overLapItems;
         markers = tempItems.map(mapArtist => {
           return (
-            <TouchableOpacity style={{backgroundColor: 'white', borderWidth: 1, flex: 1}} onPress={() => this.props.navigation.navigate('ArtistPageContainer', {artistInfo: mapArtist})}>
-              <Text>{mapArtist["Last Name"]}</Text>
+            <TouchableOpacity style={styles.calloutItemStyle} onPress={() => this.props.navigation.navigate('ArtistPageContainer', {artistInfo: mapArtist})}>
+              <Text style={styles.calloutTextStyle}>{mapArtist["Studio Name"]}, {mapArtist["First Name"]} {mapArtist["Last Name"]}</Text>
             </TouchableOpacity>
           )
         })
@@ -58,12 +65,17 @@ class MapsContainer extends React.Component {
               latitude: Number(artist["Lat"]),
               longitude: Number(artist["Lng"])
             }}>
-            <View>
-              {markers.map(item =>{
-                return(item);
-              }
-            )}
-            </View>
+              <MapView.Callout tooltip={true}>
+                <View style={styles.columnStyle}>
+                  <View style={styles.calloutStyle}>
+                    {markers.map(item =>{
+                      return(item);
+                    }
+                  )}
+                  </View>
+                  {/* <View style={styles.arrowDown} /> */}
+                </View>
+              </MapView.Callout>
           </MapView.Marker>
         );
       }
@@ -119,4 +131,45 @@ const styles = {
   map: {
     ...StyleSheet.absoluteFillObject,
   },
+  calloutStyle: {
+    // flex: 1
+    backgroundColor: 'rgb(65,65,65)',
+    borderWidth: 1,
+    borderRadius: 6,
+    borderColor: 'rgb(65,65,65)'
+
+  },
+  calloutStyleView: {
+    // flex: 1,
+    // paddingTop: 10,
+    borderRadius: 7,
+  },
+  calloutTextStyle: {
+    color: 'white',
+    fontFamily: 'FrancophilSans'
+  },
+  calloutItemStyle: {
+    borderRadius: 7,
+    borderWidth: 1,
+    borderColor: 'rgb(65,65,65)',
+    padding: 2,
+    paddingLeft: 5,
+    paddingRight: 5
+  },
+  arrowDown: {
+    width: 0,
+    height: 0,
+    backgroundColor: 'transparent',
+    borderStyle: 'solid',
+    borderLeftWidth: 10,
+    borderRightWidth: 10,
+    borderTopWidth: 20,
+    borderLeftColor: 'transparent',
+    borderRightColor: 'transparent',
+    borderTopColor: 'rgb(65,65,65)',
+  },
+  columnStyle: {
+    flexDirection: 'column',
+    alignItems: 'center'
+  }
 };

@@ -18,6 +18,12 @@ const routeConfiguration= {
     navigationOptions: {
       title: 'Home Page',
       header: null,
+      titleStyle: {
+        fontFamily: 'sweezbold',
+        color: 'rgb(51,53,60)'
+
+      }
+
       }
   },
   ArtistListContainer:{
@@ -25,6 +31,11 @@ const routeConfiguration= {
     navigationOptions: {
       title: 'Artists',
       headerStyle: {...navStyle, backgroundColor: 'rgb(171, 202, 191)'},
+      titleStyle: {
+        fontFamily: 'sweezbold',
+        color: 'rgb(51,53,60)'
+
+      }
       // headerRight: <TouchableOpacity
       //   onPress={() => navigate("Home")}
       //   style={{ alignItems: 'flex-end', height: 30}}
@@ -40,42 +51,71 @@ const routeConfiguration= {
     screen: ArtistsContainer,
     navigationOptions: {
       title: 'Artists',
-      headerStyle: {...navStyle, backgroundColor: 'rgb(171, 202, 191)' }
+      headerStyle: {...navStyle, backgroundColor: 'rgb(171, 202, 191)' },
+      titleStyle: {
+        fontFamily: 'sweezbold',
+        color: 'rgb(51,53,60)'
+
+      }
     }
   },
   Map: {
     screen: MapsContainer,
     navigationOptions: {
       title: 'Map',
-      headerStyle: {...navStyle, backgroundColor: 'rgb(223, 184, 89)'}
+      headerStyle: {...navStyle, backgroundColor: 'rgb(223, 184, 89)'},
+      titleStyle: {
+        fontFamily: 'sweezbold',
+        color: 'rgb(51,53,60)'
+
+      }
     }
   },
   About: {
     screen: About,
     navigationOptions: {
       title: 'About',
-      headerStyle: {...navStyle, backgroundColor: 'rgb(171, 91, 114)'}
+      headerStyle: {...navStyle, backgroundColor: 'rgb(171, 91, 114)'},
+      titleStyle: {
+        fontFamily: 'sweezbold',
+        color: 'rgb(51,53,60)'
+
+      }
     }
   },
   Sponsors: {
     screen: Sponsors,
     navigationOptions: {
-      title: 'Sponsors',
-      headerStyle: {...navStyle, backgroundColor: 'rgb(106, 155, 196)'}
+      title: 'sponsors',
+      headerStyle: {...navStyle, backgroundColor: 'rgb(106, 155, 196)'},
+      titleStyle: {
+        fontFamily: 'sweezbold',
+        color: 'rgb(51,53,60)'
+      }
 
     }
   },
   ArtistPageContainer:{
     screen: ArtistPageContainer,
     navigationOptions: {
-      headerStyle: {...navStyle, backgroundColor: 'rgb(171, 202, 191)'}
+      headerStyle: {...navStyle, backgroundColor: 'rgb(171, 202, 191)'},
+      titleStyle: {
+        fontFamily: 'sweezbold',
+        color: 'rgb(51,53,60)'
+
+      }
     }
   },
   MediumContainer:{
     screen: MediumContainer,
     navigationOptions: {
       title: 'Mediums',
-      headerStyle: {...navStyle, backgroundColor: 'rgb(171, 202, 191)'}
+      headerStyle: {...navStyle, backgroundColor: 'rgb(171, 202, 191)'},
+      titleStyle: {
+        fontFamily: 'sweezbold',
+        color: 'rgb(51,53,60)'
+
+      }
 
     }
   }
