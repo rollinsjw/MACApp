@@ -28,9 +28,10 @@ const styles = {
   columnStyle: {
     flexDirection: 'column',
     justifyContent: 'flex-start',
-    paddingLeft: 30
+    paddingLeft: 30,
+    // flexWrap: 'wrap'
     // flex: 2
-    // flex: 1,
+    flex: 1,
     // paddingTop: 10
   },
   rowStyle: {
@@ -44,6 +45,7 @@ const styles = {
     borderTopWidth: .5,
     backgroundColor: 'transparent',
     borderColor: 'white',
+    // flexWrap: 'wrap'
     // paddingLeft: 10,
     // paddingRight: 10
   },
@@ -54,7 +56,7 @@ const styles = {
   textStyle: {
     fontFamily: "FrancophilSans",
     fontSize: 14,
-    color: 'white'
+    color: 'white',
   },
   textStyleTitle: {
     fontFamily: "FrancophilSans",

@@ -198,7 +198,6 @@ const styles = {
     color: 'rgb(171, 92, 114)',
     textShadowColor: 'black',
     textShadowOffset: {width: -1, height: 1}
-
   },
   dateStyle: {
     color: 'rgb(255, 255, 255)',

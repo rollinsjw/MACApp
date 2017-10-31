@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { Text, View, ScrollView, StyleSheet, Image} from 'react-native';
+import { Text, View, ScrollView, StyleSheet, Image, TouchableOpacity} from 'react-native';
 import { screen } from '../config/Metrics';
 
 
 export default class Sponsors extends Component{
   render(){
-     const {containerStyle, backgroundImageStyle, columnStyle, secondaryTextStyle, titleTextStyle, mainTextStyle, barStyle, arrowDown, barColumnStyle, rowStyle} = styles;
+     const {containerStyle, iconStyle, mainTextTitleStyle, imageStyle, backgroundImageStyle, columnStyle, secondaryTextStyle, titleTextStyle, mainTextStyle, barStyle, arrowDown, barColumnStyle, rowStyle} = styles;
      return(
        <Image style = {backgroundImageStyle}
          source = {require('../assets/images/backgrounds/aboutbackground.jpg')}
@@ -19,11 +19,8 @@ export default class Sponsors extends Component{
                 </View>
                 <View style={arrowDown}></View>
             </View>
-            <View style={rowStyle}>
-
-
-
-              <View style={columnStyle}>
+            <View style={{...rowStyle, paddingTop: 8}}>
+              <View style={{...columnStyle, paddingLeft: 30}}>
                 <Text style = {mainTextStyle} >
                   Friday November 10th
                 </Text>
@@ -60,7 +57,7 @@ export default class Sponsors extends Component{
                 </View>
                 <View style={arrowDown}></View>
             </View>
-            <Text style = {mainTextStyle}>
+            <Text style = {{...mainTextStyle, paddingLeft: 30, paddingRight: 30}}>
                GreenVille Open Studios allows you to experience the life of
                local artists at work in thier studios for one full weekend,
                November 11-12. This free, self-guided tour is a unique
@@ -68,7 +65,7 @@ export default class Sponsors extends Component{
                learn about artistic processes, enhance or begin your art
                collection and become inspired
             </Text>
-            <Text style = {mainTextStyle}>
+            <Text style = {{...mainTextStyle, paddingLeft: 30, paddingRight: 30}}>
               Now in its 16th year, the 2017 tour features 145 artists all
               within a 15-mile radius of downtown Greenville with Easley, Greer,
               Travelers Rest and Simpsonville included. Open Studios catalogues
@@ -78,23 +75,41 @@ export default class Sponsors extends Component{
             <View style={barColumnStyle}>
                 <View style={barStyle}>
                   <Text style = {titleTextStyle}>
-                     catalogue
-                  </Text>
-                </View>
-                <View style={arrowDown}></View>
-            </View>
-            <Text style = {mainTextStyle}>
-              Find a copy of the 2017 catalogue at the MAC office, various
-              retail locations throughout Greenville and in the November 3rd
-              edition of the Greenville Journal.
-            </Text>
-            <View style={barColumnStyle}>
-                <View style={barStyle}>
-                  <Text style = {titleTextStyle}>
                      more resources
                   </Text>
                 </View>
                 <View style={arrowDown}></View>
+            </View>
+            <View style={rowStyle}>
+              <View style={{...columnStyle, flex: 1, justifyContent: 'flex-start', paddingLeft: 35}}>
+                <Image style={{...imageStyle, height: 150}} source={require('../assets/images/backgrounds/Catalogueimage.png')} />
+                <Image style={{...imageStyle}} source={require('../assets/images/backgrounds/twelvePainting.png')} />
+              </View>
+              <View style={columnStyle}>
+                <Text style={mainTextTitleStyle}>Catalogue</Text>
+                <Text style = {mainTextStyle}>
+                  Find a copy of the 2017 catalogue at the MAC office, various
+                  retail locations throughout Greenville and in the November 3rd
+                  edition of the Greenville Journal.
+                </Text>
+                <Text style={{...mainTextTitleStyle, paddingTop: 49}}>
+                    12 x 12 Exhibit
+                </Text>
+                <Text style={mainTextTitleStyle}>
+                  Something on the Squares
+                </Text>
+                <Text style={{...mainTextTitleStyle, paddingTop: 10}}>
+                  Nov. 4 - Dec. 15, 2017
+                </Text>
+                <Text style={{...mainTextStyle, paddingTop: 10}}>
+                  Make MAC your first stop the
+                  week before or the weekend of
+                  Open Studios. An exhibit of 12 x
+                  12 inch works from the 145
+                  participating artists will be on
+                  display in our gallery.
+                </Text>
+              </View>
             </View>
             <View style={barColumnStyle}>
                 <View style={barStyle}>
@@ -104,6 +119,64 @@ export default class Sponsors extends Component{
                 </View>
                 <View style={arrowDown}></View>
             </View>
+            <View style={{...columnStyle, alignItems: 'center', paddingLeft: 50, paddingRight: 50}}>
+              <View style={{...rowStyle}}>
+                <View style={{...columnStyle, flex: 1}}>
+                  <Image source={require('../assets/images/socialMedia/GPSiconR.png')} style={{...iconStyle}}/>
+                  <View style={{height: 20}}/>
+                  <Image source={require('../assets/images/socialMedia/phoneiconR.png')} style={{...iconStyle, paddingLeft: 78}}/>
+                  <Image source={require('../assets/images/socialMedia/atR.png')} style={iconStyle}/>
+                  <Image source={require('../assets/images/socialMedia/GlobeiconR.png')} style={iconStyle}/>
+                </View>
+
+                <View style={{...columnStyle, justifyContent: 'flex-start', flex: 4, marginLeft: 9}}>
+                  <View >
+                    <Text style={mainTextStyle}>Metropolitan Arts Council</Text>
+                    <Text style={mainTextStyle}>16 Augusta Street</Text>
+                    <Text style={mainTextStyle}>Greenville, SC 29601</Text>
+                  </View>
+                  <Text style={{...mainTextStyle, paddingTop: 20}}>(864) 467-3132</Text>
+
+                  <Text style={{...mainTextStyle, paddingTop: 20}}>mac@greenvilleARTS.com</Text>
+
+                  <Text style={{...mainTextStyle, paddingTop: 20}}>greenvilleARTS.com</Text>
+                </View>
+              </View>
+              <View style={{...rowStyle, paddingLeft: 0, paddingRight: 0}}>
+                <TouchableOpacity
+                  onPress={()=>'https://www.google.com'}
+                  style={{ flex: 1, alignItems: 'center', height: 25}}
+                >
+                  <Image
+                    style={{flex: 1,  resizeMode: 'contain'}}
+                    source={require('../assets/images/socialMedia/Facebook.png')}
+                  />
+                </TouchableOpacity>
+                <TouchableOpacity
+                  onPress={()=>'https://www.google.com'}
+                  style={{flex: 1, alignItems: 'center', height: 25}}
+                >
+                  <Image
+                    style={{flex: 1, resizeMode: 'contain'}}
+                    source={require('../assets/images/socialMedia/Instagram.png')}
+                  />
+                </TouchableOpacity>
+                <TouchableOpacity
+                  onPress={()=>'https://www.google.com'}
+                  style={{flex: 1, alignItems: 'center', height: 25}}
+                >
+                  <Image
+                    style={{flex: 1, resizeMode: 'contain'}}
+                    source={require('../assets/images/socialMedia/Twitter.png')}
+                  />
+                </TouchableOpacity>
+              </View>
+              <Image
+                source={require('../assets/images/logos/Maclogo.png')}
+                style={{width: 230, resizeMode: 'contain'}}
+              />
+            </View>
+
       </ScrollView>
     </Image>
 
@@ -136,9 +209,9 @@ const styles = {
   mainTextStyle:{
     fontFamily: 'FrancophilSans',
     fontSize: 15,
-    paddingLeft: 10,
+    // paddingLeft: 10,
     // textAlign: 'center',
-        //fontWeight:
+    fontWeight: 'bold',
     backgroundColor: 'transparent',
     color: 'white',
     // paddingLeft: 25,
@@ -152,15 +225,20 @@ const styles = {
   },
   rowStyle: {
     flexDirection: 'row',
-    justifyContent: 'space-around'
+    justifyContent: 'space-around',
+    paddingTop: 20
   },
   columnStyle: {
     flexDirection: 'column',
     backgroundColor: 'transparent',
-    alignItems: 'flex-start',
+    // alignItems: 'flex-start',
     // paddingLeft: 25
     justifyContent: 'space-around',
-    // flex: 1,
+    flex: 3,
+    // borderWidth: 1,
+    // borderColor: 'white',
+    paddingLeft: 10,
+    paddingRight: 10,
     // alignItems: 'center',
     // flex: 1,
     // paddingTop: 10
@@ -192,5 +270,23 @@ const styles = {
     // flex: 1,
     paddingTop: 10,
     // width: 1000
+  },
+  imageStyle:{
+    resizeMode: 'contain',
+    height: 110,
+    width: 80,
+    // borderWidth: 3,
+    // borderColor: 'white',
+  },
+  mainTextTitleStyle: {
+    fontFamily: 'FrancophilSans',
+    color: 'white',
+    fontWeight: '500',
+    fontSize: 18
+  },
+  iconStyle:{
+    height: 30,
+    resizeMode: 'contain',
+    marginTop: 10
   }
 }

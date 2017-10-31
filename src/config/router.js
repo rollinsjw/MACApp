@@ -16,6 +16,7 @@ const routeConfiguration= {
     screen: MainMenu,
     navigationOptions: {
       headerBackTitle: '',
+      headerTintColor: 'white',
       // title: 'Home Page',
       header: null,
       headerTitleStyle: {
@@ -35,6 +36,7 @@ const routeConfiguration= {
       <TouchableHighlight onPress={() => navigation.navigate('Home')} style={{ height: 30}}>
         <Image source={require('../assets/images/socialMedia/Homeicon.png')}  style={{resizeMode: 'contain',  flex: 1}}/>
       </TouchableHighlight>,
+      headerTintColor: 'white',
       headerBackTitle: '',
       title: 'artists',
       headerBackTitleStyle: {color: 'transparent'},
@@ -61,6 +63,7 @@ const routeConfiguration= {
     screen: ArtistsContainer,
     navigationOptions: ({navigation}) => ({
       title: 'artists',
+      headerTintColor: 'white',
       headerRight:
       <TouchableHighlight onPress={() => navigation.navigate('Home')} style={{ height: 30}}>
         <Image source={require('../assets/images/socialMedia/Homeicon.png')}  style={{resizeMode: 'contain',  flex: 1}}/>
@@ -84,6 +87,7 @@ const routeConfiguration= {
         <Image source={require('../assets/images/socialMedia/Homeicon.png')}  style={{resizeMode: 'contain',  flex: 1}}/>
       </TouchableHighlight>,
       headerBackTitle: '',
+      headerTintColor: 'white',
       title: 'map',
       headerStyle: {...navStyle, backgroundColor: 'rgb(223, 184, 89)'},
       headerTitleStyle: {
@@ -101,6 +105,7 @@ const routeConfiguration= {
       <TouchableHighlight onPress={() => navigation.navigate('Home')} style={{ height: 30}}>
         <Image source={require('../assets/images/socialMedia/Homeicon.png')}  style={{resizeMode: 'contain',  flex: 1}}/>
       </TouchableHighlight>,
+      headerTintColor: 'white',
       headerBackTitle: '',
       title: 'about',
       headerStyle: {...navStyle, backgroundColor: 'rgb(171, 91, 114)'},
@@ -120,6 +125,7 @@ const routeConfiguration= {
         <Image source={require('../assets/images/socialMedia/Homeicon.png')}  style={{resizeMode: 'contain',  flex: 1}}/>
       </TouchableHighlight>,
       headerBackTitle: '',
+      headerTintColor: 'white',
       title: 'sponsors',
       headerStyle: {...navStyle, backgroundColor: 'rgb(106, 155, 196)'},
       headerTitleStyle: {
@@ -141,6 +147,8 @@ const routeConfiguration= {
         <Image source={require('../assets/images/socialMedia/Homeicon.png')}  style={{resizeMode: 'contain',  flex: 1}}/>
       </TouchableHighlight>,
       headerBackTitle: '',
+      headerTintColor: 'white',
+
       headerBackTitleStyle: {color: 'transparent'},
       headerStyle: {...navStyle, backgroundColor: 'rgb(171, 202, 191)'},
       headerTitleStyle: {
@@ -159,6 +167,8 @@ const routeConfiguration= {
         <Image source={require('../assets/images/socialMedia/Homeicon.png')}  style={{resizeMode: 'contain',  flex: 1}}/>
       </TouchableHighlight>,
       headerBackTitle: '',
+      headerTintColor: 'white',
+
       title: 'mediums',
       headerStyle: {...navStyle, backgroundColor: 'rgb(171, 202, 191)'},
       headerTitleStyle: {

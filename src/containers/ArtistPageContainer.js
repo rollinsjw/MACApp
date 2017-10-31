@@ -5,6 +5,14 @@ import { screen } from '../config/Metrics';
 
 
 export default class ArtistPageContainer extends React.Component{
+
+  renderIf(condition, content) {
+    if(condition) {
+      return content;
+    }else {
+      return null;
+    }
+  }
   render(){
 
     const param = this.props.navigation.state.params
@@ -19,12 +27,12 @@ export default class ArtistPageContainer extends React.Component{
             source = {param.artistInfo["Img"]}
             style = {{height: 140, width: 140, resizeMode: 'contain'}}></Image>
           <Text
-            style = {{fontFamily: 'sweez', fontSize: 24, fontWeight: "400", color: 'white', backgroundColor: 'transparent'}}> {param.artistInfo["First Name"]} {param.artistInfo["Last Name"]}</Text>
+            style = {{fontFamily: 'FrancophilSans', fontSize: 24, fontWeight: "400", color: 'white', backgroundColor: 'transparent'}}> {param.artistInfo["First Name"]} {param.artistInfo["Last Name"]} - #{param.artistInfo["STUDIO#"]}</Text>
           </View>
           <View style = {{flexDirection: 'column', alignItems: 'flex-start'}}>
           <View>
               <TouchableOpacity
-                style={rowStyle}
+                style={{...rowStyle, marginTop: 20}}
                 onPress ={() => this.props.navigation.navigate('Map', {artistInfo: param.artistInfo})}
                 >
                   <Image style = {{height:30, resizeMode:'contain'}}
@@ -46,7 +54,7 @@ export default class ArtistPageContainer extends React.Component{
               onPress = {() => Communications.phonecall(param.artistInfo["STUDIO phone number"], true)}>
               <Image style = {{height:30, resizeMode:'contain', paddingRight: 80}}
                 source = {require('../assets/images/socialMedia/phoneicon.png')}></Image>
-              <Text style = {{fontSize:18, color:"white", fontFamily: 'sweez', textDecorationLine: 'underline', backgroundColor: 'transparent'}}> {param.artistInfo["STUDIO phone number"]}</Text>
+              <Text style = {{fontSize:18, color:"white", fontFamily: 'FrancophilSans', textDecorationLine: 'underline', backgroundColor: 'transparent'}}> {param.artistInfo["STUDIO phone number"]}</Text>
             </TouchableOpacity>
           </View>
           <View>
@@ -56,22 +64,28 @@ export default class ArtistPageContainer extends React.Component{
           <Image style = {{height:30, resizeMode:'contain'}}
             source = {require('../assets/images/socialMedia/at.png')}></Image>
 
-              <Text style = {{fontSize:18, color:"white", fontFamily: 'sweez', textDecorationLine: 'underline', backgroundColor: 'transparent'}}> {param.artistInfo["Email Address"]}</Text>
+              <Text style = {{fontSize:18, color:"white", fontFamily: 'FrancophilSans', textDecorationLine: 'underline', backgroundColor: 'transparent'}}> {param.artistInfo["Email Address"]}</Text>
             </TouchableOpacity>
           </View>
           <View>
-          <TouchableOpacity
-            style={rowStyle}
-            onPress = {() => Linking.openURL("http://" + param.artistInfo["Website Address"])}>
-          <Image style = {{height:30, resizeMode:'contain'}}
-            source = {require('../assets/images/socialMedia/Globeicon.png')}></Image>
+            {this.renderIf(param.artistInfo["Website Address"] != "",
+            <TouchableOpacity
+              style={rowStyle}
+              onPress = {() => Linking.openURL("http://" + param.artistInfo["Website Address"])}>
+            <Image style = {{height:30, resizeMode:'contain'}}
+              source = {require('../assets/images/socialMedia/Globeicon.png')}></Image>
 
-              <Text style = {{fontSize:18, color:"white", fontFamily: 'sweez', textDecorationLine: 'underline', backgroundColor: 'transparent'}}> {param.artistInfo["Website Address"]}</Text>
-          </TouchableOpacity>
+                <Text style = {{fontSize:18, color:"white", fontFamily: 'FrancophilSans', textDecorationLine: 'underline', backgroundColor: 'transparent'}}> {param.artistInfo["Website Address"]}</Text>
+            </TouchableOpacity>
+          )}
           </View>
-          <View style={{...rowStyle, paddingBottom: 10, width: screen.width}}>
-            <Image style={{height: 30, resizeMode: 'contain'}}
-              source={require('../assets/images/socialMedia/handicapicon.png')}/>
+          <View style={{height: 50, paddingBottom: 60}}>
+            {this.renderIf(param.artistInfo["W/chair Accessible?"] === "Yes",
+             <View style={{...rowStyle, width: screen.width}}>
+              <Image style={{height: 30, resizeMode: 'contain'}}
+                source={require('../assets/images/socialMedia/handicapicon.png')}/>
+              </View>
+            )}
           </View>
           </View>
         </Image>
@@ -95,7 +109,7 @@ export default class ArtistPageContainer extends React.Component{
 
     },
     textStyle:{
-      fontFamily: 'sweez',
+      fontFamily: 'FrancophilSans',
       fontSize: 18,
       fontWeight: "400",
       color: 'white'
