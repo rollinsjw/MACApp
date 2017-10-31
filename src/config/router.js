@@ -1,7 +1,6 @@
 import React from 'react';
 import { StackNavigator } from 'react-navigation';
-import {CustomIcon} from '../components/commonComponents/CustomIcon';
-import { TouchableOpacity, Image } from 'react-native';
+import { TouchableOpacity, Image, Text, Button, TouchableHighlight} from 'react-native';
 //screen imports
 import MainMenu from '../containers/MainMenu';
 import ArtistsContainer from '../containers/ArtistsContainer';
@@ -16,11 +15,14 @@ const routeConfiguration= {
   Home: {
     screen: MainMenu,
     navigationOptions: {
-      title: 'Home Page',
+      headerBackTitle: '',
+      // title: 'Home Page',
       header: null,
-      titleStyle: {
-        fontFamily: 'sweezbold',
-        color: 'rgb(51,53,60)'
+      headerTitleStyle: {
+        fontFamily: 'sweez',
+        color: 'rgb(51,53,60)',
+        fontSize: 40
+
 
       }
 
@@ -28,12 +30,20 @@ const routeConfiguration= {
   },
   ArtistListContainer:{
     screen: ArtistListContainer,
-    navigationOptions: {
-      title: 'Artists',
+    navigationOptions: ({navigate}) => ({
+      headerRight:
+      <TouchableHighlight onPress={() => navigation.navigate('Home')} style={{ height: 30}}>
+        <Image source={require('../assets/images/socialMedia/Homeicon.png')}  style={{resizeMode: 'contain',  flex: 1}}/>
+      </TouchableHighlight>,
+      headerBackTitle: '',
+      title: 'artists',
+      headerBackTitleStyle: {color: 'transparent'},
       headerStyle: {...navStyle, backgroundColor: 'rgb(171, 202, 191)'},
-      titleStyle: {
-        fontFamily: 'sweezbold',
-        color: 'rgb(51,53,60)'
+      headerTitleStyle: {
+        fontFamily: 'sweez',
+        color: 'rgb(51,53,60)',
+        fontSize: 40
+
 
       }
       // headerRight: <TouchableOpacity
@@ -45,79 +55,119 @@ const routeConfiguration= {
       //     source={require('../assets/images/socialMedia/Homeicon.png')}
       //   />
       // </TouchableOpacity>
-    }
+    })
   },
   Artists: {
     screen: ArtistsContainer,
-    navigationOptions: {
-      title: 'Artists',
+    navigationOptions: ({navigation}) => ({
+      title: 'artists',
+      headerRight:
+      <TouchableHighlight onPress={() => navigation.navigate('Home')} style={{ height: 30}}>
+        <Image source={require('../assets/images/socialMedia/Homeicon.png')}  style={{resizeMode: 'contain',  flex: 1}}/>
+      </TouchableHighlight>,
       headerStyle: {...navStyle, backgroundColor: 'rgb(171, 202, 191)' },
-      titleStyle: {
-        fontFamily: 'sweezbold',
-        color: 'rgb(51,53,60)'
-
+      headerBackTitleStyle: {color: 'transparent'},
+      headerTitleStyle: {
+        fontFamily: 'sweez',
+        color: 'rgb(51,53,60)',
+        // fontWeight: 'bold',
+        fontSize: 40,
+        fontWeight: '800'
       }
-    }
+    })
   },
   Map: {
     screen: MapsContainer,
-    navigationOptions: {
-      title: 'Map',
+    navigationOptions: ({navigate}) => ({
+      headerRight:
+      <TouchableHighlight onPress={() => navigation.navigate('Home')} style={{ height: 30}}>
+        <Image source={require('../assets/images/socialMedia/Homeicon.png')}  style={{resizeMode: 'contain',  flex: 1}}/>
+      </TouchableHighlight>,
+      headerBackTitle: '',
+      title: 'map',
       headerStyle: {...navStyle, backgroundColor: 'rgb(223, 184, 89)'},
-      titleStyle: {
-        fontFamily: 'sweezbold',
-        color: 'rgb(51,53,60)'
-
+      headerTitleStyle: {
+        fontFamily: 'sweez',
+        color: 'rgb(51,53,60)',
+        fontSize: 40,
+        fontWeight: '800'
       }
-    }
+    })
   },
   About: {
     screen: About,
-    navigationOptions: {
-      title: 'About',
+    navigationOptions: ({navigate}) => ({
+      headerRight:
+      <TouchableHighlight onPress={() => navigation.navigate('Home')} style={{ height: 30}}>
+        <Image source={require('../assets/images/socialMedia/Homeicon.png')}  style={{resizeMode: 'contain',  flex: 1}}/>
+      </TouchableHighlight>,
+      headerBackTitle: '',
+      title: 'about',
       headerStyle: {...navStyle, backgroundColor: 'rgb(171, 91, 114)'},
-      titleStyle: {
-        fontFamily: 'sweezbold',
-        color: 'rgb(51,53,60)'
-
+      headerTitleStyle: {
+        fontFamily: 'sweez',
+        color: 'rgb(51,53,60)',
+        fontSize: 40,
+        fontWeight: '800'
       }
-    }
+    })
   },
   Sponsors: {
     screen: Sponsors,
-    navigationOptions: {
+    navigationOptions: ({navigate}) => ({
+      headerRight:
+      <TouchableHighlight onPress={() => navigation.navigate('Home')} style={{ height: 30}}>
+        <Image source={require('../assets/images/socialMedia/Homeicon.png')}  style={{resizeMode: 'contain',  flex: 1}}/>
+      </TouchableHighlight>,
+      headerBackTitle: '',
       title: 'sponsors',
       headerStyle: {...navStyle, backgroundColor: 'rgb(106, 155, 196)'},
-      titleStyle: {
-        fontFamily: 'sweezbold',
-        color: 'rgb(51,53,60)'
+      headerTitleStyle: {
+        fontFamily: 'sweez',
+        color: 'rgb(51,53,60)',
+        fontSize: 40,
+        fontWeight: '800'
+
+
       }
 
-    }
+    })
   },
   ArtistPageContainer:{
     screen: ArtistPageContainer,
-    navigationOptions: {
+    navigationOptions: ({navigate}) => ({
+      headerRight:
+      <TouchableHighlight onPress={() => navigation.navigate('Home')} style={{ height: 30}}>
+        <Image source={require('../assets/images/socialMedia/Homeicon.png')}  style={{resizeMode: 'contain',  flex: 1}}/>
+      </TouchableHighlight>,
+      headerBackTitle: '',
+      headerBackTitleStyle: {color: 'transparent'},
       headerStyle: {...navStyle, backgroundColor: 'rgb(171, 202, 191)'},
-      titleStyle: {
-        fontFamily: 'sweezbold',
-        color: 'rgb(51,53,60)'
-
+      headerTitleStyle: {
+        fontFamily: 'sweez',
+        color: 'rgb(51,53,60)',
+        fontSize: 40,
+        fontWeight: '800'
       }
-    }
+    })
   },
   MediumContainer:{
     screen: MediumContainer,
-    navigationOptions: {
-      title: 'Mediums',
+    navigationOptions: ({navigate}) => ({
+      headerRight:
+      <TouchableHighlight onPress={() => navigation.navigate('Home')} style={{ height: 30}}>
+        <Image source={require('../assets/images/socialMedia/Homeicon.png')}  style={{resizeMode: 'contain',  flex: 1}}/>
+      </TouchableHighlight>,
+      headerBackTitle: '',
+      title: 'mediums',
       headerStyle: {...navStyle, backgroundColor: 'rgb(171, 202, 191)'},
-      titleStyle: {
-        fontFamily: 'sweezbold',
-        color: 'rgb(51,53,60)'
-
+      headerTitleStyle: {
+        fontFamily: 'sweez',
+        color: 'rgb(51,53,60)',
+        fontSize: 40,
+        fontWeight: '800'
       }
-
-    }
+    })
   }
 }
 
@@ -126,12 +176,8 @@ const stackNavigatorConfiguration = {
 }
 
 const navStyle = {
-  height: 50
-}
-
-const headerText = {
-  fontFamily: 'FrancophilSans',
-  size: 22
+  height: 70,
+  // flex: 1
 }
 
 export const AppNavigator = StackNavigator(routeConfiguration, stackNavigatorConfiguration);

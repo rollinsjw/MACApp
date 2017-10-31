@@ -28,6 +28,7 @@ const styles = {
   columnStyle: {
     flexDirection: 'column',
     justifyContent: 'flex-start',
+    paddingLeft: 30
     // flex: 2
     // flex: 1,
     // paddingTop: 10
@@ -35,7 +36,7 @@ const styles = {
   rowStyle: {
     alignItems: 'center',
     flexDirection: 'row',
-    justifyContent: 'space-between',
+    // justifyContent: 'space-between',
     height: 170,
     paddingBottom: 20,
     paddingTop: 20,

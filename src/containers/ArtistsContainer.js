@@ -10,6 +10,19 @@ import { sortByName, handicapAccessible, openFriday } from '../redux/actions/Art
 //TODO: how to turn off the header for this specific one
 
 class ArtistsContainer extends React.Component {
+  // static navigationOptions = {
+  //     headerBackTitle: '',
+  //     title: 'artists',
+  //     headerStyle: {backgroundColor: 'rgb(171, 202, 191)' },
+  //     headerRight: () => {<Button title={'Home'} onPress={() => this.props.navigation.navigate('Home') } />},
+  //     headerTitleStyle: {
+  //       fontFamily: 'sweez',
+  //       color: 'rgb(51,53,60)',
+  //       // fontWeight: 'bold',
+  //       fontSize: 40,
+  //       fontWeight: '800'
+  //   }
+  // }
 
   navigateAndSort = (sortFunction) => {
       sortFunction;

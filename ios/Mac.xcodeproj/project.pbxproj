@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		002DAEB19368470BA5FF053F /* gaillard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F104B9C377044E8996C9C33F /* gaillard.jpg */; };
 		006D858928C344208ABDFBBB /* keiser.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB7270A8632C40178B7628CA /* keiser.jpg */; };
@@ -1236,6 +1235,11 @@
 					13B07F861A680F5B00A75B9A = {
 						DevelopmentTeam = EYR7KLL5A8;
 						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -1922,7 +1926,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = EYR7KLL5A8;
 				HEADER_SEARCH_PATHS = (
@@ -1949,7 +1953,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = EYR7KLL5A8;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",

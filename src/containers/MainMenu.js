@@ -33,7 +33,8 @@ export default class MainMenu extends React.Component {
                   title={'Maps'}
                   textStyle={buttonTextStyle}
                   style={buttonStyle}
-                  onPress={() => this.props.navigation.navigate('Map')}
+                  //TODO: add geolocating
+                  onPress={() => this.props.navigation.navigate('Map', )}
                 />
                 <Button
                   title={'About'}
