@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
-import { Text, View, StyleSheet, TouchableOpacity} from 'react-native';
+import { Text, View, StyleSheet, TouchableOpacity, Dimensions} from 'react-native';
 import _ from 'lodash';
 import { Button, SocialIcon } from 'react-native-elements';
 import { connect } from 'react-redux';
 import MapView from 'react-native-maps';
+
+
+const ASPECT_RATIO = Dimensions.get('window').width / Dimensions.get('window').height
+const LATITUDE_DELTA = 0.00822
+const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO
 
 class MapsContainer extends React.Component {
   constructor(props) {
@@ -27,25 +32,34 @@ class MapsContainer extends React.Component {
 
 
   }
-
+  watchID: ?number = null;
   componentDidMount() {
     navigator.geolocation.getCurrentPosition(
-      position => {
+      (position) => {
+        if(typeof this.props.navigation.state.params === "undefined"){
         this.setState({
-          currentLocationLat: position.coords.latitude,
-          currentLocationLng: position.coords.longitude,
-          initialLat: position.coords.latitude,
-          initialLat: position.coords.longitude
+          currentLocationLat: parseFloat(position.coords.latitude),
+          currentLocationLng: parseFloat(position.coords.longitude),
+          initialLat: parseFloat(position.coords.latitude),
+          initialLng: parseFloat(position.coords.longitude)
         });
+      } else{
+        this.setState({
+          currentLocationLat: parseFloat(position.coords.latitude),
+          currentLocationLng: parseFloat(position.coords.longitude)
+        })
+      }
+
+
       },
       (error) => console.log(error.message),
       { enableHighAccuracy: true, timeout: 20000, maximumAge: 1000 },
     );
     this.watchID = navigator.geolocation.watchPosition(
-      position => {
+      (position) => {
         this.setState({
-          currentLocationLat: position.coords.latitude,
-          currentLocationLng: position.coords.longitude
+          currentLocationLat: parseFloat(position.coords.latitude),
+          currentLocationLng: parseFloat(position.coords.longitude)
         });
       }
     )
@@ -150,8 +164,8 @@ class MapsContainer extends React.Component {
           initialRegion={{
             latitude: this.state.initialLat,
             longitude: this.state.initialLng,
-            latitudeDelta: 0.0075,
-            longitudeDelta: 0.00605,
+            latitudeDelta: LATITUDE_DELTA,
+            longitudeDelta: LONGITUDE_DELTA,
           }}
         >
           {
@@ -268,10 +282,10 @@ const styles = {
 
   },
   blueCircle: {
-    width: 30,
-    height: 30,
+    width: 15,
+    height: 15,
     top: -17,
-    borderRadius: 15,
+    borderRadius:7,
     backgroundColor: 'blue',
     alignItems: 'center',
     justifyContent: 'center'

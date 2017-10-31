@@ -21,9 +21,9 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>7</string>
+	<string>9</string>
 	<key>LSApplicationCategoryType</key>
-	<string/>
+	<string></string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -37,10 +37,8 @@
 			</dict>
 		</dict>
 	</dict>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>GVL Open studios needs your location to show you close artists.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string/>
+	<string>GVL Open Studios would like to use your location. </string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>FontAwesome.ttf</string>

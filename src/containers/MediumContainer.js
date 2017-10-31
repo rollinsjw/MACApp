@@ -19,10 +19,8 @@ printmaking
 class MediumContainer extends React.Component {
 
   navigateAndSort = (sortFunction) => {
-      console.log("before")
-      console.log(this.props.artistList)
+
       sortFunction;
-      console.log(this.props.artistList)
       this.props.navigation.navigate('ArtistListContainer');
   }
 

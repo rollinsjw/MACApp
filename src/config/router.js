@@ -30,7 +30,7 @@ const routeConfiguration= {
   },
   ArtistListContainer:{
     screen: ArtistListContainer,
-    navigationOptions: ({navigate}) => ({
+    navigationOptions: ({navigation}) => ({
       headerRight:
       <TouchableHighlight onPress={() => navigation.navigate('Home')} style={{ height: 30}}>
         <Image source={require('../assets/images/socialMedia/Homeicon.png')}  style={{resizeMode: 'contain',  flex: 1}}/>
@@ -78,7 +78,7 @@ const routeConfiguration= {
   },
   Map: {
     screen: MapsContainer,
-    navigationOptions: ({navigate}) => ({
+    navigationOptions: ({navigation}) => ({
       headerRight:
       <TouchableHighlight onPress={() => navigation.navigate('Home')} style={{ height: 30}}>
         <Image source={require('../assets/images/socialMedia/Homeicon.png')}  style={{resizeMode: 'contain',  flex: 1}}/>
@@ -96,7 +96,7 @@ const routeConfiguration= {
   },
   About: {
     screen: About,
-    navigationOptions: ({navigate}) => ({
+    navigationOptions: ({navigation}) => ({
       headerRight:
       <TouchableHighlight onPress={() => navigation.navigate('Home')} style={{ height: 30}}>
         <Image source={require('../assets/images/socialMedia/Homeicon.png')}  style={{resizeMode: 'contain',  flex: 1}}/>
@@ -114,7 +114,7 @@ const routeConfiguration= {
   },
   Sponsors: {
     screen: Sponsors,
-    navigationOptions: ({navigate}) => ({
+    navigationOptions: ({navigation}) => ({
       headerRight:
       <TouchableHighlight onPress={() => navigation.navigate('Home')} style={{ height: 30}}>
         <Image source={require('../assets/images/socialMedia/Homeicon.png')}  style={{resizeMode: 'contain',  flex: 1}}/>
@@ -135,7 +135,7 @@ const routeConfiguration= {
   },
   ArtistPageContainer:{
     screen: ArtistPageContainer,
-    navigationOptions: ({navigate}) => ({
+    navigationOptions: ({navigation}) => ({
       headerRight:
       <TouchableHighlight onPress={() => navigation.navigate('Home')} style={{ height: 30}}>
         <Image source={require('../assets/images/socialMedia/Homeicon.png')}  style={{resizeMode: 'contain',  flex: 1}}/>
@@ -153,7 +153,7 @@ const routeConfiguration= {
   },
   MediumContainer:{
     screen: MediumContainer,
-    navigationOptions: ({navigate}) => ({
+    navigationOptions: ({navigation}) => ({
       headerRight:
       <TouchableHighlight onPress={() => navigation.navigate('Home')} style={{ height: 30}}>
         <Image source={require('../assets/images/socialMedia/Homeicon.png')}  style={{resizeMode: 'contain',  flex: 1}}/>

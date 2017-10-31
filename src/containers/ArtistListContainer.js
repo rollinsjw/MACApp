@@ -9,7 +9,6 @@ import ArtistListItem from '../components/ArtistListItem';
 class ArtistListContainer extends React.Component {
 
   render(){
-    console.log("What is happening?")
     return(
       <View style={{flex: 1}}>
       <Image style={styles.backgroundImageStyle} source={require('../assets/images/backgrounds/accessibilitybackground.jpeg')} />

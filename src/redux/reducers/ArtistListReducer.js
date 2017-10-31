@@ -26,7 +26,6 @@ export default (state = INITIAL_STATE, action) =>{
         return val["W/chair Accessible?"] === "Yes"
       });
     case CLAY_AND_WOOD:
-      console.log("woodie")
       return _.filter(INITIAL_STATE, (val, id) => {
         return val["medium"].includes("CLAY")
       });
@@ -59,7 +58,6 @@ export default (state = INITIAL_STATE, action) =>{
         return val["medium"].includes("PRINT")
       });
     default:
-      console.log(state);
       return state;
   }
 }
