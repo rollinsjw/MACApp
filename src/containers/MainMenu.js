@@ -14,81 +14,82 @@ export default class MainMenu extends React.Component {
             style={backgroundImageStyle}
             source={require( '../assets/images/backgrounds/main.jpg')}
           >
-                <Image
-                  style={logoStyle}
-                  source={require('../assets/images/logos/Logo.png')}
-                />
-              <View style={columnStyle}>
-                <Button
-                  title={'Artists'}
-                  color={'rgb(255, 255, 255)'}
-                  backgroundColor={'rgba(51, 53, 61, .451)'}
-                  textStyle={buttonTextStyle}
-                  style={buttonStyle}
-                  onPress={() => this.props.navigation.navigate('Artists')}
-                />
+                  <Image
+                    style={logoStyle}
+                    source={require('../assets/images/logos/Logo.png')}
+                  />
+                <View style={columnStyle}>
+                  <Button
+                    title={'Artists'}
+                    color={'rgb(255, 255, 255)'}
+                    backgroundColor={'rgba(51, 53, 61, .451)'}
+                    textStyle={buttonTextStyle}
+                    style={buttonStyle}
+                    onPress={() => this.props.navigation.navigate('Artists')}
+                  />
 
-                <Button
-                  backgroundColor={'rgba(51, 53, 61, .451)'}
-                  title={'Maps'}
-                  textStyle={buttonTextStyle}
-                  style={buttonStyle}
-                  //TODO: add geolocating
-                  onPress={() => this.props.navigation.navigate('Map', )}
-                />
-                <Button
-                  title={'About'}
-                  textStyle={buttonTextStyle}
-                  style={buttonStyle}
-                  backgroundColor={'rgba(51, 53, 61, .451)'}
-                  onPress={() => this.props.navigation.navigate('About')}
-                />
-                <Button
-                  title={'Sponsors'}
-                  textStyle={buttonTextStyle}
-                  style={buttonStyle}
-                  backgroundColor={'rgba(51, 53, 61, .451)'}
-                  onPress={()=> this.props.navigation.navigate('Sponsors')}
-                />
-              </View>
-              <View style={rowStyle}>
-                <TouchableOpacity
-                  onPress={()=>'https://www.google.com'}
-                  style={{ flex: 1, alignItems: 'center', height: 30}}
-                >
-                  <Image
-                    style={{flex: 1,  resizeMode: 'contain'}}
-                    source={require('../assets/images/socialMedia/Facebook.png')}
+                  <Button
+                    backgroundColor={'rgba(51, 53, 61, .451)'}
+                    title={'Maps'}
+                    textStyle={buttonTextStyle}
+                    style={buttonStyle}
+                    //TODO: add geolocating
+                    onPress={() => this.props.navigation.navigate('Map', )}
                   />
-                </TouchableOpacity>
-                <TouchableOpacity
-                  onPress={()=>'https://www.google.com'}
-                  style={{flex: 1, alignItems: 'center', height: 30}}
-                >
-                  <Image
-                    style={{flex: 1, resizeMode: 'contain'}}
-                    source={require('../assets/images/socialMedia/Instagram.png')}
+                  <Button
+                    title={'About'}
+                    textStyle={buttonTextStyle}
+                    style={buttonStyle}
+                    backgroundColor={'rgba(51, 53, 61, .451)'}
+                    onPress={() => this.props.navigation.navigate('About')}
                   />
-                </TouchableOpacity>
-                <TouchableOpacity
-                  onPress={()=>'https://www.google.com'}
-                  style={{flex: 1, alignItems: 'center', height: 30}}
-                >
-                  <Image
-                    style={{flex: 1, resizeMode: 'contain'}}
-                    source={require('../assets/images/socialMedia/Twitter.png')}
+                  <Button
+                    title={'Sponsors'}
+                    textStyle={buttonTextStyle}
+                    style={buttonStyle}
+                    backgroundColor={'rgba(51, 53, 61, .451)'}
+                    onPress={()=> this.props.navigation.navigate('Sponsors')}
                   />
-                </TouchableOpacity>
-              </View>
+                </View>
+                <View style={rowStyle}>
+                  <TouchableOpacity
+                    onPress={()=>'https://www.google.com'}
+                    style={{ flex: 1, alignItems: 'center', height: 30}}
+                  >
+                    <Image
+                      style={{flex: 1,  resizeMode: 'contain'}}
+                      source={require('../assets/images/socialMedia/Facebook.png')}
+                    />
+                  </TouchableOpacity>
+                  <TouchableOpacity
+                    onPress={()=>'https://www.google.com'}
+                    style={{flex: 1, alignItems: 'center', height: 30}}
+                  >
+                    <Image
+                      style={{flex: 1, resizeMode: 'contain'}}
+                      source={require('../assets/images/socialMedia/Instagram.png')}
+                    />
+                  </TouchableOpacity>
+                  <TouchableOpacity
+                    onPress={()=>'https://www.google.com'}
+                    style={{flex: 1, alignItems: 'center', height: 30}}
+                  >
+                    <Image
+                      style={{flex: 1, resizeMode: 'contain'}}
+                      source={require('../assets/images/socialMedia/Twitter.png')}
+                    />
+                  </TouchableOpacity>
+                </View>
               <View style={doorStyleView}>
                 <Image
                   style={doorStyle}
                   source={require('../assets/images/logos/doors_color_row.png')}
                 />
+
+                <Text style={copyStyle}> © 2017 | Metropolitan Arts Council | greenvilleARTS.com </Text>
+                <Text style={copyStyle}> background image: Jacki Newell | “The Light Changes” | Oil | 36 x 36 inches </Text>
               </View>
-              <Text style={copyStyle}> © 2017 | Metropolitan Arts Council | greenvilleARTS.com </Text>
-              <Text style={copyStyle}> background image: Jacki Newell | “The Light Changes” | Oil | 36 x 36 inches </Text>
-          </Image>
+            </Image>
         </View>
     )
   }
@@ -108,7 +109,8 @@ const styles = {
     width: null,
     height: null,
     flex: 1,
-    alignItems: 'center'
+    alignItems: 'center',
+    justifyContent: 'space-around'
   },
   logoStyle: {
     resizeMode: 'contain',
@@ -122,8 +124,9 @@ const styles = {
   doorStyle: {
     resizeMode: 'contain',
     width: screen.width*.85,
-    height: null,
-    flex: 1,
+    // height: null,
+    // flex: 1,
+    height: 90,
     paddingTop: 0,
 
   },
@@ -131,7 +134,6 @@ const styles = {
     // resizeMode: 'contain',
     width: screen.width*.85,
     flex: .6,
-    paddingTop: 0,
   },
   containerStyle: {
       flexDirection: 'column',
@@ -143,7 +145,7 @@ const styles = {
   },
   columnStyle: {
     flexDirection: 'column',
-    justifyContent: 'space-around',
+    justifyContent: 'space-between',
     flex: 1,
     alignItems: 'center'
     // flex: 1,
@@ -210,8 +212,7 @@ const styles = {
     fontFamily: 'FrancophilSans',
     color: 'rgb(255, 255, 255)',
     textAlign: 'center',
-    backgroundColor: 'transparent'
-
+    backgroundColor: 'transparent',
 }
 
 }

@@ -74,7 +74,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		djTcbNMY1FwWzF0G2cWFmY8Jf7A=
+		TPLmIajwt/DT2OfcbTgZJfEzQH8=
 		</data>
 		<key>BMWlogo.png</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		zfgIDIT6tyrNZKhUeBZfRgOeKss=
+		Gb2mOmDkywvgw9UXmgE4IWmqVZk=
 		</data>
 		<key>Beckham-Davis.jpg</key>
 		<data>
@@ -187,7 +187,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		E9j0/HPUi7Hh6dAoKUvAmeTWyOM=
+		w91zp8jTuiYnC8X4Not5Y8ic4Qg=
 		</data>
 		<key>Instagram.png</key>
 		<data>
@@ -227,7 +227,7 @@
 		</data>
 		<key>PlugIns/MacTests.xctest.dSYM/Contents/Info.plist</key>
 		<data>
-		eOxcR1fKnOWrwRb+LT4w8sLMeFk=
+		XX9C8NO3EXM2FvQ34LDUmR9uFrI=
 		</data>
 		<key>PlugIns/MacTests.xctest.dSYM/Contents/Resources/DWARF/MacTests</key>
 		<data>
@@ -235,15 +235,15 @@
 		</data>
 		<key>PlugIns/MacTests.xctest/Info.plist</key>
 		<data>
-		fKuW2RVuaz+T/9UDboCIst/s6wk=
+		DCmr4Cze3hLrZPSoXh69CPuUi4U=
 		</data>
 		<key>PlugIns/MacTests.xctest/MacTests</key>
 		<data>
-		akJ1lnUKfE5Eb8Fi/7KYZZ8kV1Q=
+		Kv5KZiSWMYXpkvRmi+ilj6Xktho=
 		</data>
 		<key>PlugIns/MacTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
-		VwRDE2BD03yTH8iuPzCvO4v07lk=
+		jP+AxAeHRaoxg2uoUEvluRgRn6w=
 		</data>
 		<key>SEWlogo.png</key>
 		<data>
@@ -1043,11 +1043,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			djTcbNMY1FwWzF0G2cWFmY8Jf7A=
+			TPLmIajwt/DT2OfcbTgZJfEzQH8=
 			</data>
 			<key>hash2</key>
 			<data>
-			SRCDGdC4HuAa02hNRO3fIojBB7urADdN1hSXXf6S5OU=
+			l/EEonZWcwWTvy3A4b/9joWX8U04rZqsTqAQb3NGmCI=
 			</data>
 		</dict>
 		<key>BMWlogo.png</key>
@@ -1065,11 +1065,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zfgIDIT6tyrNZKhUeBZfRgOeKss=
+			Gb2mOmDkywvgw9UXmgE4IWmqVZk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ug2E2EbU+zp9Fj5DibeGUhkg2yRgbq4nLmsAYDMPJLA=
+			mqsOnp0shdpHyvSC2Ie8UlS+zJGjC0qlwezuPbK7UfM=
 			</data>
 		</dict>
 		<key>Beckham-Davis.jpg</key>
@@ -1430,11 +1430,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eOxcR1fKnOWrwRb+LT4w8sLMeFk=
+			XX9C8NO3EXM2FvQ34LDUmR9uFrI=
 			</data>
 			<key>hash2</key>
 			<data>
-			I0x9anjqc9fHbfjHiy/3pdt6hBpIfyriHWvNDgUZ4RM=
+			1B2lLpdmkqjiD8UXXOuOqSHwhwmnl/B/BHNj6mBxk/4=
 			</data>
 		</dict>
 		<key>PlugIns/MacTests.xctest.dSYM/Contents/Resources/DWARF/MacTests</key>
@@ -1452,33 +1452,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fKuW2RVuaz+T/9UDboCIst/s6wk=
+			DCmr4Cze3hLrZPSoXh69CPuUi4U=
 			</data>
 			<key>hash2</key>
 			<data>
-			HADZDehBoszkAeY1LNlkN2bb3TES42L2wJ/qsQ2AysE=
+			bf3V8R2zcOVSVO73XIKqn/ojVxn/SPnU/3kIKJy5Si8=
 			</data>
 		</dict>
 		<key>PlugIns/MacTests.xctest/MacTests</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			akJ1lnUKfE5Eb8Fi/7KYZZ8kV1Q=
+			Kv5KZiSWMYXpkvRmi+ilj6Xktho=
 			</data>
 			<key>hash2</key>
 			<data>
-			tZtXU6bjjWD/NZGDPvlDmWHwvvW/TrVeHwBzRrGk4nk=
+			MQDLn5jmiUhtS0BHZyKcFX+2mdy0Q0RLCvCtTvrtftk=
 			</data>
 		</dict>
 		<key>PlugIns/MacTests.xctest/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VwRDE2BD03yTH8iuPzCvO4v07lk=
+			jP+AxAeHRaoxg2uoUEvluRgRn6w=
 			</data>
 			<key>hash2</key>
 			<data>
-			5vGEQL9Qc96OPm74l/Mjdo8/S/TRnCJ3NxP0TYsC8oc=
+			6k3xlAvJEo8Rz7WNwxqEEcJryCOvfKDm9iLweinjt/o=
 			</data>
 		</dict>
 		<key>SEWlogo.png</key>

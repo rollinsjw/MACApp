@@ -44,7 +44,7 @@ class ArtistsContainer extends React.Component {
               style={buttonStyle}
               color={'rgb(255, 255, 255)'}
               backgroundColor={'rgba(51, 53, 61, .451)'}
-              onPress={() => this.navigateAndSort(this.props.sortByName())}
+              onPress={() => this.props.navigation.navigate("Alphabetical")}
             />
             <Button
               title={'Medium'}
@@ -73,6 +73,16 @@ class ArtistsContainer extends React.Component {
               />
             </TouchableOpacity>
           </View>
+            <View>
+              <Image
+                style={styles.doorStyle}
+                source={require('../assets/images/logos/doors_color_row.png')}
+              />
+              <View>
+                <Text style={styles.copyStyle}> © 2017 | Metropolitan Arts Council | greenvilleARTS.com</Text>
+                <Text style={styles.copyStyle}>background image: Paul Flint | "Untitled" | Mixed Media- Graphite & Acrylic| 12 x 12</Text>
+              </View>
+            </View>
         </Image>
       </View>
     )
@@ -126,4 +136,20 @@ const styles = {
     flex: 1,
     alignItems: 'center'
   },
+  copyStyle: {
+    fontSize: 10,
+    fontFamily: 'FrancophilSans',
+    color: 'rgb(255, 255, 255)',
+    textAlign: 'center',
+    backgroundColor: 'transparent',
+    // borderWidth: 1
+},
+doorStyle: {
+  resizeMode: 'contain',
+  width: screen.width*.85,
+  height: 90,
+  // flex: 1,
+  paddingTop: 0,
+
+},
 }

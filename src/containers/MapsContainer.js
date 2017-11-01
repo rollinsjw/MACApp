@@ -120,7 +120,7 @@ class MapsContainer extends React.Component {
         markers = tempItems.map(mapArtist => {
           return (
             <TouchableOpacity style={styles.calloutItemStyle} onPress={() => this.props.navigation.navigate('ArtistPageContainer', {artistInfo: mapArtist})}>
-              <Text style={styles.calloutTextStyle}>{mapArtist["Studio Name"]}, {mapArtist["First Name"]} {mapArtist["Last Name"]}</Text>
+              <Text style={styles.calloutTextStyle}>{mapArtist["Studio Name"]} {mapArtist["First Name"]} {mapArtist["Last Name"]}</Text>
             </TouchableOpacity>
           )
         })

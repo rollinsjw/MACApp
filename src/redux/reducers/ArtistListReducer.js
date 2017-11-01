@@ -16,7 +16,12 @@ const INITIAL_STATE = artists
 export default (state = INITIAL_STATE, action) =>{
   switch(action.type) {
     case SORT_BY_NAME:
-      return _.sortBy(INITIAL_STATE, "Last Name")
+      console.log(action.payload)
+      var temp = _.sortBy(INITIAL_STATE, "Last Name")
+
+      return _.filter(temp, (val) =>{
+        return val["Last Name"].startsWith(action.payload)
+      });
     case OPEN_FRIDAY:
       return _.filter(INITIAL_STATE, (val, id) => {
         return val["Open FRIDAY?"] === "Yes"
@@ -27,7 +32,7 @@ export default (state = INITIAL_STATE, action) =>{
       });
     case CLAY_AND_WOOD:
       return _.filter(INITIAL_STATE, (val, id) => {
-        return val["medium"].includes("CLAY")
+        return (val["medium"].includes("CLAY") || val["medium"].includes("WOOD"))
       });
     case DIGITAL_ARTS:
       return _.filter(INITIAL_STATE, (val, id) => {

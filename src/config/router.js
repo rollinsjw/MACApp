@@ -10,6 +10,7 @@ import About from '../containers/About';
 import Sponsors from '../containers/Sponsors';
 import ArtistPageContainer from '../containers/ArtistPageContainer';
 import MediumContainer from '../containers/MediumContainer';
+import AlphabeticalContainer from '../containers/AlphabeticalContainer';
 
 const routeConfiguration= {
   Home: {
@@ -61,6 +62,26 @@ const routeConfiguration= {
   },
   Artists: {
     screen: ArtistsContainer,
+    navigationOptions: ({navigation}) => ({
+      title: 'artists',
+      headerTintColor: 'white',
+      headerRight:
+      <TouchableHighlight onPress={() => navigation.navigate('Home')} style={{ height: 30}}>
+        <Image source={require('../assets/images/socialMedia/Homeicon.png')}  style={{resizeMode: 'contain',  flex: 1}}/>
+      </TouchableHighlight>,
+      headerStyle: {...navStyle, backgroundColor: 'rgb(171, 202, 191)' },
+      headerBackTitleStyle: {color: 'transparent'},
+      headerTitleStyle: {
+        fontFamily: 'sweez',
+        color: 'rgb(51,53,60)',
+        // fontWeight: 'bold',
+        fontSize: 40,
+        fontWeight: '800'
+      }
+    })
+  },
+  Alphabetical: {
+    screen: AlphabeticalContainer,
     navigationOptions: ({navigation}) => ({
       title: 'artists',
       headerTintColor: 'white',

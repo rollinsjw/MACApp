@@ -135,11 +135,23 @@ export default class Sponsors extends Component{
                     <Text style={mainTextStyle}>16 Augusta Street</Text>
                     <Text style={mainTextStyle}>Greenville, SC 29601</Text>
                   </View>
-                  <Text style={{...mainTextStyle, paddingTop: 20}}>(864) 467-3132</Text>
 
-                  <Text style={{...mainTextStyle, paddingTop: 20}}>mac@greenvilleARTS.com</Text>
+                  <TouchableOpacity
+                    style={rowStyle}
+                    onPress = {() => Linking.openURL('tel:8644673132')}>
+                      <Text style={{...mainTextStyle, textDecorationLine: 'underline',  paddingTop: 20}}>(864) 467-3132</Text>
+                  </TouchableOpacity>
 
-                  <Text style={{...mainTextStyle, paddingTop: 20}}>greenvilleARTS.com</Text>
+                  <TouchableOpacity
+                    style={rowStyle}
+                    onPress = {() => Linking.openURL("mailto:mac@greenvilleARTS.com")}>
+                    <Text style={{...mainTextStyle, textDecorationLine: 'underline',  paddingTop: 20}}>mac@greenvilleARTS.com</Text>
+                  </TouchableOpacity>
+                  <TouchableOpacity
+                    style={rowStyle}
+                    onPress = {() => Linking.openURL("http://greenvilleARTS.com")}>
+                    <Text style={{...mainTextStyle,  textDecorationLine: 'underline', paddingTop: 20}}>greenvilleARTS.com</Text>
+                  </TouchableOpacity>
                 </View>
               </View>
               <View style={{...rowStyle, paddingLeft: 0, paddingRight: 0}}>

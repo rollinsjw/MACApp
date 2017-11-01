@@ -8,9 +8,10 @@ PAINTING,
 PRINT_MAKING
 } from '../utility/Constants';
 
-export function sortByName() {
+export function sortByName(x) {
   return {
-    type: SORT_BY_NAME
+    type: SORT_BY_NAME,
+    payload: x
   }
 }
 
