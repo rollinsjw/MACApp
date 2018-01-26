@@ -9,5 +9,9 @@ export const JEWELRY_AND_GLASS = "JEWELRY_AND_GLASS";
 export const MIXED_MEDIA = "MIXED_MEDIA";
 export const PAINTING = "PAINTING";
 export const PRINT_MAKING = "PRINT_MAKING";
+<<<<<<< HEAD
 export const SCULPTURE_AND_METAL = "SCULPTURE_AND_METAL";
 export const PHOTOGRAPH_AND_VIDEO = "PHOTOGRAPH_AND_VIDEO";
+=======
+export const PULL_SUCCESS = "PULL_SUCCESS";
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7

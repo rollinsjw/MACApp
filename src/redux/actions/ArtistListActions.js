@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+import firebase from 'firebase';
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 import { HANDICAP_ACCESSIBLE, OPEN_FRIDAY, SORT_BY_NAME, DRAWING_PAPER,
 CLAY_AND_WOOD,
 DIGITAL_ARTS,
@@ -6,8 +10,12 @@ JEWELRY_AND_GLASS,
 MIXED_MEDIA,
 PAINTING,
 PRINT_MAKING,
+<<<<<<< HEAD
 SCULPTURE_AND_METAL,
 PHOTOGRAPH_AND_VIDEO
+=======
+PULL_SUCCESS
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 } from '../utility/Constants';
 
 export function sortByName(x) {
@@ -16,7 +24,18 @@ export function sortByName(x) {
     payload: x
   }
 }
+<<<<<<< HEAD
 
+=======
+export function pullData() {
+  return (dispatch) => {
+     firebase.database().ref('/Artists/')
+       .on('value', snapshot => {
+         dispatch({ type: PULL_SUCCESS, payload: snapshot.val() });
+       });
+   };
+}
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 export function handicapAccessible() {
   return {
     type: HANDICAP_ACCESSIBLE
@@ -69,6 +88,7 @@ export function printmaking() {
     type: PRINT_MAKING
   }
 }
+<<<<<<< HEAD
 export function sculptureAndMetal() {
   return {
     type: SCULPTURE_AND_METAL
@@ -79,3 +99,5 @@ export function photographAndVideo() {
     type: PHOTOGRAPH_AND_VIDEO
   }
 }
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7

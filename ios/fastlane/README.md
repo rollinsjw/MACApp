@@ -12,9 +12,15 @@ xcode-select --install
 
 <table width="100%" >
 <tr>
+<<<<<<< HEAD
 <th width="33%"><a href="http://brew.sh">Homebrew</a></th>
 <th width="33%">Installer Script</th>
 <th width="33%">RubyGems</th>
+=======
+<th width="33%"><a href="http://brew.sh">Homebrew</a></td>
+<th width="33%">Installer Script</td>
+<th width="33%">RubyGems</td>
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 </tr>
 <tr>
 <td width="33%" align="center">macOS</td>
@@ -42,11 +48,14 @@ fastlane ios beta
 Submit a new Beta Build to Apple TestFlight
 
 This will also make sure the profile is up to date
+<<<<<<< HEAD
 ### ios appStore
 ```
 fastlane ios appStore
 ```
 
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 ### ios release
 ```
 fastlane ios release

@@ -5,7 +5,10 @@
 	};
 	objectVersion = 46;
 	objects = {
+<<<<<<< HEAD
 
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 /* Begin PBXBuildFile section */
 		002DAEB19368470BA5FF053F /* gaillard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F104B9C377044E8996C9C33F /* gaillard.jpg */; };
 		006D858928C344208ABDFBBB /* keiser.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB7270A8632C40178B7628CA /* keiser.jpg */; };
@@ -24,18 +27,28 @@
 		08489012735A4E96AD0B04D1 /* stone-angie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A939DE3DBE314C3F90AE6B12 /* stone-angie.jpg */; };
 		0C0F232AF9D84CDC874C234F /* rollins.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCBCDD820F894383B9AF6588 /* rollins.jpg */; };
 		0EE89BFEA2F14CCFA01D81F4 /* stoner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84BBBEEE7B6E4EDC9F8FEC67 /* stoner.jpg */; };
+<<<<<<< HEAD
 		0FB7193E9D9F40ADBC00FFE6 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF383B126CC74A66AFE89633 /* Ionicons.ttf */; };
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 		117866543542494A954172CB /* greer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC85B47A6F994DE59FDA417B /* greer.jpg */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+<<<<<<< HEAD
+=======
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		14F317F9F76C4911A2E3B10B /* pouch-melanie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71DF8E1F30D444BE8C25C79E /* pouch-melanie.jpg */; };
+<<<<<<< HEAD
 		1667C9A21842425A9071E7E8 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD76393D47AD4222B5D91598 /* MaterialIcons.ttf */; };
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 		16974F85D85A4442A2C7C11C /* stdenis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8165385D98D4B4F95057B62 /* stdenis.jpg */; };
 		169D54892B6B48E980199767 /* young-doug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA4FF355DDB74402BFAD76DD /* young-doug.jpg */; };
 		17F321C3E20149EFAFC1DB6D /* Beckham-Davis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7089E1019BE47C1BB4AC5F6 /* Beckham-Davis.jpg */; };
@@ -77,7 +90,10 @@
 		31C3DE449017475B9B5E9423 /* Instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BF8A46649674C8DB1D66BA2 /* Instagram.png */; };
 		33CF7DE61662476E8502FCC5 /* doyle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 97FB1291DD5C46CD86BFA434 /* doyle.jpg */; };
 		341E481BF4C145FF89E53B52 /* stone-jess.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3036C8A408DE4D64908556E5 /* stone-jess.jpg */; };
+<<<<<<< HEAD
 		3598A4C6D9EA4F7DA85CD1D9 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 404815EBAEBE4B6AA60ED51F /* Octicons.ttf */; };
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 		39231DCFE6ED48C2A0179389 /* sweezbold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6392F7EC10D4A9F91861915 /* sweezbold.ttf */; };
 		39E43E7E01FE477198C98D62 /* jardines.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8895835C5DEF45FB9234BDFD /* jardines.jpg */; };
 		3B112BCBFEBC4C0393FED226 /* christy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3348AEB955B4FA69996988E /* christy.jpg */; };
@@ -111,18 +127,27 @@
 		6D0966A8A38A4830915C89B0 /* bryant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96031CD27CA645D8A80B6C85 /* bryant.jpg */; };
 		6DF81CF8B5B447CFA86FE622 /* Homeicon.png in Resources */ = {isa = PBXBuildFile; fileRef = B7371FCCA42F4B86BA91DE32 /* Homeicon.png */; };
 		6EE8C096028D4ACB839759A9 /* speaker,-elizabeth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C5CC2858995441EB3A04718 /* speaker,-elizabeth.jpg */; };
+<<<<<<< HEAD
 		6F3A3D22F0AD4A23AB0E0060 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0EE0973CE20472BA3D88458 /* Foundation.ttf */; };
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 		6FCB0D22960C4BA78A51BCFE /* bender.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F493947E20144FFE8A3C885B /* bender.jpg */; };
 		7007070F4CE34F79900485B9 /* hill-sherril.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 16B3FF2B84AB42468339061D /* hill-sherril.jpg */; };
 		7384666B04864066BA1559FE /* Maclogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B6AAAC32075461280887DC2 /* Maclogo.png */; };
 		75175F4C06114001A8BCC758 /* kirby-j.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0954E0B470D54AF69C0834FE /* kirby-j.jpg */; };
 		7745F206D9F44872B47D853A /* selwyn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DAF71B5615934B0CA901BD55 /* selwyn.jpg */; };
 		7965A676FF614E29B6BCE0A5 /* gehrke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD00DCC01C742098206850E /* gehrke.jpg */; };
+<<<<<<< HEAD
 		7C51E7A1033D4FDB961F8133 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B845C9CF1DF4628BE976173 /* Feather.ttf */; };
 		7D982F52ED2947C2B9C966DF /* furman-kate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8797D6570AC041AE8EB08981 /* furman-kate.jpg */; };
 		81BC82A7887342BDA27F62CA /* miller-glen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C2551772124C35BF47E4DC /* miller-glen.jpg */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		859EC23A9BE0422E81FCC382 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71DB9FAC9743412A86AA72B9 /* FontAwesome.ttf */; };
+=======
+		7D982F52ED2947C2B9C966DF /* furman-kate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8797D6570AC041AE8EB08981 /* furman-kate.jpg */; };
+		81BC82A7887342BDA27F62CA /* miller-glen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C2551772124C35BF47E4DC /* miller-glen.jpg */; };
+		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 		86110F928CAC4F2393DE42FB /* campbell-sharon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36F6756E60074F4FAD21A7B1 /* campbell-sharon.jpg */; };
 		881C1F272EBB4EE38C94CF0E /* SSBanklogo.png in Resources */ = {isa = PBXBuildFile; fileRef = A5D18E4687AA4CCF97B765F3 /* SSBanklogo.png */; };
 		885E3E9BDC4448B1B5721AFA /* Globeicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 27CD5689F9874B96949F519B /* Globeicon.png */; };
@@ -134,13 +159,19 @@
 		8FABEE04F8C949C0802F515B /* fontaine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91F06462E02A468F82953471 /* fontaine.jpg */; };
 		90E375499FF04E92A995BBA2 /* GClogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D9E600496A4D79B6BD7EB4 /* GClogo.png */; };
 		9270F81E1B40425CA533D557 /* hassold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE2C2DC4980E4304B89EA660 /* hassold.jpg */; };
+<<<<<<< HEAD
 		944F7FFB60574CE6BC6D4947 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6350FE07628E40058DC13DDA /* Zocial.ttf */; };
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 		9470F75F2F5F42C484F74CFF /* flint-paul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C6EE8C9CFD44657A81A3455 /* flint-paul.jpg */; };
 		978B4845490A4045B90A8528 /* van-den-broek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35329426F87B418FAD01D8B6 /* van-den-broek.jpg */; };
 		99318913A3D94AF7BF34F5DA /* furman-linda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F303B12C168B4AB38C5B48E9 /* furman-linda.jpg */; };
 		9A623CC07F4542288324B3ED /* mcgowan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B2E3B35F9D84B4994FECBCE /* mcgowan.jpg */; };
 		9BD1D4E43878455A9BEA4089 /* stanberry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F304DDDD7CA74804A6428F3B /* stanberry.jpg */; };
+<<<<<<< HEAD
 		9C4394541C6644B6825B95FC /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 680712C9015F43F5B466562D /* SimpleLineIcons.ttf */; };
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 		9D941E71E8BD4AE5B5636D2E /* hill.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE21B698B319486B840AF3F8 /* hill.jpg */; };
 		9E3F5FAF141441D19D2B47A0 /* johnson-lonnieandmargie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AE2E719D01743EBA227C573 /* johnson-lonnieandmargie.jpg */; };
 		9F12B40AA400471EAF23D81B /* morris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F787D24BF98B4F8B8B52B7A5 /* morris.jpg */; };
@@ -169,11 +200,17 @@
 		B8F645EC68BE427DB7FF5CAF /* slate-charlotte.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F958C6A1C64719882A3EB4 /* slate-charlotte.jpg */; };
 		B981AEDFD6C44482944A6F05 /* peart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9A55448E28241959B037A04 /* peart.jpg */; };
 		BAAE85F284D5406A8799A9E9 /* mattox.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09B5DDD7C9D84BBFA73BD1ED /* mattox.jpg */; };
+<<<<<<< HEAD
 		BAF0D5A59AE3432E83EA1C9F /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C85A418C83D4CB38159F3BA /* libRNVectorIcons.a */; };
 		BB41F6E1EFF648EA8F64B02A /* bethea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF3DD4B7418340F3AE122667 /* bethea.jpg */; };
 		BC363D21C79E4EA28E112F3E /* farfan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F96C73D6F5BA43B1A2927DF2 /* farfan.jpg */; };
 		BCCA37851BD0485CA86B95FC /* wenc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6E92C58CB184579971C5AEB /* wenc.jpg */; };
 		BEBE5D31CBA04F1DB71CDBCC /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70A10866DAC94D21B9644FDE /* Entypo.ttf */; };
+=======
+		BB41F6E1EFF648EA8F64B02A /* bethea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF3DD4B7418340F3AE122667 /* bethea.jpg */; };
+		BC363D21C79E4EA28E112F3E /* farfan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F96C73D6F5BA43B1A2927DF2 /* farfan.jpg */; };
+		BCCA37851BD0485CA86B95FC /* wenc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6E92C58CB184579971C5AEB /* wenc.jpg */; };
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 		BF4900106A464A3BA88B0880 /* artistSort.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C8D7C418CB704F578F82095B /* artistSort.jpeg */; };
 		C23D4EE8FB3449EA967A1586 /* thompson-grey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C5C7FA99EF141F1B26D3404 /* thompson-grey.jpg */; };
 		C25DACC7ED534AE18778F646 /* nance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E1FC6376F29474AA1FD1515 /* nance.jpg */; };
@@ -182,6 +219,7 @@
 		C6E175A8676F4EA39AAF0997 /* daly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3E6621AA8141DCAF4EAC18 /* daly.jpg */; };
 		C71AA29E1BDE4CBFB65CF702 /* roddey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B65AC3F581E947F19D961419 /* roddey.jpg */; };
 		C75076DD689048B98C78A30C /* novak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C66F97C4E7164547B3473A8D /* novak.jpg */; };
+<<<<<<< HEAD
 		C825C9681FAE73F800B6CAA5 /* Default-Landscape~ipad_1024x768.png in Resources */ = {isa = PBXBuildFile; fileRef = C825C9531FAE73F500B6CAA5 /* Default-Landscape~ipad_1024x768.png */; };
 		C825C9691FAE73F800B6CAA5 /* Default-Portrait@2x~ipad_1536x2008.png in Resources */ = {isa = PBXBuildFile; fileRef = C825C9541FAE73F500B6CAA5 /* Default-Portrait@2x~ipad_1536x2008.png */; };
 		C825C96A1FAE73F800B6CAA5 /* Default@2x~iphone_640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = C825C9551FAE73F500B6CAA5 /* Default@2x~iphone_640x960.png */; };
@@ -206,6 +244,8 @@
 		C825C9811FAE884E00B6CAA5 /* iphoneXLandscapeCorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = C825C97F1FAE884D00B6CAA5 /* iphoneXLandscapeCorrect.png */; };
 		C825C9821FAE884E00B6CAA5 /* iPhoneXLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = C825C9801FAE884E00B6CAA5 /* iPhoneXLandscape.png */; };
 		C825C9841FAE886600B6CAA5 /* iPhonex@2.png in Resources */ = {isa = PBXBuildFile; fileRef = C825C9831FAE886600B6CAA5 /* iPhonex@2.png */; };
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 		C87FD662D983440AAF96102F /* Facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EAABEFEBBBA415BA1D4A767 /* Facebook.png */; };
 		C8C5CD635D4345DE9081FDDC /* davis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF7A6F3C3C364882908D9281 /* davis.jpg */; };
 		C8E74FAD1F80A26800399154 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8E74FA31F80A26800399154 /* Entypo.ttf */; };
@@ -224,7 +264,10 @@
 		CD7F8B8D665B40A1B535C306 /* campbell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E1545F7051442EBB042005F /* campbell.jpg */; };
 		CE5420D5227948B083B37D10 /* fields-drew.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 614C113309074CAC8FB44835 /* fields-drew.jpg */; };
 		D0753090A48E49B4B4370BA6 /* farrar-sarah.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CB64063588B45DEB3CF1C20 /* farrar-sarah.jpg */; };
+<<<<<<< HEAD
 		D1D93315177444119A826755 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED79D651AF9048C59C5F1252 /* MaterialCommunityIcons.ttf */; };
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 		D43138CFDE6A43F5A57B51E5 /* durant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B16BBE27C271472EAB4E0AB4 /* durant.jpg */; };
 		D5A40956FD26495B86B9D162 /* taylor-dan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02F0ED0D505A4CD389754734 /* taylor-dan.jpg */; };
 		D78394EEC6E64BB7B3E18832 /* mcphail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EFCF15458CB486A9DE6A891 /* mcphail.jpg */; };
@@ -234,7 +277,10 @@
 		DBE8EF42DB0A489186592FE6 /* miller-gilliam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 098E9375D9D2404786280781 /* miller-gilliam.jpg */; };
 		DBF70B41222740DC84210539 /* edwards.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB5A5C92290F47B9BFE7EBB2 /* edwards.jpg */; };
 		DC03D5E111564247BA600A38 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 28553DB0C82E4752B87EF6EB /* Logo.png */; };
+<<<<<<< HEAD
 		DC79D790C75E4C2EB8873EA2 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 429E154E3604420397C0482C /* EvilIcons.ttf */; };
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 		DD24D6085A1C45E2947B4F6B /* Twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 24507474F4B04F48BE54E7AF /* Twitter.png */; };
 		DDC695FB1ACD4587A260FDC1 /* brock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42D07F050BC4483BAFA3CC85 /* brock.jpg */; };
 		DF083AE6084A4D91834004D8 /* FrancophilSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1645BC81123F4CE1A5642C10 /* FrancophilSans.ttf */; };
@@ -457,6 +503,7 @@
 			remoteGlobalIDString = 358F4ED71D1E81A9004DF814;
 			remoteInfo = RCTBlob;
 		};
+<<<<<<< HEAD
 		C82CC2691FAE145A0029200A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A8A778285A714571A865FFB5 /* RNVectorIcons.xcodeproj */;
@@ -464,6 +511,8 @@
 			remoteGlobalIDString = 5DBEB1501B18CEA900B34395;
 			remoteInfo = RNVectorIcons;
 		};
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 		C86A25EB1F80B71900592886 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F2F75EF820704B38952665A6 /* AirMaps.xcodeproj */;
@@ -528,7 +577,10 @@
 		09B5DDD7C9D84BBFA73BD1ED /* mattox.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = mattox.jpg; path = ../src/assets/images/artistpics/mattox.jpg; sourceTree = "<group>"; };
 		0B6CC29227494E2D83E7D3A1 /* mele.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = mele.jpg; path = ../src/assets/images/artistpics/mele.jpg; sourceTree = "<group>"; };
 		0C3E6621AA8141DCAF4EAC18 /* daly.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = daly.jpg; path = ../src/assets/images/artistpics/daly.jpg; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		0C85A418C83D4CB38159F3BA /* libRNVectorIcons.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNVectorIcons.a; sourceTree = "<group>"; };
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 		0E211B1251BA4AE4884DB08E /* little.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = little.jpg; path = ../src/assets/images/artistpics/little.jpg; sourceTree = "<group>"; };
 		0F2C4FDC2A7840FCB8BB169F /* garcia-philip.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "garcia-philip.jpg"; path = "../src/assets/images/artistpics/garcia-philip.jpg"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
@@ -536,6 +588,10 @@
 		13B07F961A680F5B00A75B9A /* Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Mac/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Mac/AppDelegate.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Mac/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Mac/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Mac/main.m; sourceTree = "<group>"; };
@@ -566,11 +622,16 @@
 		36F6756E60074F4FAD21A7B1 /* campbell-sharon.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "campbell-sharon.jpg"; path = "../src/assets/images/artistpics/campbell-sharon.jpg"; sourceTree = "<group>"; };
 		39E51E0409824698833A4CA3 /* wixon.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = wixon.jpg; path = ../src/assets/images/artistpics/wixon.jpg; sourceTree = "<group>"; };
 		3B2E3B35F9D84B4994FECBCE /* mcgowan.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = mcgowan.jpg; path = ../src/assets/images/artistpics/mcgowan.jpg; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		3B845C9CF1DF4628BE976173 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		3C651B2592924C50B8944A92 /* mahanes.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = mahanes.jpg; path = ../src/assets/images/artistpics/mahanes.jpg; sourceTree = "<group>"; };
 		3D61CD6CAAC44706B94A666E /* taylor-joann.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "taylor-joann.jpg"; path = "../src/assets/images/artistpics/taylor-joann.jpg"; sourceTree = "<group>"; };
 		404815EBAEBE4B6AA60ED51F /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		429E154E3604420397C0482C /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+=======
+		3C651B2592924C50B8944A92 /* mahanes.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = mahanes.jpg; path = ../src/assets/images/artistpics/mahanes.jpg; sourceTree = "<group>"; };
+		3D61CD6CAAC44706B94A666E /* taylor-joann.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "taylor-joann.jpg"; path = "../src/assets/images/artistpics/taylor-joann.jpg"; sourceTree = "<group>"; };
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 		42D07F050BC4483BAFA3CC85 /* brock.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = brock.jpg; path = ../src/assets/images/artistpics/brock.jpg; sourceTree = "<group>"; };
 		42D279F61FFC44278FD93CB1 /* vitti.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = vitti.jpg; path = ../src/assets/images/artistpics/vitti.jpg; sourceTree = "<group>"; };
 		433C8C2F75CF4191BF6D7D18 /* schulze.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = schulze.jpg; path = ../src/assets/images/artistpics/schulze.jpg; sourceTree = "<group>"; };
@@ -593,18 +654,27 @@
 		60F318FDE84C4DB89BF58D39 /* roche.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = roche.jpg; path = ../src/assets/images/artistpics/roche.jpg; sourceTree = "<group>"; };
 		614C113309074CAC8FB44835 /* fields-drew.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "fields-drew.jpg"; path = "../src/assets/images/artistpics/fields-drew.jpg"; sourceTree = "<group>"; };
 		6201CE3F23C7445C9E91A2E9 /* pryor.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = pryor.jpg; path = ../src/assets/images/artistpics/pryor.jpg; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		6350FE07628E40058DC13DDA /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 		6435BDDCBB734B4CA29DE422 /* mccall.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = mccall.jpg; path = ../src/assets/images/artistpics/mccall.jpg; sourceTree = "<group>"; };
 		666B50182BE742218303EBAA /* bolz.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = bolz.jpg; path = ../src/assets/images/artistpics/bolz.jpg; sourceTree = "<group>"; };
 		66F32D7ADEF7481185E07B2F /* reel.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = reel.jpg; path = ../src/assets/images/artistpics/reel.jpg; sourceTree = "<group>"; };
 		672DB25FF6EA4859AB6CD9D4 /* Anderson,-Melissa.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Anderson,-Melissa.jpg"; path = "../src/assets/images/artistpics/Anderson,-Melissa.jpg"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		680712C9015F43F5B466562D /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 		6816BD21765C49BC9340113A /* flowers-tom.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "flowers-tom.jpg"; path = "../src/assets/images/artistpics/flowers-tom.jpg"; sourceTree = "<group>"; };
 		69F2690729EF4DA7B757BF2F /* condon.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = condon.jpg; path = ../src/assets/images/artistpics/condon.jpg; sourceTree = "<group>"; };
 		6BB5D8203D3543289D5E2392 /* haney.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = haney.jpg; path = ../src/assets/images/artistpics/haney.jpg; sourceTree = "<group>"; };
 		6F7E885008EF4520B3884FC4 /* verhoeven.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = verhoeven.jpg; path = ../src/assets/images/artistpics/verhoeven.jpg; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		70A10866DAC94D21B9644FDE /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		71DB9FAC9743412A86AA72B9 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 		71DF8E1F30D444BE8C25C79E /* pouch-melanie.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "pouch-melanie.jpg"; path = "../src/assets/images/artistpics/pouch-melanie.jpg"; sourceTree = "<group>"; };
 		75F16797094942C8B49AC928 /* mitchell-rogers.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "mitchell-rogers.jpg"; path = "../src/assets/images/artistpics/mitchell-rogers.jpg"; sourceTree = "<group>"; };
 		76398DB4828B4E649B7636DA /* young-david.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "young-david.jpg"; path = "../src/assets/images/artistpics/young-david.jpg"; sourceTree = "<group>"; };
@@ -652,9 +722,13 @@
 		A6C2551772124C35BF47E4DC /* miller-glen.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "miller-glen.jpg"; path = "../src/assets/images/artistpics/miller-glen.jpg"; sourceTree = "<group>"; };
 		A6E7D15DB65B4F1FB05DFE58 /* SEWlogo.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SEWlogo.png; path = ../src/assets/images/logos/SEWlogo.png; sourceTree = "<group>"; };
 		A730B4CC5D9F4037957ECB1F /* stitt.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = stitt.jpg; path = ../src/assets/images/artistpics/stitt.jpg; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		A8A778285A714571A865FFB5 /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNVectorIcons.xcodeproj; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; };
 		A939DE3DBE314C3F90AE6B12 /* stone-angie.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "stone-angie.jpg"; path = "../src/assets/images/artistpics/stone-angie.jpg"; sourceTree = "<group>"; };
 		AD76393D47AD4222B5D91598 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+=======
+		A939DE3DBE314C3F90AE6B12 /* stone-angie.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "stone-angie.jpg"; path = "../src/assets/images/artistpics/stone-angie.jpg"; sourceTree = "<group>"; };
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		AE21B698B319486B840AF3F8 /* hill.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = hill.jpg; path = ../src/assets/images/artistpics/hill.jpg; sourceTree = "<group>"; };
 		AE2C2DC4980E4304B89EA660 /* hassold.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = hassold.jpg; path = ../src/assets/images/artistpics/hassold.jpg; sourceTree = "<group>"; };
@@ -670,11 +744,15 @@
 		BB0BCB28B83141D5840D231F /* HamburgerIcon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = HamburgerIcon.png; path = ../src/assets/images/socialMedia/HamburgerIcon.png; sourceTree = "<group>"; };
 		BB5A5C92290F47B9BFE7EBB2 /* edwards.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = edwards.jpg; path = ../src/assets/images/artistpics/edwards.jpg; sourceTree = "<group>"; };
 		BC85B47A6F994DE59FDA417B /* greer.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = greer.jpg; path = ../src/assets/images/artistpics/greer.jpg; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		C0EE0973CE20472BA3D88458 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 		C163A854F0D54AC1A9B83A3E /* walker.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = walker.jpg; path = ../src/assets/images/artistpics/walker.jpg; sourceTree = "<group>"; };
 		C3348AEB955B4FA69996988E /* christy.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = christy.jpg; path = ../src/assets/images/artistpics/christy.jpg; sourceTree = "<group>"; };
 		C3B5794B1C0342FDB1FC0D97 /* tinsely.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = tinsely.jpg; path = ../src/assets/images/artistpics/tinsely.jpg; sourceTree = "<group>"; };
 		C66F97C4E7164547B3473A8D /* novak.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = novak.jpg; path = ../src/assets/images/artistpics/novak.jpg; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		C825C9531FAE73F500B6CAA5 /* Default-Landscape~ipad_1024x768.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad_1024x768.png"; sourceTree = "<group>"; };
 		C825C9541FAE73F500B6CAA5 /* Default-Portrait@2x~ipad_1536x2008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad_1536x2008.png"; sourceTree = "<group>"; };
 		C825C9551FAE73F500B6CAA5 /* Default@2x~iphone_640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x~iphone_640x960.png"; sourceTree = "<group>"; };
@@ -699,6 +777,8 @@
 		C825C97F1FAE884D00B6CAA5 /* iphoneXLandscapeCorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneXLandscapeCorrect.png; sourceTree = "<group>"; };
 		C825C9801FAE884E00B6CAA5 /* iPhoneXLandscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneXLandscape.png; sourceTree = "<group>"; };
 		C825C9831FAE886600B6CAA5 /* iPhonex@2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhonex@2.png"; sourceTree = "<group>"; };
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 		C8D7C418CB704F578F82095B /* artistSort.jpeg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = artistSort.jpeg; path = ../src/assets/images/backgrounds/artistSort.jpeg; sourceTree = "<group>"; };
 		C8E74FA31F80A26800399154 /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
 		C8E74FA41F80A26800399154 /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
@@ -712,7 +792,10 @@
 		C8E74FAC1F80A26800399154 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
 		CB7270A8632C40178B7628CA /* keiser.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = keiser.jpg; path = ../src/assets/images/artistpics/keiser.jpg; sourceTree = "<group>"; };
 		CCBCDD820F894383B9AF6588 /* rollins.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = rollins.jpg; path = ../src/assets/images/artistpics/rollins.jpg; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		CF383B126CC74A66AFE89633 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 		D1105801B778472CBE403C3F /* conley.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = conley.jpg; path = ../src/assets/images/artistpics/conley.jpg; sourceTree = "<group>"; };
 		D3EADEFB92D54678A5498571 /* Arrowood.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Arrowood.jpg; path = ../src/assets/images/artistpics/Arrowood.jpg; sourceTree = "<group>"; };
 		D536AF5D694E457087B90CE4 /* BMWlogo.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = BMWlogo.png; path = ../src/assets/images/logos/BMWlogo.png; sourceTree = "<group>"; };
@@ -739,7 +822,10 @@
 		EA9B690886BD416FBA1C020D /* woolf.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = woolf.jpg; path = ../src/assets/images/artistpics/woolf.jpg; sourceTree = "<group>"; };
 		EAC5D48C8F8D4267B183018C /* GHSlogo.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = GHSlogo.png; path = ../src/assets/images/logos/GHSlogo.png; sourceTree = "<group>"; };
 		EACF6C2850F64F17A1FEABD9 /* phoneicon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = phoneicon.png; path = ../src/assets/images/socialMedia/phoneicon.png; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		ED79D651AF9048C59C5F1252 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 		EF3DD4B7418340F3AE122667 /* bethea.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = bethea.jpg; path = ../src/assets/images/artistpics/bethea.jpg; sourceTree = "<group>"; };
 		F104B9C377044E8996C9C33F /* gaillard.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = gaillard.jpg; path = ../src/assets/images/artistpics/gaillard.jpg; sourceTree = "<group>"; };
 		F2F75EF820704B38952665A6 /* AirMaps.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AirMaps.xcodeproj; path = "../node_modules/react-native-maps/lib/ios/AirMaps.xcodeproj"; sourceTree = "<group>"; };
@@ -786,7 +872,10 @@
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				1AD621C744184BBAB4E32078 /* libAirMaps.a in Frameworks */,
+<<<<<<< HEAD
 				BAF0D5A59AE3432E83EA1C9F /* libRNVectorIcons.a in Frameworks */,
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -900,6 +989,10 @@
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
+<<<<<<< HEAD
+=======
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = Mac;
@@ -958,7 +1051,10 @@
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
 				F2F75EF820704B38952665A6 /* AirMaps.xcodeproj */,
+<<<<<<< HEAD
 				A8A778285A714571A865FFB5 /* RNVectorIcons.xcodeproj */,
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -975,7 +1071,10 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				C825C8E21FAE70A000B6CAA5 /* splash */,
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 				C8E74FA21F80A26800399154 /* Fonts */,
 				13B07FAE1A68108700A75B9A /* Mac */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
@@ -1178,6 +1277,7 @@
 				9EE329B7BCB24629ABF5EADA /* main.jpg */,
 				9CCB047CC0E147D08890C3CB /* mediumbackground.jpeg */,
 				DEA44498562947AFB11E6119 /* sort.jpeg */,
+<<<<<<< HEAD
 				70A10866DAC94D21B9644FDE /* Entypo.ttf */,
 				429E154E3604420397C0482C /* EvilIcons.ttf */,
 				3B845C9CF1DF4628BE976173 /* Feather.ttf */,
@@ -1189,6 +1289,8 @@
 				404815EBAEBE4B6AA60ED51F /* Octicons.ttf */,
 				680712C9015F43F5B466562D /* SimpleLineIcons.ttf */,
 				6350FE07628E40058DC13DDA /* Zocial.ttf */,
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1202,6 +1304,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		C825C8E21FAE70A000B6CAA5 /* splash */ = {
 			isa = PBXGroup;
 			children = (
@@ -1234,15 +1337,21 @@
 			path = ../../../../../../Downloads/ApeToolsGeneratedAssets/iOS/Resources/splash;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 		C82B1C8E1F9263D600E17332 /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
 				B709BF1ED53241BA9DC4E6DA /* libAirMaps.a */,
+<<<<<<< HEAD
 				0C85A418C83D4CB38159F3BA /* libRNVectorIcons.a */,
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		C82CC2661FAE145A0029200A /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -1251,6 +1360,8 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 		C86A25E81F80B71900592886 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -1449,10 +1560,13 @@
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 				},
+<<<<<<< HEAD
 				{
 					ProductGroup = C82CC2661FAE145A0029200A /* Products */;
 					ProjectRef = A8A778285A714571A865FFB5 /* RNVectorIcons.xcodeproj */;
 				},
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 			);
 			projectRoot = "";
 			targets = (
@@ -1647,6 +1761,7 @@
 			remoteRef = ADBDB9261DFEBF0700ED6528 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+<<<<<<< HEAD
 		C82CC26A1FAE145A0029200A /* libRNVectorIcons.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1654,6 +1769,8 @@
 			remoteRef = C82CC2691FAE145A0029200A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 		C86A25EC1F80B71900592886 /* libAirMaps.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1710,8 +1827,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				C825C97B1FAE73F800B6CAA5 /* Default-Landscape@2x~ipad_2048x1496.png in Resources */,
 				C825C9761FAE73F800B6CAA5 /* Default~ipad.png in Resources */,
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 				C8E74FB41F80A26800399154 /* Octicons.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				C8E74FAF1F80A26800399154 /* FontAwesome.ttf in Resources */,
@@ -1723,6 +1843,10 @@
 				C8E74FB31F80A26800399154 /* MaterialIcons.ttf in Resources */,
 				C8E74FAD1F80A26800399154 /* Entypo.ttf in Resources */,
 				C8E74FB21F80A26800399154 /* MaterialCommunityIcons.ttf in Resources */,
+<<<<<<< HEAD
+=======
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 				DF083AE6084A4D91834004D8 /* FrancophilSans.ttf in Resources */,
 				625E71D79731401682FE63B1 /* sweez.ttf in Resources */,
 				2EE83411EED5479F91050AEA /* 2017logo_color copy.png in Resources */,
@@ -1731,7 +1855,10 @@
 				39231DCFE6ED48C2A0179389 /* sweezbold.ttf in Resources */,
 				DC03D5E111564247BA600A38 /* Logo.png in Resources */,
 				C87FD662D983440AAF96102F /* Facebook.png in Resources */,
+<<<<<<< HEAD
 				C825C9711FAE73F800B6CAA5 /* Default-750@2x~iphone6-landscape_1334x750.png in Resources */,
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 				31C3DE449017475B9B5E9423 /* Instagram.png in Resources */,
 				DD24D6085A1C45E2947B4F6B /* Twitter.png in Resources */,
 				F468015548E449CDAE1DA1B0 /* Aiken.jpg in Resources */,
@@ -1759,7 +1886,10 @@
 				6D0966A8A38A4830915C89B0 /* bryant.jpg in Resources */,
 				8F855A92412D40819B49ED2F /* bucher.jpg in Resources */,
 				1F6D3742B8A049129E96A4E6 /* Burnett.jpg in Resources */,
+<<<<<<< HEAD
 				C825C97E1FAE86BE00B6CAA5 /* default@1x.png in Resources */,
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 				3FCBA71CF64A48C496BDE922 /* butcher.jpg in Resources */,
 				B3B6805D749B45958257E48F /* calloway.jpg in Resources */,
 				86110F928CAC4F2393DE42FB /* campbell-sharon.jpg in Resources */,
@@ -1777,7 +1907,10 @@
 				AC6897A828CB4E7888959B10 /* Dillingham.jpg in Resources */,
 				B48A0EB4B81F478AB709675D /* donovan.jpg in Resources */,
 				33CF7DE61662476E8502FCC5 /* doyle.jpg in Resources */,
+<<<<<<< HEAD
 				C825C96D1FAE73F800B6CAA5 /* Default-Landscape~ipad_1024x748.png in Resources */,
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 				47AE882916AA4BB19D47D886 /* dudar-steve.jpg in Resources */,
 				DBC0817058904440AC048215 /* dudar.jpg in Resources */,
 				D43138CFDE6A43F5A57B51E5 /* durant.jpg in Resources */,
@@ -1787,11 +1920,15 @@
 				D0753090A48E49B4B4370BA6 /* farrar-sarah.jpg in Resources */,
 				CE5420D5227948B083B37D10 /* fields-drew.jpg in Resources */,
 				269018EDD1B6491CBDB1AC8D /* flint-greg.jpg in Resources */,
+<<<<<<< HEAD
 				C825C9721FAE73F800B6CAA5 /* Default-568h@2x~iphone_640x1136.png in Resources */,
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 				9470F75F2F5F42C484F74CFF /* flint-paul.jpg in Resources */,
 				05742F202F794C08B9FFB540 /* flowers-tom.jpg in Resources */,
 				8FABEE04F8C949C0802F515B /* fontaine.jpg in Resources */,
 				7D982F52ED2947C2B9C966DF /* furman-kate.jpg in Resources */,
+<<<<<<< HEAD
 				C825C9781FAE73F800B6CAA5 /* Default-1242@3x~iphone6s-portrait_1242x2208.png in Resources */,
 				99318913A3D94AF7BF34F5DA /* furman-linda.jpg in Resources */,
 				002DAEB19368470BA5FF053F /* gaillard.jpg in Resources */,
@@ -1803,6 +1940,15 @@
 				117866543542494A954172CB /* greer.jpg in Resources */,
 				1F5F6212987640F28DF42B7E /* grushovenko.jpg in Resources */,
 				C825C9731FAE73F800B6CAA5 /* Default.png in Resources */,
+=======
+				99318913A3D94AF7BF34F5DA /* furman-linda.jpg in Resources */,
+				002DAEB19368470BA5FF053F /* gaillard.jpg in Resources */,
+				1A5455E4DDE9426A96D5B407 /* garcia-philip.jpg in Resources */,
+				7965A676FF614E29B6BCE0A5 /* gehrke.jpg in Resources */,
+				55A35CDBE1E14D899327BBBF /* gillen-ron.jpg in Resources */,
+				117866543542494A954172CB /* greer.jpg in Resources */,
+				1F5F6212987640F28DF42B7E /* grushovenko.jpg in Resources */,
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 				C943312F24B4497F84BD19FB /* hammond-cindy.jpg in Resources */,
 				67D02B7502B04AD19F8C6F74 /* haney.jpg in Resources */,
 				9270F81E1B40425CA533D557 /* hassold.jpg in Resources */,
@@ -1818,15 +1964,21 @@
 				20EAF223570A4B10BC4F307B /* kennedy.jpg in Resources */,
 				19BE4C0157594872B9A53FB3 /* kilburg.jpg in Resources */,
 				75175F4C06114001A8BCC758 /* kirby-j.jpg in Resources */,
+<<<<<<< HEAD
 				C825C9701FAE73F800B6CAA5 /* Default-750@2x~iphone6-portrait_750x1334 18-16-34-991.png in Resources */,
 				C825C9821FAE884E00B6CAA5 /* iPhoneXLandscape.png in Resources */,
 				C825C96C1FAE73F800B6CAA5 /* Default-Landscape@2x~ipad_2048x1536.png in Resources */,
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 				B801E9ADF1554B2DBB5827DE /* kirk.jpg in Resources */,
 				B5800CB0F8E44C449F3F9483 /* lea-cathy-zaden.jpg in Resources */,
 				0442125C1FC14E05AC0D6D46 /* little.jpg in Resources */,
 				06FE154FD0A34F63B632CEDB /* luce-laura-lynn.jpg in Resources */,
 				248A6EC39DEB417DB58A426F /* mahanes.jpg in Resources */,
+<<<<<<< HEAD
 				C825C96A1FAE73F800B6CAA5 /* Default@2x~iphone_640x960.png in Resources */,
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 				BAAE85F284D5406A8799A9E9 /* mattox.jpg in Resources */,
 				8B23A810C354431F8186F514 /* mccall.jpg in Resources */,
 				9A623CC07F4542288324B3ED /* mcgowan.jpg in Resources */,
@@ -1835,18 +1987,27 @@
 				DBE8EF42DB0A489186592FE6 /* miller-gilliam.jpg in Resources */,
 				81BC82A7887342BDA27F62CA /* miller-glen.jpg in Resources */,
 				C9C92789A4964C538FF21A69 /* mitchell-rogers.jpg in Resources */,
+<<<<<<< HEAD
 				C825C97C1FAE73F800B6CAA5 /* Default-750@2x~iphone6-portrait_750x1334.png in Resources */,
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 				55C8793367BD4F6780C87699 /* morgan.jpg in Resources */,
 				9F12B40AA400471EAF23D81B /* morris.jpg in Resources */,
 				C25DACC7ED534AE18778F646 /* nance.jpg in Resources */,
 				27598FCD846D43A29C49E57E /* newell.jpg in Resources */,
 				C75076DD689048B98C78A30C /* novak.jpg in Resources */,
 				19CB829C97594064BCDA942B /* owens.jpg in Resources */,
+<<<<<<< HEAD
 				C825C9741FAE73F800B6CAA5 /* Default-1242@3x~iphone6s-landscape_2208x1242.png in Resources */,
 				B981AEDFD6C44482944A6F05 /* peart.jpg in Resources */,
 				E2965EA65FE54247BE145B3A /* pena.jpg in Resources */,
 				F5BE321D8735498B80E08550 /* peters.jpg in Resources */,
 				C825C9841FAE886600B6CAA5 /* iPhonex@2.png in Resources */,
+=======
+				B981AEDFD6C44482944A6F05 /* peart.jpg in Resources */,
+				E2965EA65FE54247BE145B3A /* pena.jpg in Resources */,
+				F5BE321D8735498B80E08550 /* peters.jpg in Resources */,
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 				3DE2C4ECB7D94BD9A14DB459 /* piper-doug.jpg in Resources */,
 				C4CE7BCC7C35406ABDD76264 /* piper-meredith.jpg in Resources */,
 				14F317F9F76C4911A2E3B10B /* pouch-melanie.jpg in Resources */,
@@ -1857,7 +2018,10 @@
 				E1B63DFCF403403CA0BD0789 /* ripley.jpg in Resources */,
 				4F5FA2024A4C4CD8993DBB39 /* roche.jpg in Resources */,
 				C71AA29E1BDE4CBFB65CF702 /* roddey.jpg in Resources */,
+<<<<<<< HEAD
 				C825C96E1FAE73F800B6CAA5 /* Default-Portrait@2x~ipad_1536x2048.png in Resources */,
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 				0C0F232AF9D84CDC874C234F /* rollins.jpg in Resources */,
 				4E549AFF951645CD90F3AE36 /* schulze.jpg in Resources */,
 				FA3F2E1893B94B96B043E74F /* scott-marie.jpg in Resources */,
@@ -1885,11 +2049,16 @@
 				ADDA5BA7F4934429B7B2F484 /* vatalaro.jpg in Resources */,
 				A133E81F4AD74C22A3F93988 /* verhoeven.jpg in Resources */,
 				568B64830E344D26A5E822D9 /* vitti.jpg in Resources */,
+<<<<<<< HEAD
 				C825C9791FAE73F800B6CAA5 /* Default-1242@3x~iphone6s-landscape_2208x1242 18-16-35-003.png in Resources */,
 				02FBF1CA4936411DBD7A3E3E /* walker.jpg in Resources */,
 				BCCA37851BD0485CA86B95FC /* wenc.jpg in Resources */,
 				C825C96B1FAE73F800B6CAA5 /* Default~iphone.png in Resources */,
 				C825C9811FAE884E00B6CAA5 /* iphoneXLandscapeCorrect.png in Resources */,
+=======
+				02FBF1CA4936411DBD7A3E3E /* walker.jpg in Resources */,
+				BCCA37851BD0485CA86B95FC /* wenc.jpg in Resources */,
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 				3E9EDECFF06446B68123902B /* williams-dan.jpg in Resources */,
 				DFF808EF941F46F1B569B259 /* wixon.jpg in Resources */,
 				AC5D45659C414ED39D4CE2A8 /* woolf.jpg in Resources */,
@@ -1909,7 +2078,10 @@
 				885E3E9BDC4448B1B5721AFA /* Globeicon.png in Resources */,
 				2F22F9267EF44C50A19F188A /* GPSicon.png in Resources */,
 				6547A2D5269448CB94EB21D1 /* HamburgerIcon.png in Resources */,
+<<<<<<< HEAD
 				C825C96F1FAE73F800B6CAA5 /* Default-Portrait~ipad_768x1024.png in Resources */,
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 				B3EB2BA0806745A79D699F08 /* handicapicon.png in Resources */,
 				6DF81CF8B5B447CFA86FE622 /* Homeicon.png in Resources */,
 				51CEFC351C15417F9E88AAFD /* phoneicon.png in Resources */,
@@ -1918,6 +2090,7 @@
 				5F2647B13CCB4F318C66FBDF /* main.jpg in Resources */,
 				5CCF9A5F1E85448AB2D97E37 /* mediumbackground.jpeg in Resources */,
 				5D1E696192994CFC808046FE /* sort.jpeg in Resources */,
+<<<<<<< HEAD
 				BEBE5D31CBA04F1DB71CDBCC /* Entypo.ttf in Resources */,
 				DC79D790C75E4C2EB8873EA2 /* EvilIcons.ttf in Resources */,
 				7C51E7A1033D4FDB961F8133 /* Feather.ttf in Resources */,
@@ -1931,6 +2104,8 @@
 				9C4394541C6644B6825B95FC /* SimpleLineIcons.ttf in Resources */,
 				C825C9691FAE73F800B6CAA5 /* Default-Portrait@2x~ipad_1536x2008.png in Resources */,
 				944F7FFB60574CE6BC6D4947 /* Zocial.ttf in Resources */,
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2032,6 +2207,21 @@
 		};
 /* End PBXTargetDependency section */
 
+<<<<<<< HEAD
+=======
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = Mac;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2044,7 +2234,10 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
+<<<<<<< HEAD
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 				);
 				INFOPLIST_FILE = MacTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -2052,7 +2245,10 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+<<<<<<< HEAD
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -2071,7 +2267,10 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
+<<<<<<< HEAD
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 				);
 				INFOPLIST_FILE = MacTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -2079,7 +2278,10 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+<<<<<<< HEAD
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -2094,16 +2296,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+<<<<<<< HEAD
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CURRENT_PROJECT_VERSION = 33;
+=======
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CURRENT_PROJECT_VERSION = 12;
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = EYR7KLL5A8;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
+<<<<<<< HEAD
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 				);
 				INFOPLIST_FILE = Mac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -2114,8 +2325,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.stepUpInnovation.MACApp;
 				PRODUCT_NAME = Mac;
+<<<<<<< HEAD
 				PROVISIONING_PROFILE = "20fb1e10-006e-4fe1-b97d-8575c889b5da";
 				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.stepUpInnovation.MACApp";
+=======
+				PROVISIONING_PROFILE = "84f6e09f-8bcc-4847-95ec-0098ba831d0f";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.stepUpInnovation.MACApp 1508093251";
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -2124,14 +2340,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+<<<<<<< HEAD
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CURRENT_PROJECT_VERSION = 33;
+=======
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CURRENT_PROJECT_VERSION = 12;
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 				DEVELOPMENT_TEAM = EYR7KLL5A8;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
+<<<<<<< HEAD
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 				);
 				INFOPLIST_FILE = Mac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -2142,8 +2366,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.stepUpInnovation.MACApp;
 				PRODUCT_NAME = Mac;
+<<<<<<< HEAD
 				PROVISIONING_PROFILE = "20fb1e10-006e-4fe1-b97d-8575c889b5da";
 				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.stepUpInnovation.MACApp";
+=======
+				PROVISIONING_PROFILE = "84f6e09f-8bcc-4847-95ec-0098ba831d0f";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.stepUpInnovation.MACApp 1508093251";
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -2163,14 +2392,20 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
+<<<<<<< HEAD
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 				);
 				INFOPLIST_FILE = "Mac-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+<<<<<<< HEAD
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -2199,14 +2434,20 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
+<<<<<<< HEAD
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 				);
 				INFOPLIST_FILE = "Mac-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+<<<<<<< HEAD
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -2236,7 +2477,10 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+<<<<<<< HEAD
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Mac-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2262,7 +2506,10 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+<<<<<<< HEAD
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Mac-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";

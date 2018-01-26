@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 /Users/willrollins/Desktop/work/contracts/MAC/MACApp/ios/build/Build/Intermediates.noindex/RCTNetwork.build/Debug-iphonesimulator/RCTNetwork.build/Objects-normal/x86_64/RCTNetworkTask.o
 /Users/willrollins/Desktop/work/contracts/MAC/MACApp/ios/build/Build/Intermediates.noindex/RCTNetwork.build/Debug-iphonesimulator/RCTNetwork.build/Objects-normal/x86_64/RCTFileRequestHandler.o
 /Users/willrollins/Desktop/work/contracts/MAC/MACApp/ios/build/Build/Intermediates.noindex/RCTNetwork.build/Debug-iphonesimulator/RCTNetwork.build/Objects-normal/x86_64/RCTDataRequestHandler.o
 /Users/willrollins/Desktop/work/contracts/MAC/MACApp/ios/build/Build/Intermediates.noindex/RCTNetwork.build/Debug-iphonesimulator/RCTNetwork.build/Objects-normal/x86_64/RCTNetInfo.o
 /Users/willrollins/Desktop/work/contracts/MAC/MACApp/ios/build/Build/Intermediates.noindex/RCTNetwork.build/Debug-iphonesimulator/RCTNetwork.build/Objects-normal/x86_64/RCTNetworking.o
 /Users/willrollins/Desktop/work/contracts/MAC/MACApp/ios/build/Build/Intermediates.noindex/RCTNetwork.build/Debug-iphonesimulator/RCTNetwork.build/Objects-normal/x86_64/RCTHTTPRequestHandler.o
+=======
+/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/RCTNetwork.build/Debug-iphonesimulator/RCTNetwork.build/Objects-normal/x86_64/RCTNetworkTask.o
+/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/RCTNetwork.build/Debug-iphonesimulator/RCTNetwork.build/Objects-normal/x86_64/RCTFileRequestHandler.o
+/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/RCTNetwork.build/Debug-iphonesimulator/RCTNetwork.build/Objects-normal/x86_64/RCTDataRequestHandler.o
+/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/RCTNetwork.build/Debug-iphonesimulator/RCTNetwork.build/Objects-normal/x86_64/RCTNetInfo.o
+/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/RCTNetwork.build/Debug-iphonesimulator/RCTNetwork.build/Objects-normal/x86_64/RCTNetworking.o
+/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/RCTNetwork.build/Debug-iphonesimulator/RCTNetwork.build/Objects-normal/x86_64/RCTHTTPRequestHandler.o
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7

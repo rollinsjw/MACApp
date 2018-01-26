@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
 import { Text, View, StyleSheet, Image, TouchableOpacity, Linking} from 'react-native';
 import Communications from 'react-native-communications';
+<<<<<<< HEAD
 import { Button } from 'react-native-elements';
 import { screen } from '../config/Metrics';
 
 
 
+=======
+import { screen } from '../config/Metrics';
+
+
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 export default class ArtistPageContainer extends React.Component{
 
   renderIf(condition, content) {
@@ -24,6 +30,7 @@ export default class ArtistPageContainer extends React.Component{
       <View style = {containerStyle}>
         <Image style = {backgroundImageStyle}
           source = {require('../assets/images/backgrounds/individualbackground.jpg')}>
+<<<<<<< HEAD
           <View style = {{...columnStyle, flex: 2}}>
           <Image
             source = {param.artistInfo["Img"]}
@@ -82,6 +89,51 @@ export default class ArtistPageContainer extends React.Component{
                 source = {require('../assets/images/socialMedia/at.png')}></Image>
 
               <Text style = {{marginLeft: 2, fontSize:18, flex: 1, color:"white", fontFamily: 'FrancophilSans',  backgroundColor: 'transparent'}}> {param.artistInfo["Email Address"]}</Text>
+=======
+          <View style = {columnStyle}>
+          <Image
+            source = {param.artistInfo["Img"]}
+            style = {{height: 140, width: 140, resizeMode: 'contain'}}></Image>
+          <Text
+            style = {{fontFamily: 'FrancophilSans', fontSize: 24, fontWeight: "400", color: 'white', backgroundColor: 'transparent'}}> {param.artistInfo["First Name"]} {param.artistInfo["Last Name"]} - #{param.artistInfo["STUDIO#"]}</Text>
+          </View>
+          <View style = {{flexDirection: 'column', alignItems: 'flex-start'}}>
+          <View>
+              <TouchableOpacity
+                style={{...rowStyle, marginTop: 20}}
+                onPress ={() => this.props.navigation.navigate('Map', {artistInfo: param.artistInfo})}
+                >
+                  <Image style = {{height:30, resizeMode:'contain'}}
+                    source = {require('../assets/images/socialMedia/GPSicon.png')}/>
+                    <View style={{paddingLeft: 15}}>
+                        <Text style = {linktextStyle}>{param.artistInfo["STUDIO Address"]}</Text>
+                        <Text style = {linktextStyle}>{param.artistInfo["STUDIO City, State, Zip"]}</Text>
+                    </View>
+              </TouchableOpacity>
+              <TouchableOpacity
+                style={{alignItems: 'center', paddingTop: 10, paddingLeft: 12}}
+                onPress = {() => Linking.openURL('https://www.google.com/maps/search/?api=1&query='+param.artistInfo["Lat"]+','+param.artistInfo["Lng"])}>
+                <Text style = {linktextStyle}>Directions</Text>
+              </TouchableOpacity>
+          </View>
+          <View>
+            <TouchableOpacity
+              style={rowStyle}
+              onPress = {() => Communications.phonecall(param.artistInfo["STUDIO phone number"], true)}>
+              <Image style = {{height:30, resizeMode:'contain', paddingRight: 80}}
+                source = {require('../assets/images/socialMedia/phoneicon.png')}></Image>
+              <Text style = {{fontSize:18, color:"white", fontFamily: 'FrancophilSans', textDecorationLine: 'underline', backgroundColor: 'transparent'}}> {param.artistInfo["STUDIO phone number"]}</Text>
+            </TouchableOpacity>
+          </View>
+          <View>
+            <TouchableOpacity
+              style={rowStyle}
+              onPress = {()=> Linking.openURL('mailto:'+param.artistInfo["Email Address"])}>
+          <Image style = {{height:30, resizeMode:'contain'}}
+            source = {require('../assets/images/socialMedia/at.png')}></Image>
+
+              <Text style = {{fontSize:18, color:"white", fontFamily: 'FrancophilSans', textDecorationLine: 'underline', backgroundColor: 'transparent'}}> {param.artistInfo["Email Address"]}</Text>
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
             </TouchableOpacity>
           </View>
           <View>
@@ -91,6 +143,7 @@ export default class ArtistPageContainer extends React.Component{
               onPress = {() => Linking.openURL("http://" + param.artistInfo["Website Address"])}>
             <Image style = {{height:30, resizeMode:'contain'}}
               source = {require('../assets/images/socialMedia/Globeicon.png')}></Image>
+<<<<<<< HEAD
                 <Text style = {{fontSize:18, color:"white", fontFamily: 'FrancophilSans', flex: 1, backgroundColor: 'transparent'}}> {param.artistInfo["Website Address"]}</Text>
             </TouchableOpacity>
           )}
@@ -106,6 +159,20 @@ export default class ArtistPageContainer extends React.Component{
                 <Image style={{height: 30, resizeMode: 'contain', flex: 1}}
                   source={require('../assets/images/socialMedia/handicapicon.png')}/>
               )}
+=======
+
+                <Text style = {{fontSize:18, color:"white", fontFamily: 'FrancophilSans', textDecorationLine: 'underline', backgroundColor: 'transparent'}}> {param.artistInfo["Website Address"]}</Text>
+            </TouchableOpacity>
+          )}
+          </View>
+          <View style={{height: 50, paddingBottom: 60}}>
+            {this.renderIf(param.artistInfo["W/chair Accessible?"] === "Yes",
+             <View style={{...rowStyle, width: screen.width}}>
+              <Image style={{height: 30, resizeMode: 'contain'}}
+                source={require('../assets/images/socialMedia/handicapicon.png')}/>
+              </View>
+            )}
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
           </View>
           </View>
         </Image>
@@ -121,16 +188,27 @@ export default class ArtistPageContainer extends React.Component{
     },
     linktextStyle:{
       fontFamily: 'FrancophilSans',
+<<<<<<< HEAD
       fontSize:18,
       fontWeight: "400",
       color: 'white',
 
+=======
+      fontSize: 18,
+      fontWeight: "400",
+      color: 'white',
+      textDecorationLine: 'underline',
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
       backgroundColor: 'transparent'
 
     },
     textStyle:{
       fontFamily: 'FrancophilSans',
+<<<<<<< HEAD
       fontSize: 16,
+=======
+      fontSize: 18,
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
       fontWeight: "400",
       color: 'white'
     },
@@ -153,22 +231,36 @@ export default class ArtistPageContainer extends React.Component{
     },
     containerStyle: {
         flexDirection: 'column',
+<<<<<<< HEAD
+=======
+        justifyContent: 'space-around',
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
         flex: 1,
     },
     columnStyle: {
       flexDirection: 'column',
       justifyContent: 'space-around',
       flex: 1,
+<<<<<<< HEAD
       alignItems: 'center',
+=======
+      alignItems: 'center'
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 
     },
     rowStyle: {
       alignItems: 'center',
       flexDirection: 'row',
+<<<<<<< HEAD
       justifyContent: 'flex-start',
       // height: 0,
       paddingTop: 15,
 
+=======
+      justifyContent: 'flex-end',
+      // height: 0,
+      paddingTop: 30,
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
       // paddingBottom: 20,
       // padding: 50
     },

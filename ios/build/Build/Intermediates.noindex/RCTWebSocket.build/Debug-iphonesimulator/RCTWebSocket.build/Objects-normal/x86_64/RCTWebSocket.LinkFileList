@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 /Users/willrollins/Desktop/work/contracts/MAC/MACApp/ios/build/Build/Intermediates.noindex/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/Objects-normal/x86_64/RCTSRWebSocket.o
 /Users/willrollins/Desktop/work/contracts/MAC/MACApp/ios/build/Build/Intermediates.noindex/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/Objects-normal/x86_64/RCTWebSocketModule.o
 /Users/willrollins/Desktop/work/contracts/MAC/MACApp/ios/build/Build/Intermediates.noindex/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/Objects-normal/x86_64/RCTReconnectingWebSocket.o
 /Users/willrollins/Desktop/work/contracts/MAC/MACApp/ios/build/Build/Intermediates.noindex/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/Objects-normal/x86_64/RCTWebSocketExecutor.o
 /Users/willrollins/Desktop/work/contracts/MAC/MACApp/ios/build/Build/Intermediates.noindex/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/Objects-normal/x86_64/RCTWebSocketObserver.o
+=======
+/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/Objects-normal/x86_64/RCTSRWebSocket.o
+/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/Objects-normal/x86_64/RCTWebSocketModule.o
+/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/Objects-normal/x86_64/RCTReconnectingWebSocket.o
+/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/Objects-normal/x86_64/RCTWebSocketExecutor.o
+/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/Objects-normal/x86_64/RCTWebSocketObserver.o
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7

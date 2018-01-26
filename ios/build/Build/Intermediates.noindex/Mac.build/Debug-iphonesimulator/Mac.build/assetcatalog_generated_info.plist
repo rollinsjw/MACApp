@@ -17,6 +17,7 @@
 			<string>AppIcon</string>
 		</dict>
 	</dict>
+<<<<<<< HEAD
 	<key>UILaunchImageFile</key>
 	<string>LaunchImage</string>
 	<key>UILaunchImages</key>
@@ -72,5 +73,7 @@
 			<string>{320, 568}</string>
 		</dict>
 	</array>
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 </dict>
 </plist>

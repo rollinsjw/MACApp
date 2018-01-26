@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /Users/willrollins/Desktop/work/contracts/MAC/MACApp/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/bignum-dtoa.o
 /Users/willrollins/Desktop/work/contracts/MAC/MACApp/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/bignum.o
 /Users/willrollins/Desktop/work/contracts/MAC/MACApp/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/cached-powers.o
@@ -6,3 +7,13 @@
 /Users/willrollins/Desktop/work/contracts/MAC/MACApp/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/fast-dtoa.o
 /Users/willrollins/Desktop/work/contracts/MAC/MACApp/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/fixed-dtoa.o
 /Users/willrollins/Desktop/work/contracts/MAC/MACApp/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/strtod.o
+=======
+/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/bignum-dtoa.o
+/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/bignum.o
+/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/cached-powers.o
+/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/diy-fp.o
+/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/double-conversion.o
+/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/fast-dtoa.o
+/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/fixed-dtoa.o
+/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/strtod.o
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7

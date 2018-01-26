@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
+<<<<<<< HEAD
 import { Text, View, StyleSheet, TouchableOpacity, Image, ScrollView} from 'react-native';
+=======
+import { Text, View, StyleSheet, TouchableOpacity, Image} from 'react-native';
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 import _ from 'lodash';
 import { Button, SocialIcon } from 'react-native-elements';
 import { connect } from 'react-redux';
@@ -12,26 +16,45 @@ fiberArts,
 jewelryAndGlass,
 mixedMedia,
 painting,
+<<<<<<< HEAD
 printmaking,
 sculptureAndMetal,
 photographAndVideo
+=======
+printmaking
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 } from '../redux/actions/ArtistListActions';
 //TODO: how to turn off the header for this specific one
 
 class MediumContainer extends React.Component {
 
+<<<<<<< HEAD
   navigateAndSort = (sortFunction, name) => {
       sortFunction;
       this.props.navigation.navigate('ArtistListContainer', {title: 'medium', medium: name});
+=======
+  navigateAndSort = (sortFunction) => {
+
+      sortFunction;
+      this.props.navigation.navigate('ArtistListContainer');
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
   }
 
   render() {
     return(
+<<<<<<< HEAD
+=======
+    <View style={styles.containerStyle}>
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
       <Image
           style={styles.backgroundImageStyle}
           source={require( '../assets/images/backgrounds/mediumbackground.jpeg')}
         >
+<<<<<<< HEAD
           <ScrollView contentContainerStyle={styles.containerStyle}>
+=======
+
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
             <View style={styles.columnStyle}>
               <Button
                 title={'clay & wood'}
@@ -39,7 +62,11 @@ class MediumContainer extends React.Component {
                 backgroundColor={'rgba(51, 53, 61, .451)'}
                 textStyle={styles.buttonTextStyle}
                 style={styles.buttonStyle}
+<<<<<<< HEAD
                 onPress={() => this.navigateAndSort(this.props.clayAndWood(), 'clay & wood')}
+=======
+                onPress={() => this.navigateAndSort(this.props.clayAndWood())}
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
               />
 
               <Button
@@ -47,48 +74,73 @@ class MediumContainer extends React.Component {
                 title={'digital arts'}
                 textStyle={styles.buttonTextStyle}
                 style={styles.buttonStyle}
+<<<<<<< HEAD
                 onPress={() => this.navigateAndSort(this.props.digitalArts(), 'digital arts')}
+=======
+                onPress={() => this.navigateAndSort(this.props.digitalArts())}
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
               />
               <Button
                 title={'drawing & paper arts'}
                 textStyle={styles.buttonTextStyle}
                 style={styles.buttonStyle}
                 backgroundColor={'rgba(51, 53, 61, .451)'}
+<<<<<<< HEAD
                 onPress={() => this.navigateAndSort(this.props.drawingAndPaper(), 'drawing & paper')}
+=======
+                onPress={() => this.navigateAndSort(this.props.drawingAndPaper())}
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
               />
               <Button
                 title={'fiber arts'}
                 textStyle={styles.buttonTextStyle}
                 style={styles.buttonStyle}
                 backgroundColor={'rgba(51, 53, 61, .451)'}
+<<<<<<< HEAD
                 onPress={()=> this.navigateAndSort(this.props.fiberArts(), 'fiber arts')}
+=======
+                onPress={()=> this.navigateAndSort(this.props.fiberArts())}
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
               />
               <Button
                 title={'jewelry & glass'}
                 textStyle={styles.buttonTextStyle}
                 style={styles.buttonStyle}
                 backgroundColor={'rgba(51, 53, 61, .451)'}
+<<<<<<< HEAD
                 onPress={()=> this.navigateAndSort(this.props.jewelryAndGlass(), 'jewelry & glass')}
+=======
+                onPress={()=> this.navigateAndSort(this.props.jewelryAndGlass())}
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
               />
               <Button
                 title={'mixed media'}
                 textStyle={styles.buttonTextStyle}
                 style={styles.buttonStyle}
                 backgroundColor={'rgba(51, 53, 61, .451)'}
+<<<<<<< HEAD
                 onPress={()=> this.navigateAndSort(this.props.mixedMedia(), 'mixed media')}
+=======
+                onPress={()=> this.navigateAndSort(this.props.mixedMedia())}
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
               />
               <Button
                 title={'painting'}
                 textStyle={styles.buttonTextStyle}
                 style={styles.buttonStyle}
                 backgroundColor={'rgba(51, 53, 61, .451)'}
+<<<<<<< HEAD
                 onPress={()=> this.navigateAndSort(this.props.painting(), 'painting')}
+=======
+                onPress={()=> this.navigateAndSort(this.props.painting())}
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
               />
               <Button
                 title={'printmaking'}
                 textStyle={styles.buttonTextStyle}
                 style={styles.buttonStyle}
                 backgroundColor={'rgba(51, 53, 61, .451)'}
+<<<<<<< HEAD
                 onPress={()=> this.navigateAndSort(this.props.printmaking(), 'printmaking')}
               />
               <Button
@@ -108,6 +160,13 @@ class MediumContainer extends React.Component {
             </View>
           </ScrollView>
         </Image>
+=======
+                onPress={()=> this.navigateAndSort(this.props.printmaking())}
+              />
+            </View>
+        </Image>
+      </View>
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
     )
   }
 }
@@ -125,9 +184,13 @@ export default connect(mapStateToProps, {
   jewelryAndGlass,
   mixedMedia,
   painting,
+<<<<<<< HEAD
   printmaking,
   sculptureAndMetal,
   photographAndVideo
+=======
+  printmaking
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 })(MediumContainer);
 
 
@@ -147,6 +210,7 @@ const styles = {
     paddingTop: 0,
   },
   containerStyle: {
+<<<<<<< HEAD
       // flexDirection: 'column',
       // justifyContent: 'space-between',
       // flex: 1,
@@ -154,6 +218,14 @@ const styles = {
       // flex: 1,
       // paddingTop: 10
       width: screen.width
+=======
+      flexDirection: 'column',
+      justifyContent: 'space-between',
+      flex: 1,
+      // alignItems: 'center'
+      // flex: 1,
+      // paddingTop: 10
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
   },
   columnStyle: {
     flexDirection: 'column',
@@ -181,7 +253,10 @@ const styles = {
     borderWidth: 2,
     borderColor: 'rgb(255, 255, 255)',
     width: screen.width * .627,
+<<<<<<< HEAD
     marginTop: 10
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
     // height: screen.height * .082
 
   },

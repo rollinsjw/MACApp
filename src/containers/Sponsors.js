@@ -49,11 +49,14 @@ export default class Sponsors extends Component{
               source = {require('../assets/images/logos/6.jpg')}
             />
           </View>
+<<<<<<< HEAD
           <View style={rowStyle}>
             <Text style={styles.sponsorTextStyle}>Janette W. Wesley & Renato Vicario</Text>
             <Text style={styles.sponsorTextStyle}>The Traute E. & Roland H. Engeler Family</Text>
             <Text style={styles.sponsorTextStyle}> The Don & Zelma Waggoner Foundation</Text>
           </View>
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
           <View style = {rowStyle}>
             <Image
               style={{flex: 1, resizeMode: 'contain'}}
@@ -69,7 +72,10 @@ export default class Sponsors extends Component{
             />
           </View>
           <View style = {rowStyle}>
+<<<<<<< HEAD
             <Text style={styles.sponsorTextStyle}>The Fred Collins Foundation</Text>
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
             <Image
               style={{flex: 1, resizeMode: 'contain'}}
               source={require('../assets/images/logos/14.jpg')}
@@ -78,20 +84,31 @@ export default class Sponsors extends Component{
               style = {{flex: 1, resizeMode: 'contain'}}
               source = {require('../assets/images/logos/15.jpg')}
             />
+<<<<<<< HEAD
 
           </View>
           <View style = {rowStyle}>
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
             <Image
               style = {{flex: 1, resizeMode: 'contain'}}
               source = {require('../assets/images/logos/16.jpg')}
             />
+<<<<<<< HEAD
+=======
+          </View>
+          <View style = {rowStyle}>
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
             <Image
               style={{flex: 1, resizeMode: 'contain'}}
               source={require('../assets/images/logos/17.jpg')}
             />
+<<<<<<< HEAD
             <Text style={styles.sponsorTextStyle}>The Priester Foundation</Text>
           </View>
           <View style={rowStyle}>
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
             <Image
               style = {{flex: 1, resizeMode: 'contain'}}
               source = {require('../assets/images/logos/19.jpg')}
@@ -100,13 +117,21 @@ export default class Sponsors extends Component{
               style = {{flex: 1, resizeMode: 'contain'}}
               source = {require('../assets/images/logos/20.jpg')}
             />
+<<<<<<< HEAD
+=======
+          </View>
+          <View style = {rowStyle}>
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
             <Image
               style={{flex: 1, resizeMode: 'contain'}}
               source={require('../assets/images/logos/21.jpg')}
             />
+<<<<<<< HEAD
           </View>
           <View style = {rowStyle}>
             <Text style={styles.sponsorTextStyle}>The fredric E. Hasert Memorial Trust</Text>
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
             <Image
               style = {{flex: 1, resizeMode: 'contain'}}
               source = {require('../assets/images/logos/23.jpg')}
@@ -125,14 +150,22 @@ export default class Sponsors extends Component{
               style = {{flex: 1, resizeMode: 'contain'}}
               source = {require('../assets/images/logos/26.jpg')}
             />
+<<<<<<< HEAD
             <Text style={styles.sponsorTextStyle}>Margaret & Duff Bruce</Text>
 
           </View>
           <View style = {rowStyle}>
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
             <Image
               style = {{flex: 1, resizeMode: 'contain'}}
               source = {require('../assets/images/logos/28.jpg')}
             />
+<<<<<<< HEAD
+=======
+          </View>
+          <View style = {rowStyle}>
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
             <Image
               style={{flex: 1, resizeMode: 'contain'}}
               source={require('../assets/images/logos/29.jpg')}
@@ -141,13 +174,21 @@ export default class Sponsors extends Component{
               style = {{flex: 1, resizeMode: 'contain'}}
               source = {require('../assets/images/logos/30.jpg')}
             />
+<<<<<<< HEAD
 
           </View>
           <View style = {rowStyle}>
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
             <Image
               style = {{flex: 1, resizeMode: 'contain'}}
               source = {require('../assets/images/logos/31.jpg')}
             />
+<<<<<<< HEAD
+=======
+          </View>
+          <View style = {rowStyle}>
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
             <Image
               style={{flex: 1, resizeMode: 'contain'}}
               source={require('../assets/images/logos/32.jpg')}
@@ -156,13 +197,21 @@ export default class Sponsors extends Component{
               style = {{flex: 1, resizeMode: 'contain'}}
               source = {require('../assets/images/logos/33.jpg')}
             />
+<<<<<<< HEAD
 
           </View>
           <View style = {rowStyle}>
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
             <Image
               style = {{flex: 1, resizeMode: 'contain'}}
               source = {require('../assets/images/logos/34.jpg')}
             />
+<<<<<<< HEAD
+=======
+          </View>
+          <View style = {rowStyle}>
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
             <Image
               style={{flex: 1, resizeMode: 'contain'}}
               source={require('../assets/images/logos/35.jpg')}
@@ -193,6 +242,7 @@ const styles = {
     paddingRight: 25,
     paddingTop: 20
   },
+<<<<<<< HEAD
   sponsorTextStyle: {
     fontSize: 18,
     fontFamily: 'FrancophilSans',
@@ -201,6 +251,8 @@ const styles = {
     flexWrap: 'wrap',
     flex: 1
   },
+=======
+>>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
   columnStyle: {
     flexDirection: 'column',
     justifyContent: 'space-around',
