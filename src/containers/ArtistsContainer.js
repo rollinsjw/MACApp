@@ -24,22 +24,21 @@ class ArtistsContainer extends React.Component {
   //   }
   // }
 
-  navigateAndSort = (sortFunction) => {
+  navigateAndSort = (sortFunction, title) => {
       sortFunction;
-      this.props.navigation.navigate('ArtistListContainer');
+      this.props.navigation.navigate('ArtistListContainer', {title: title});
   }
 
   render() {
     const { columnStyle, rowStyle, buttonStyle, buttonTextStyle, backgroundImageStyle} = styles;
     return(
-      <View style={{flex: 1}}>
         <Image
             style={backgroundImageStyle}
             source={require('../assets/images/backgrounds/artistSort.jpeg')}
           >
-          <View style={columnStyle}>
+          <View style={{...columnStyle, marginTop: 3, marginBottom: -5}}>
             <Button
-              title={'Name'}
+              title={'name'}
               textStyle={buttonTextStyle}
               style={buttonStyle}
               color={'rgb(255, 255, 255)'}
@@ -47,7 +46,7 @@ class ArtistsContainer extends React.Component {
               onPress={() => this.props.navigation.navigate("Alphabetical")}
             />
             <Button
-              title={'Medium'}
+              title={'medium'}
               textStyle={buttonTextStyle}
               style={buttonStyle}
               color={'rgb(255, 255, 255)'}
@@ -56,35 +55,34 @@ class ArtistsContainer extends React.Component {
 
             />
             <Button
-              title={'Open Friday'}
+              title={'open friday'}
               textStyle={buttonTextStyle}
               style={buttonStyle}
               color={'rgb(255, 255, 255)'}
               backgroundColor={'rgba(51, 53, 61, .451)'}
-              onPress={() => this.navigateAndSort(this.props.openFriday())}
+              onPress={() => this.navigateAndSort(this.props.openFriday(), 'friday')}
             />
             <TouchableOpacity
-              onPress={()=> this.navigateAndSort(this.props.handicapAccessible())}
-              style={{...buttonStyle, alignItems: 'center', justifyContent: 'center'}}
+              onPress={()=> this.navigateAndSort(this.props.handicapAccessible(), 'artists')}
+              style={{...buttonStyle, alignItems: 'center', justifyContent: 'center', backgroundColor: 'rgba(51, 53, 61, .451)'}}
             >
               <Image
                 style={{height: 40,  resizeMode: 'contain'}}
                 source={require('../assets/images/socialMedia/handicapicon.png')}
               />
-            </TouchableOpacity>
+          </TouchableOpacity>
           </View>
-            <View>
+            <View style={{alignItems: 'center', flex: 2, borderColor: 'white'}}>
               <Image
                 style={styles.doorStyle}
                 source={require('../assets/images/logos/doors_color_row.png')}
               />
               <View>
                 <Text style={styles.copyStyle}> © 2017 | Metropolitan Arts Council | greenvilleARTS.com</Text>
-                <Text style={styles.copyStyle}>background image: Paul Flint | "Untitled" | Mixed Media- Graphite & Acrylic| 12 x 12</Text>
+                <Text style={styles.copyStyle}>background: Paul Flint | "Untitled" | Graphite & Acrylic| 12 x 12</Text>
               </View>
             </View>
         </Image>
-      </View>
     )
   }
 };
@@ -98,11 +96,11 @@ export default connect(mapStateToProps, { sortByName, handicapAccessible, openFr
 const styles = {
   columnStyle: {
     flexDirection: 'column',
-    justifyContent: 'space-around',
-    flex: 1,
+    justifyContent: 'center',
+    flex: 3,
     alignItems: 'center',
     paddingTop: 120,
-    paddingBottom: 120
+    paddingBottom: 90,
     // flex: 1,
     // paddingTop: 10
   },
@@ -118,7 +116,9 @@ const styles = {
     borderWidth: 2,
     borderColor: 'rgb(255, 255, 255)',
     width: screen.width * .627,
-    height: 50
+    height: 50,
+    margin: 14,
+    // flex: 1
     // height: screen.height * .082
 
   },
@@ -149,7 +149,7 @@ doorStyle: {
   width: screen.width*.85,
   height: 90,
   // flex: 1,
-  paddingTop: 0,
+  paddingTop: -15,
 
 },
 }

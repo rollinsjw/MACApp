@@ -4,10 +4,11 @@ import _ from 'lodash';
 import { Button, SocialIcon } from 'react-native-elements';
 import { connect } from 'react-redux';
 import MapView from 'react-native-maps';
+import artists from '../data/artists';
 
 
 const ASPECT_RATIO = Dimensions.get('window').width / Dimensions.get('window').height
-const LATITUDE_DELTA = 0.00822
+const LATITUDE_DELTA = 0.0122
 const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO
 
 class MapsContainer extends React.Component {
@@ -71,10 +72,10 @@ class MapsContainer extends React.Component {
 
 
   render() {
-    artistList = _.sortBy(this.props.artistList, ["Lat", "Lng"]);
+    artistList = _.sortBy(artists, ["Lat", "Lng"]);
 
     var overLapItems = [];
-    var previous = this.props.artistList[20];
+    var previous = artists[20];
 
     mapMarkers = artistList.map((artist, index, original) => {
       nextArtist = original[index + 1];
@@ -84,7 +85,7 @@ class MapsContainer extends React.Component {
         markers = overLapItems.map(mapArtist => {
           return (
             <TouchableOpacity style={styles.calloutItemStyle} onPress={() => this.props.navigation.navigate('ArtistPageContainer', {artistInfo: mapArtist})}>
-              <Text style={styles.calloutTextStyle}>{mapArtist["Studio Name"]} {mapArtist["First Name"]} {mapArtist["Last Name"]}</Text>
+              <Text style={styles.calloutTextStyle}>{mapArtist["First Name"]} {mapArtist["Last Name"]}</Text>
             </TouchableOpacity>
           )
         })
@@ -94,12 +95,12 @@ class MapsContainer extends React.Component {
               latitude: Number(artist["Lat"]),
               longitude: Number(artist["Lng"])
             }}>
-              <View>
-                <View style={styles.circleArrow} />
-                <View style={styles.circle}>
-                  <Text>{artist["Map #"]}</Text>
-                </View>
+            <View>
+              <View style={styles.circleArrow} />
+              <View style={styles.circle}>
+                <Text>{artist["STUDIO#"]}</Text>
               </View>
+            </View>
               <MapView.Callout tooltip={true}>
                 <View style={styles.columnStyle}>
                   <View style={styles.calloutStyle}>
@@ -111,6 +112,8 @@ class MapsContainer extends React.Component {
                   {/* <View style={styles.arrowDown} /> */}
                 </View>
               </MapView.Callout>
+
+
           </MapView.Marker>
         );
       }
@@ -120,7 +123,7 @@ class MapsContainer extends React.Component {
         markers = tempItems.map(mapArtist => {
           return (
             <TouchableOpacity style={styles.calloutItemStyle} onPress={() => this.props.navigation.navigate('ArtistPageContainer', {artistInfo: mapArtist})}>
-              <Text style={styles.calloutTextStyle}>{mapArtist["Studio Name"]} {mapArtist["First Name"]} {mapArtist["Last Name"]}</Text>
+              <Text style={styles.calloutTextStyle}>{mapArtist["First Name"]} {mapArtist["Last Name"]}</Text>
             </TouchableOpacity>
           )
         })
@@ -131,12 +134,12 @@ class MapsContainer extends React.Component {
               latitude: Number(artist["Lat"]),
               longitude: Number(artist["Lng"])
             }}>
-              <View>
-                <View style={styles.circle}>
-                  <Text>{artist["Map #"]}</Text>
-                </View>
-                <View style={styles.circleArrow} />
+            <View>
+              <View style={styles.circle}>
+                <Text>{artist["STUDIO#"]}</Text>
               </View>
+              <View style={styles.circleArrow} />
+            </View>
               <MapView.Callout tooltip={true}>
                 <View style={styles.columnStyle}>
                   <View style={styles.calloutStyle}>
@@ -148,6 +151,7 @@ class MapsContainer extends React.Component {
                   {/* <View style={styles.arrowDown} /> */}
                 </View>
               </MapView.Callout>
+
 
           </MapView.Marker>
         );
@@ -212,7 +216,6 @@ const styles = {
   calloutStyle: {
     flex: 1,
     backgroundColor: 'rgb(65,65,65)',
-    borderWidth: 1,
     borderRadius: 6,
     borderColor: 'rgb(65,65,65)'
 
@@ -224,7 +227,8 @@ const styles = {
   },
   calloutTextStyle: {
     color: 'white',
-    fontFamily: 'FrancophilSans'
+    fontFamily: 'FrancophilSans',
+    fontSize: 16
   },
   calloutItemStyle: {
     borderRadius: 7,
@@ -233,7 +237,11 @@ const styles = {
     // borderColor: 'white',
     padding: 2,
     paddingLeft: 5,
-    paddingRight: 5
+    paddingRight: 5,
+    borderBottomWidth: 1,
+    borderColor: 'white',
+    height: 30,
+    justifyContent: 'center'
   },
   arrowDown: {
     width: 0,

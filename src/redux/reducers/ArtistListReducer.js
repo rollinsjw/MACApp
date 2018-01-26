@@ -6,8 +6,11 @@ FIBER_ARTS,
 JEWELRY_AND_GLASS,
 MIXED_MEDIA,
 PAINTING,
-PRINT_MAKING
+PRINT_MAKING,
+PHOTOGRAPH_AND_VIDEO,
+SCULPTURE_AND_METAL
 } from '../utility/Constants';
+
 import artists from '../../data/artists';
 
 const INITIAL_STATE = artists
@@ -20,7 +23,7 @@ export default (state = INITIAL_STATE, action) =>{
       var temp = _.sortBy(INITIAL_STATE, "Last Name")
 
       return _.filter(temp, (val) =>{
-        return val["Last Name"].startsWith(action.payload)
+        return (val["Last Name"].startsWith(action.payload) || val["Last Name"].startsWith(action.payload.toLowerCase()))
       });
     case OPEN_FRIDAY:
       return _.filter(INITIAL_STATE, (val, id) => {
@@ -60,8 +63,16 @@ export default (state = INITIAL_STATE, action) =>{
       });
     case PRINT_MAKING:
       return _.filter(INITIAL_STATE, (val, id) => {
-        return val["medium"].includes("PRINT")
+        return val["medium"].includes("PRINTMAKING")
       });
+    case PHOTOGRAPH_AND_VIDEO:
+      return _.filter(INITIAL_STATE, (val, id) => {
+          return val["medium"].includes("PHOTOGRAPHY")
+      });
+    case SCULPTURE_AND_METAL:
+      return _.filter(INITIAL_STATE, (val, id) => {
+          return (val["medium"].includes("SCULPTURE") || val["medium"].includes("METAL"))
+      })
     default:
       return state;
   }

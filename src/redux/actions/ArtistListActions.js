@@ -5,7 +5,9 @@ FIBER_ARTS,
 JEWELRY_AND_GLASS,
 MIXED_MEDIA,
 PAINTING,
-PRINT_MAKING
+PRINT_MAKING,
+SCULPTURE_AND_METAL,
+PHOTOGRAPH_AND_VIDEO
 } from '../utility/Constants';
 
 export function sortByName(x) {
@@ -65,5 +67,15 @@ export function painting() {
 export function printmaking() {
   return {
     type: PRINT_MAKING
+  }
+}
+export function sculptureAndMetal() {
+  return {
+    type: SCULPTURE_AND_METAL
+  }
+}
+export function photographAndVideo() {
+  return {
+    type: PHOTOGRAPH_AND_VIDEO
   }
 }

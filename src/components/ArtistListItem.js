@@ -3,21 +3,29 @@ import { Text, View, TouchableOpacity, Image} from 'react-native';
 
 
 const ArtistListItem = ({artistInfo, navigate}) => {
+  const renderIf = (condition, content) => {
+    if(condition) {
+      return content;
+    }else {
+      return null;
+    }
+  }
   return(
     <TouchableOpacity
       onPress= {() => navigate()}
-      style={{paddingRight: 40, paddingLeft: 40}}
+      style={{paddingRight: 20, paddingLeft: 20}}
       >
       <View style={styles.rowStyle}>
         <Image source={artistInfo["Img"]} style={{ height: 80, width: 80,resizeMode: 'contain'}}/>
         <View style={styles.columnStyle}>
-          <Text style={styles.textStyleTitle}>{artistInfo["First Name"]} {artistInfo["Last Name"]} -# {artistInfo["STUDIO#"]}</Text>
-          <Text style={styles.textStyle}>{artistInfo["STUDIO Address"]}</Text>
-          <Text style={styles.textStyle}>{artistInfo["STUDIO City, State, Zip"]}</Text>
-          <Text style={styles.textStyle}>{artistInfo["STUDIO phone number"]}</Text>
-          <Text style={styles.textStyle}>{artistInfo["Email Address"]}</Text>
-          <Text style={styles.textStyle}>{artistInfo["Website Address"]}</Text>
-
+          <Text style={styles.textStyleTitle}>{artistInfo["First Name"]} {artistInfo["Last Name"]} - #{artistInfo["STUDIO#"]}</Text>
+          {renderIf(artistInfo["STUDIO Address"] != "", <Text style={styles.textStyle}>{artistInfo["STUDIO Address"]}</Text>)}
+          {renderIf(artistInfo["STUDIO City, State, Zip"] != "", <Text style={styles.textStyle}>{artistInfo["STUDIO City, State, Zip"]}</Text>)}
+          {renderIf(artistInfo["STUDIO phone number"] != "", <Text style={styles.textStyle}>{artistInfo["STUDIO phone number"]}</Text>)}
+          {renderIf(artistInfo["Email Address"] != "", <Text style={styles.textStyle}>{artistInfo["Email Address"]}</Text>)}
+          {renderIf(artistInfo["Website Address"] != "", <Text style={styles.textStyle}>{artistInfo["Website Address"]}</Text>)}
+          <View style={{paddingTop: 8}} />
+          {renderIf(artistInfo["medium"] != "", <Text style={styles.textStyle}>{artistInfo["medium"].toLowerCase()}</Text>)}
         </View>
       </View>
     </TouchableOpacity>
@@ -28,7 +36,7 @@ const styles = {
   columnStyle: {
     flexDirection: 'column',
     justifyContent: 'flex-start',
-    paddingLeft: 30,
+    paddingLeft: 20,
     // flexWrap: 'wrap'
     // flex: 2
     flex: 1,
@@ -42,7 +50,7 @@ const styles = {
     paddingBottom: 20,
     paddingTop: 20,
     flex: 1,
-    borderTopWidth: .5,
+    borderTopWidth: 1,
     backgroundColor: 'transparent',
     borderColor: 'white',
     // flexWrap: 'wrap'
@@ -55,12 +63,13 @@ const styles = {
   },
   textStyle: {
     fontFamily: "FrancophilSans",
-    fontSize: 14,
+    fontSize: 12,
     color: 'white',
   },
   textStyleTitle: {
     fontFamily: "FrancophilSans",
-    fontSize: 18,
+    fontSize: 20,
+    fontWeight: 'bold',
     color: 'white'
   }
 }

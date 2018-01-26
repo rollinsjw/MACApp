@@ -14,7 +14,7 @@ class AlphabeticalContainer extends React.Component {
 
   navigateAndSort = (sortFunction) => {
       sortFunction;
-      this.props.navigation.navigate('ArtistListContainer');
+      this.props.navigation.navigate('ArtistListContainer', {title: 'name'});
   }
 
   render() {
@@ -28,7 +28,7 @@ class AlphabeticalContainer extends React.Component {
           <ScrollView >
             <View style={{flex: 1, width: screen.width, alignItems: 'center'}}>
             <Button
-              title={'A'}
+              title={'a'}
               textStyle={buttonTextStyle}
               style={buttonStyle}
               color={'rgb(255, 255, 255)'}
@@ -36,7 +36,7 @@ class AlphabeticalContainer extends React.Component {
               onPress={() => this.navigateAndSort(this.props.sortByName('A'))}
             />
             <Button
-              title={'B'}
+              title={'b'}
               textStyle={buttonTextStyle}
               style={buttonStyle}
               color={'rgb(255, 255, 255)'}
@@ -45,7 +45,7 @@ class AlphabeticalContainer extends React.Component {
 
             />
             <Button
-              title={'C'}
+              title={'c'}
               textStyle={buttonTextStyle}
               style={buttonStyle}
               color={'rgb(255, 255, 255)'}
@@ -53,7 +53,7 @@ class AlphabeticalContainer extends React.Component {
               onPress={() =>this.navigateAndSort(this.props.sortByName('C'))}
             />
             <Button
-              title={'D'}
+              title={'d'}
               textStyle={buttonTextStyle}
               style={buttonStyle}
               color={'rgb(255, 255, 255)'}
@@ -61,7 +61,7 @@ class AlphabeticalContainer extends React.Component {
               onPress={() =>this.navigateAndSort(this.props.sortByName('D'))}
             />
             <Button
-              title={'E'}
+              title={'e'}
               textStyle={buttonTextStyle}
               style={buttonStyle}
               color={'rgb(255, 255, 255)'}
@@ -69,7 +69,7 @@ class AlphabeticalContainer extends React.Component {
               onPress={() =>this.navigateAndSort(this.props.sortByName('E'))}
             />
             <Button
-              title={'F'}
+              title={'f'}
               textStyle={buttonTextStyle}
               style={buttonStyle}
               color={'rgb(255, 255, 255)'}
@@ -77,7 +77,7 @@ class AlphabeticalContainer extends React.Component {
               onPress={() =>this.navigateAndSort(this.props.sortByName('F'))}
             />
             <Button
-              title={'G'}
+              title={'g'}
               textStyle={buttonTextStyle}
               style={buttonStyle}
               color={'rgb(255, 255, 255)'}
@@ -85,7 +85,7 @@ class AlphabeticalContainer extends React.Component {
               onPress={() =>this.navigateAndSort(this.props.sortByName('G'))}
             />
             <Button
-              title={'H'}
+              title={'h'}
               textStyle={buttonTextStyle}
               style={buttonStyle}
               color={'rgb(255, 255, 255)'}
@@ -93,7 +93,7 @@ class AlphabeticalContainer extends React.Component {
               onPress={() =>this.navigateAndSort(this.props.sortByName('H'))}
             />
             <Button
-              title={'I'}
+              title={'i'}
               textStyle={buttonTextStyle}
               style={buttonStyle}
               color={'rgb(255, 255, 255)'}
@@ -101,7 +101,7 @@ class AlphabeticalContainer extends React.Component {
               onPress={() =>this.navigateAndSort(this.props.sortByName('I'))}
             />
             <Button
-              title={'J'}
+              title={'j'}
               textStyle={buttonTextStyle}
               style={buttonStyle}
               color={'rgb(255, 255, 255)'}
@@ -109,7 +109,7 @@ class AlphabeticalContainer extends React.Component {
               onPress={() =>this.navigateAndSort(this.props.sortByName('J'))}
             />
             <Button
-              title={'K'}
+              title={'k'}
               textStyle={buttonTextStyle}
               style={buttonStyle}
               color={'rgb(255, 255, 255)'}
@@ -117,7 +117,7 @@ class AlphabeticalContainer extends React.Component {
               onPress={() =>this.navigateAndSort(this.props.sortByName('K'))}
             />
             <Button
-              title={'L'}
+              title={'l'}
               textStyle={buttonTextStyle}
               style={buttonStyle}
               color={'rgb(255, 255, 255)'}
@@ -125,7 +125,7 @@ class AlphabeticalContainer extends React.Component {
               onPress={() =>this.navigateAndSort(this.props.sortByName('L'))}
             />
             <Button
-              title={'M'}
+              title={'m'}
               textStyle={buttonTextStyle}
               style={buttonStyle}
               color={'rgb(255, 255, 255)'}
@@ -133,7 +133,7 @@ class AlphabeticalContainer extends React.Component {
               onPress={() =>this.navigateAndSort(this.props.sortByName('M'))}
             />
             <Button
-              title={'N'}
+              title={'n'}
               textStyle={buttonTextStyle}
               style={buttonStyle}
               color={'rgb(255, 255, 255)'}
@@ -141,7 +141,7 @@ class AlphabeticalContainer extends React.Component {
               onPress={() =>this.navigateAndSort(this.props.sortByName('N'))}
             />
             <Button
-              title={'O'}
+              title={'o'}
               textStyle={buttonTextStyle}
               style={buttonStyle}
               color={'rgb(255, 255, 255)'}
@@ -149,7 +149,7 @@ class AlphabeticalContainer extends React.Component {
               onPress={() =>this.navigateAndSort(this.props.sortByName('O'))}
             />
             <Button
-              title={'P'}
+              title={'p'}
               textStyle={buttonTextStyle}
               style={buttonStyle}
               color={'rgb(255, 255, 255)'}
@@ -157,7 +157,7 @@ class AlphabeticalContainer extends React.Component {
               onPress={() =>this.navigateAndSort(this.props.sortByName('P'))}
             />
             <Button
-              title={'Q'}
+              title={'q'}
               textStyle={buttonTextStyle}
               style={buttonStyle}
               color={'rgb(255, 255, 255)'}
@@ -165,7 +165,7 @@ class AlphabeticalContainer extends React.Component {
               onPress={() =>this.navigateAndSort(this.props.sortByName('Q'))}
             />
             <Button
-              title={'R'}
+              title={'r'}
               textStyle={buttonTextStyle}
               style={buttonStyle}
               color={'rgb(255, 255, 255)'}
@@ -173,7 +173,7 @@ class AlphabeticalContainer extends React.Component {
               onPress={() =>this.navigateAndSort(this.props.sortByName('R'))}
             />
             <Button
-              title={'S'}
+              title={'s'}
               textStyle={buttonTextStyle}
               style={buttonStyle}
               color={'rgb(255, 255, 255)'}
@@ -181,7 +181,7 @@ class AlphabeticalContainer extends React.Component {
               onPress={() =>this.navigateAndSort(this.props.sortByName('S'))}
             />
             <Button
-              title={'T'}
+              title={'t'}
               textStyle={buttonTextStyle}
               style={buttonStyle}
               color={'rgb(255, 255, 255)'}
@@ -189,7 +189,7 @@ class AlphabeticalContainer extends React.Component {
               onPress={() =>this.navigateAndSort(this.props.sortByName('T'))}
             />
             <Button
-              title={'U'}
+              title={'u'}
               textStyle={buttonTextStyle}
               style={buttonStyle}
               color={'rgb(255, 255, 255)'}
@@ -197,7 +197,7 @@ class AlphabeticalContainer extends React.Component {
               onPress={() =>this.navigateAndSort(this.props.sortByName('U'))}
             />
             <Button
-              title={'V'}
+              title={'v'}
               textStyle={buttonTextStyle}
               style={buttonStyle}
               color={'rgb(255, 255, 255)'}
@@ -205,7 +205,7 @@ class AlphabeticalContainer extends React.Component {
               onPress={() =>this.navigateAndSort(this.props.sortByName('V'))}
             />
             <Button
-              title={'W'}
+              title={'w'}
               textStyle={buttonTextStyle}
               style={buttonStyle}
               color={'rgb(255, 255, 255)'}
@@ -213,7 +213,7 @@ class AlphabeticalContainer extends React.Component {
               onPress={() =>this.navigateAndSort(this.props.sortByName('W'))}
             />
             <Button
-              title={'X'}
+              title={'x'}
               textStyle={buttonTextStyle}
               style={buttonStyle}
               color={'rgb(255, 255, 255)'}
@@ -221,7 +221,7 @@ class AlphabeticalContainer extends React.Component {
               onPress={() =>this.navigateAndSort(this.props.sortByName('X'))}
             />
             <Button
-              title={'Y'}
+              title={'y'}
               textStyle={buttonTextStyle}
               style={buttonStyle}
               color={'rgb(255, 255, 255)'}
@@ -229,7 +229,7 @@ class AlphabeticalContainer extends React.Component {
               onPress={() =>this.navigateAndSort(this.props.sortByName('Y'))}
             />
             <Button
-              title={'Z'}
+              title={'z'}
               textStyle={buttonTextStyle}
               style={buttonStyle}
               color={'rgb(255, 255, 255)'}

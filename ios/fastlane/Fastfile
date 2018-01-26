@@ -31,12 +31,25 @@ platform :ios do
   desc "This will also make sure the profile is up to date"
   lane :beta do
     increment_build_number
-    # match(type: "appstore") # more information: https://codesigning.guide
+    match(
+      type: "appstore",
+      git_url: "https://github.com/rollinsjw/MACCERTSFINAL.git"
+    ) # more information: https://codesigning.guide
     gym(scheme: "Mac") # Build your app - more options available
     pilot
 
     # sh "your_script.sh"
     # You can also use other beta testing services here (run `fastlane actions`)
+  end
+
+  lane :appStore do
+    match(
+      type: "appstore",
+      git_url: "https://github.com/rollinsjw/MACCERTSFINAL.git"
+    )
+    increment_build_number
+    gym(scheme: "Mac")
+    deliver(force: true)
   end
 
   desc "Deploy a new version to the App Store"

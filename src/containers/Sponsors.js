@@ -49,6 +49,11 @@ export default class Sponsors extends Component{
               source = {require('../assets/images/logos/6.jpg')}
             />
           </View>
+          <View style={rowStyle}>
+            <Text style={styles.sponsorTextStyle}>Janette W. Wesley & Renato Vicario</Text>
+            <Text style={styles.sponsorTextStyle}>The Traute E. & Roland H. Engeler Family</Text>
+            <Text style={styles.sponsorTextStyle}> The Don & Zelma Waggoner Foundation</Text>
+          </View>
           <View style = {rowStyle}>
             <Image
               style={{flex: 1, resizeMode: 'contain'}}
@@ -64,6 +69,7 @@ export default class Sponsors extends Component{
             />
           </View>
           <View style = {rowStyle}>
+            <Text style={styles.sponsorTextStyle}>The Fred Collins Foundation</Text>
             <Image
               style={{flex: 1, resizeMode: 'contain'}}
               source={require('../assets/images/logos/14.jpg')}
@@ -72,16 +78,20 @@ export default class Sponsors extends Component{
               style = {{flex: 1, resizeMode: 'contain'}}
               source = {require('../assets/images/logos/15.jpg')}
             />
+
+          </View>
+          <View style = {rowStyle}>
             <Image
               style = {{flex: 1, resizeMode: 'contain'}}
               source = {require('../assets/images/logos/16.jpg')}
             />
-          </View>
-          <View style = {rowStyle}>
             <Image
               style={{flex: 1, resizeMode: 'contain'}}
               source={require('../assets/images/logos/17.jpg')}
             />
+            <Text style={styles.sponsorTextStyle}>The Priester Foundation</Text>
+          </View>
+          <View style={rowStyle}>
             <Image
               style = {{flex: 1, resizeMode: 'contain'}}
               source = {require('../assets/images/logos/19.jpg')}
@@ -90,12 +100,13 @@ export default class Sponsors extends Component{
               style = {{flex: 1, resizeMode: 'contain'}}
               source = {require('../assets/images/logos/20.jpg')}
             />
-          </View>
-          <View style = {rowStyle}>
             <Image
               style={{flex: 1, resizeMode: 'contain'}}
               source={require('../assets/images/logos/21.jpg')}
             />
+          </View>
+          <View style = {rowStyle}>
+            <Text style={styles.sponsorTextStyle}>The fredric E. Hasert Memorial Trust</Text>
             <Image
               style = {{flex: 1, resizeMode: 'contain'}}
               source = {require('../assets/images/logos/23.jpg')}
@@ -114,12 +125,14 @@ export default class Sponsors extends Component{
               style = {{flex: 1, resizeMode: 'contain'}}
               source = {require('../assets/images/logos/26.jpg')}
             />
+            <Text style={styles.sponsorTextStyle}>Margaret & Duff Bruce</Text>
+
+          </View>
+          <View style = {rowStyle}>
             <Image
               style = {{flex: 1, resizeMode: 'contain'}}
               source = {require('../assets/images/logos/28.jpg')}
             />
-          </View>
-          <View style = {rowStyle}>
             <Image
               style={{flex: 1, resizeMode: 'contain'}}
               source={require('../assets/images/logos/29.jpg')}
@@ -128,12 +141,13 @@ export default class Sponsors extends Component{
               style = {{flex: 1, resizeMode: 'contain'}}
               source = {require('../assets/images/logos/30.jpg')}
             />
+
+          </View>
+          <View style = {rowStyle}>
             <Image
               style = {{flex: 1, resizeMode: 'contain'}}
               source = {require('../assets/images/logos/31.jpg')}
             />
-          </View>
-          <View style = {rowStyle}>
             <Image
               style={{flex: 1, resizeMode: 'contain'}}
               source={require('../assets/images/logos/32.jpg')}
@@ -142,12 +156,13 @@ export default class Sponsors extends Component{
               style = {{flex: 1, resizeMode: 'contain'}}
               source = {require('../assets/images/logos/33.jpg')}
             />
+
+          </View>
+          <View style = {rowStyle}>
             <Image
               style = {{flex: 1, resizeMode: 'contain'}}
               source = {require('../assets/images/logos/34.jpg')}
             />
-          </View>
-          <View style = {rowStyle}>
             <Image
               style={{flex: 1, resizeMode: 'contain'}}
               source={require('../assets/images/logos/35.jpg')}
@@ -177,6 +192,14 @@ const styles = {
     paddingLeft: 25,
     paddingRight: 25,
     paddingTop: 20
+  },
+  sponsorTextStyle: {
+    fontSize: 18,
+    fontFamily: 'FrancophilSans',
+    fontWeight: 'bold',
+    textAlign: 'center',
+    flexWrap: 'wrap',
+    flex: 1
   },
   columnStyle: {
     flexDirection: 'column',

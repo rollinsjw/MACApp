@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import { Text, View, ScrollView, StyleSheet, Image, TouchableOpacity} from 'react-native';
+import { Text, View, ScrollView, StyleSheet, Image, TouchableOpacity, Linking} from 'react-native';
 import { screen } from '../config/Metrics';
+import Communications from 'react-native-communications';
+
 
 
 export default class Sponsors extends Component{
@@ -22,24 +24,24 @@ export default class Sponsors extends Component{
             <View style={{...rowStyle, paddingTop: 8}}>
               <View style={{...columnStyle, paddingLeft: 30}}>
                 <Text style = {mainTextStyle} >
-                  Friday November 10th
+                  Fri. November 10th
                 </Text>
                 <Text style={secondaryTextStyle}>
                   (select studios only)
                 </Text>
                 <Text style = {mainTextStyle} >
-                  Saturday November 11th
+                  Sat. November 11th
                 </Text>
                 <Text style = {mainTextStyle} >
-                  Sunday November 12th
+                  Sun. November 12th
                 </Text>
               </View>
-              <View style={columnStyle}>
+              <View style={{...columnStyle, justifyContent: 'space-between', alignItems: 'flex-start'}}>
                 <Text style = {mainTextStyle}>
                   6:00 PM - 9:00 PM
                 </Text>
 
-                <Text style = {{...mainTextStyle, paddingTop: 13}}>
+                <Text style = {{...mainTextStyle, paddingTop: 0}}>
                   10:00 AM - 6:00 PM
                 </Text>
 
@@ -57,19 +59,19 @@ export default class Sponsors extends Component{
                 </View>
                 <View style={arrowDown}></View>
             </View>
-            <Text style = {{...mainTextStyle, paddingLeft: 30, paddingRight: 30}}>
-               GreenVille Open Studios allows you to experience the life of
+            <Text style = {{...mainTextStyle, paddingLeft: 30, paddingRight: 25, textAlign: 'justify'}}>
+               Greenville Open Studios allows you to experience the life of
                local artists at work in thier studios for one full weekend,
                November 11-12. This free, self-guided tour is a unique
                experience to engage with our community's incredible talent,
                learn about artistic processes, enhance or begin your art
-               collection and become inspired
+               collection and become inspired.
             </Text>
-            <Text style = {{...mainTextStyle, paddingLeft: 30, paddingRight: 30}}>
+            <Text style = {{...mainTextStyle, paddingLeft: 30, paddingRight: 25, marginTop: 5, textAlign: 'justify'}}>
               Now in its 16th year, the 2017 tour features 145 artists all
               within a 15-mile radius of downtown Greenville with Easley, Greer,
               Travelers Rest and Simpsonville included. Open Studios catalogues
-              can be found at all the studios as wellas here at MAC in late
+              can be found at all the studios as well as here at MAC in late
               October.
             </Text>
             <View style={barColumnStyle}>
@@ -119,17 +121,17 @@ export default class Sponsors extends Component{
                 </View>
                 <View style={arrowDown}></View>
             </View>
-            <View style={{...columnStyle, alignItems: 'center', paddingLeft: 50, paddingRight: 50}}>
+            <View style={{...columnStyle, alignItems: 'center', paddingLeft: 25, paddingRight: 25}}>
               <View style={{...rowStyle}}>
-                <View style={{...columnStyle, flex: 1}}>
+                <View style={{...columnStyle, flex: 1, alignItems: 'flex-start'}}>
                   <Image source={require('../assets/images/socialMedia/GPSiconR.png')} style={{...iconStyle}}/>
                   <View style={{height: 20}}/>
                   <Image source={require('../assets/images/socialMedia/phoneiconR.png')} style={{...iconStyle, paddingLeft: 78}}/>
                   <Image source={require('../assets/images/socialMedia/atR.png')} style={iconStyle}/>
-                  <Image source={require('../assets/images/socialMedia/GlobeiconR.png')} style={iconStyle}/>
+                  <Image source={require('../assets/images/socialMedia/GlobeiconR.png')} style={{...iconStyle}}/>
                 </View>
 
-                <View style={{...columnStyle, justifyContent: 'flex-start', flex: 4, marginLeft: 9}}>
+                <View style={{...columnStyle, justifyContent: 'flex-start', flex: 4, marginLeft: 5, alignItems: 'flex-start'}}>
                   <View >
                     <Text style={mainTextStyle}>Metropolitan Arts Council</Text>
                     <Text style={mainTextStyle}>16 Augusta Street</Text>
@@ -139,24 +141,24 @@ export default class Sponsors extends Component{
                   <TouchableOpacity
                     style={rowStyle}
                     onPress = {() => Linking.openURL('tel:8644673132')}>
-                      <Text style={{...mainTextStyle, textDecorationLine: 'underline',  paddingTop: 20}}>(864) 467-3132</Text>
+                      <Text style={{...mainTextStyle, textDecorationLine: 'underline',  paddingTop: 0}}>(864) 467-3132</Text>
                   </TouchableOpacity>
 
                   <TouchableOpacity
                     style={rowStyle}
                     onPress = {() => Linking.openURL("mailto:mac@greenvilleARTS.com")}>
-                    <Text style={{...mainTextStyle, textDecorationLine: 'underline',  paddingTop: 20}}>mac@greenvilleARTS.com</Text>
+                    <Text style={{...mainTextStyle, textDecorationLine: 'underline',  paddingTop: 0}}>mac@greenvilleARTS.com</Text>
                   </TouchableOpacity>
                   <TouchableOpacity
                     style={rowStyle}
                     onPress = {() => Linking.openURL("http://greenvilleARTS.com")}>
-                    <Text style={{...mainTextStyle,  textDecorationLine: 'underline', paddingTop: 20}}>greenvilleARTS.com</Text>
+                    <Text style={{...mainTextStyle,  textDecorationLine: 'underline', paddingTop: 0}}>greenvilleARTS.com</Text>
                   </TouchableOpacity>
                 </View>
               </View>
               <View style={{...rowStyle, paddingLeft: 0, paddingRight: 0}}>
                 <TouchableOpacity
-                  onPress={()=>'https://www.google.com'}
+                  onPress={()=>Linking.openURL('https://www.facebook.com/macartscouncil/')}
                   style={{ flex: 1, alignItems: 'center', height: 25}}
                 >
                   <Image
@@ -165,7 +167,7 @@ export default class Sponsors extends Component{
                   />
                 </TouchableOpacity>
                 <TouchableOpacity
-                  onPress={()=>'https://www.google.com'}
+                  onPress={()=>Linking.openURL('https://www.instagram.com/macartscouncil/')}
                   style={{flex: 1, alignItems: 'center', height: 25}}
                 >
                   <Image
@@ -174,7 +176,7 @@ export default class Sponsors extends Component{
                   />
                 </TouchableOpacity>
                 <TouchableOpacity
-                  onPress={()=>'https://www.google.com'}
+                  onPress={()=>Linking.openURL('https://twitter.com/MACartscouncil')}
                   style={{flex: 1, alignItems: 'center', height: 25}}
                 >
                   <Image
@@ -185,7 +187,7 @@ export default class Sponsors extends Component{
               </View>
               <Image
                 source={require('../assets/images/logos/Maclogo.png')}
-                style={{width: 230, resizeMode: 'contain'}}
+                style={{width: 200, resizeMode: 'contain'}}
               />
             </View>
 
