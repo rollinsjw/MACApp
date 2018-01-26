@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A48B9075556CB788D9D7228B2DFF322F57928EA8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A48B9075556CB788D9D7228B2DFF322F57928EA8" : 9223372036854775807,
+    "EC3DDB3A7FB60D349329C79056E94746D301562C" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "10047895-5691-40EA-8738-57D98B058D0F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A48B9075556CB788D9D7228B2DFF322F57928EA8" : "MACApp\/",
+    "EC3DDB3A7FB60D349329C79056E94746D301562C" : "..\/..\/sides\/sidesDirectorTake2"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Mac",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ios\/Mac.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rollinsjw\/MACApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A48B9075556CB788D9D7228B2DFF322F57928EA8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rollinsjw\/sidesDirectorTake2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EC3DDB3A7FB60D349329C79056E94746D301562C"
+    }
+  ]
+}
