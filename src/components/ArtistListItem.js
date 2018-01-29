@@ -10,6 +10,7 @@ const ArtistListItem = ({artistInfo, navigate}) => {
       return null;
     }
   }
+  console.log(artistInfo["Img"])
   return(
     <TouchableOpacity
       onPress= {() => navigate()}
@@ -17,7 +18,7 @@ const ArtistListItem = ({artistInfo, navigate}) => {
 
       >
       <View style={styles.rowStyle}>
-        <Image source={artistInfo["Img"]} style={{ height: 80, width: 80,resizeMode: 'contain'}}/>
+        <Image source={{uri: artistInfo["Img"]}} style={{ height: 80, width: 80,resizeMode: 'contain'}}/>
         <View style={styles.columnStyle}>
           <Text style={styles.textStyleTitle}>{artistInfo["First Name"]} {artistInfo["Last Name"]} - #{artistInfo["studioNumber"]}</Text>
           {renderIf(artistInfo["STUDIO Address"] != "", <Text style={styles.textStyle}>{artistInfo["STUDIO Address"]}</Text>)}

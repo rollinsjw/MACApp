@@ -1,4 +1,5 @@
 import _ from 'lodash';
+import firebase from 'firebase';
 import { HANDICAP_ACCESSIBLE, OPEN_FRIDAY, SORT_BY_NAME, DRAWING_PAPER,
 CLAY_AND_WOOD,
 DIGITAL_ARTS,
@@ -21,16 +22,27 @@ export default (state = INITIAL_STATE, action) =>{
   console.log(action.type)
   switch(action.type) {
 
+
     case PULL_SUCCESS:
-      console.log(action.payload)
-      var temp = _.sortBy(INITIAL_STATE, "Last Name")
-      console.log('hi, pull success')
-      
-      return _.filter(temp, (val) =>{
-        return (val["Last Name"].startsWith(action.payload) || val["Last Name"].startsWith(action.payload.toLowerCase()))
-      });
+      INITIAL_STATE = action.payload
+      console.log(INITIAL_STATE)
+      INITIAL_STATE.map(function(value, i){
+        firebase.storage().refFromURL(value["Img"]).getDownloadURL().then((url) => {
+            // value["Img"] = url
+            INITIAL_STATE[i]["Img"] = url
+        })
+      })
+      // return _.filter(temp, (val) =>{
+      //   return (val["Last Name"].startsWith(action.payload) || val["Last Name"].startsWith(action.payload.toLowerCase()))
+      // });
+      //
+
     case SORT_BY_NAME:
-        return val["Last Name"].startsWith(action.payload)
+        var temp = _.sortBy(INITIAL_STATE, "Last Name")
+        return _.filter(temp, (val) =>{
+          // console.log(val["Img"])
+          return val["Last Name"].startsWith(action.payload)
+        });
     case OPEN_FRIDAY:
       return _.filter(INITIAL_STATE, (val, id) => {
         return val["Open FRIDAY?"] === "Yes"

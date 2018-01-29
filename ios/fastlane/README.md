@@ -15,7 +15,6 @@ xcode-select --install
 <th width="33%"><a href="http://brew.sh">Homebrew</a></th>
 <th width="33%">Installer Script</th>
 <th width="33%">RubyGems</th>
-
 </tr>
 <tr>
 <td width="33%" align="center">macOS</td>
