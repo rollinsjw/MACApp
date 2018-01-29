@@ -5,7 +5,6 @@ import { connect } from 'react-redux';
 import _ from 'lodash';
 import { sortByName, handicapAccessible, openFriday } from '../redux/actions/ArtistListActions';
 import ArtistListItem from '../components/ArtistListItem';
-<<<<<<< HEAD
 import { screen } from '../config/Metrics'
 
 class ArtistListContainer extends React.Component {
@@ -16,17 +15,11 @@ class ArtistListContainer extends React.Component {
       return null;
     }
   }
-  
-=======
 
-class ArtistListContainer extends React.Component {
-
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
   render(){
     return(
       <View style={{flex: 1}}>
       <Image style={styles.backgroundImageStyle} source={require('../assets/images/backgrounds/accessibilitybackground.jpeg')} />
-<<<<<<< HEAD
         {
         this.renderIf(this.props.navigation.state.params.title === 'medium',
         <View style={{width: screen.width, flexDirection: 'row', justifyContent: 'center', marginBottom: 10, alignItems: 'center'}}>
@@ -37,8 +30,7 @@ class ArtistListContainer extends React.Component {
           </View>
         </View>)
       }
-=======
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
+
         <FlatList
           data={this.props.artistList}
           renderItem={({item}) => <ArtistListItem
@@ -69,7 +61,6 @@ const styles = {
     left: 0,
     bottom: 0,
     top: 0
-<<<<<<< HEAD
   },
   buttonStyle: {
     borderWidth: 2,
@@ -84,7 +75,6 @@ const styles = {
     color: 'white',
     fontFamily: 'sweez',
     fontSize: 28
-=======
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
+
   }
 }

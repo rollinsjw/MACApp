@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /Users/willrollins/Desktop/work/contracts/MAC/MACApp/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/cxxreact.build/Objects-normal/x86_64/JSBigString.o
 /Users/willrollins/Desktop/work/contracts/MAC/MACApp/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/cxxreact.build/Objects-normal/x86_64/JSIndexedRAMBundle.o
 /Users/willrollins/Desktop/work/contracts/MAC/MACApp/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/cxxreact.build/Objects-normal/x86_64/ModuleRegistry.o
@@ -16,22 +15,3 @@
 /Users/willrollins/Desktop/work/contracts/MAC/MACApp/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/cxxreact.build/Objects-normal/x86_64/NativeToJsBridge.o
 /Users/willrollins/Desktop/work/contracts/MAC/MACApp/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/cxxreact.build/Objects-normal/x86_64/JSCNativeModules.o
 /Users/willrollins/Desktop/work/contracts/MAC/MACApp/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/cxxreact.build/Objects-normal/x86_64/SampleCxxModule.o
-=======
-/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/cxxreact.build/Objects-normal/x86_64/JSBigString.o
-/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/cxxreact.build/Objects-normal/x86_64/JSIndexedRAMBundle.o
-/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/cxxreact.build/Objects-normal/x86_64/ModuleRegistry.o
-/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/cxxreact.build/Objects-normal/x86_64/CxxNativeModule.o
-/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/cxxreact.build/Objects-normal/x86_64/JSCExecutor.o
-/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/cxxreact.build/Objects-normal/x86_64/JSCLegacyTracing.o
-/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/cxxreact.build/Objects-normal/x86_64/JSCPerfStats.o
-/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/cxxreact.build/Objects-normal/x86_64/JSBundleType.o
-/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/cxxreact.build/Objects-normal/x86_64/JSCUtils.o
-/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/cxxreact.build/Objects-normal/x86_64/JSCSamplingProfiler.o
-/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/cxxreact.build/Objects-normal/x86_64/JSCMemory.o
-/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/cxxreact.build/Objects-normal/x86_64/MethodCall.o
-/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/cxxreact.build/Objects-normal/x86_64/Platform.o
-/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/cxxreact.build/Objects-normal/x86_64/Instance.o
-/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/cxxreact.build/Objects-normal/x86_64/NativeToJsBridge.o
-/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/cxxreact.build/Objects-normal/x86_64/JSCNativeModules.o
-/Users/jacobyoung/Downloads/MACApp-master/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/cxxreact.build/Objects-normal/x86_64/SampleCxxModule.o
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7

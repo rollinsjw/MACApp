@@ -6,47 +6,34 @@ FIBER_ARTS,
 JEWELRY_AND_GLASS,
 MIXED_MEDIA,
 PAINTING,
-<<<<<<< HEAD
 PRINT_MAKING,
 PHOTOGRAPH_AND_VIDEO,
-SCULPTURE_AND_METAL
-} from '../utility/Constants';
-
-import artists from '../../data/artists';
-=======
+SCULPTURE_AND_METAL,
 PULL_SUCCESS,
-PRINT_MAKING
 } from '../utility/Constants';
-//import artists from '../../data/artists';
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 
-const INITIAL_STATE = artists
+
+const INITIAL_STATE = []
 
 
 export default (state = INITIAL_STATE, action) =>{
   switch(action.type) {
-<<<<<<< HEAD
-    case SORT_BY_NAME:
-=======
     case PULL_SUCCESS:
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
       console.log(action.payload)
       var temp = _.sortBy(INITIAL_STATE, "Last Name")
 
       return _.filter(temp, (val) =>{
-<<<<<<< HEAD
         return (val["Last Name"].startsWith(action.payload) || val["Last Name"].startsWith(action.payload.toLowerCase()))
-=======
-        return val["Last Name"].startsWith(action.payload)
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
       });
+    case SORT_BY_NAME:
+        return val["Last Name"].startsWith(action.payload)
     case OPEN_FRIDAY:
       return _.filter(INITIAL_STATE, (val, id) => {
         return val["Open FRIDAY?"] === "Yes"
       });
     case HANDICAP_ACCESSIBLE:
       return _.filter(INITIAL_STATE, (val, id) => {
-        return val["W/chair Accessible?"] === "Yes"
+        return val["chair Accessible?"] === "Yes"
       });
     case CLAY_AND_WOOD:
       return _.filter(INITIAL_STATE, (val, id) => {
@@ -78,7 +65,6 @@ export default (state = INITIAL_STATE, action) =>{
       });
     case PRINT_MAKING:
       return _.filter(INITIAL_STATE, (val, id) => {
-<<<<<<< HEAD
         return val["medium"].includes("PRINTMAKING")
       });
     case PHOTOGRAPH_AND_VIDEO:
@@ -88,11 +74,7 @@ export default (state = INITIAL_STATE, action) =>{
     case SCULPTURE_AND_METAL:
       return _.filter(INITIAL_STATE, (val, id) => {
           return (val["medium"].includes("SCULPTURE") || val["medium"].includes("METAL"))
-      })
-=======
-        return val["medium"].includes("PRINT")
       });
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
     default:
       return state;
   }

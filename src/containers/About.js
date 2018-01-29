@@ -1,13 +1,9 @@
 import React, { Component } from 'react';
-<<<<<<< HEAD
 import { Text, View, ScrollView, StyleSheet, Image, TouchableOpacity, Linking} from 'react-native';
 import { screen } from '../config/Metrics';
 import Communications from 'react-native-communications';
 
-=======
-import { Text, View, ScrollView, StyleSheet, Image, TouchableOpacity} from 'react-native';
-import { screen } from '../config/Metrics';
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
+
 
 
 export default class Sponsors extends Component{
@@ -29,17 +25,13 @@ export default class Sponsors extends Component{
             <View style={{...rowStyle, paddingTop: 8}}>
               <View style={{...columnStyle, paddingLeft: 30}}>
                 <Text style = {mainTextStyle} >
-<<<<<<< HEAD
                   Fri. November 10th
-=======
-                  Friday November 10th
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
+
                 </Text>
                 <Text style={secondaryTextStyle}>
                   (select studios only)
                 </Text>
                 <Text style = {mainTextStyle} >
-<<<<<<< HEAD
                   Sat. November 11th
                 </Text>
                 <Text style = {mainTextStyle} >
@@ -47,24 +39,13 @@ export default class Sponsors extends Component{
                 </Text>
               </View>
               <View style={{...columnStyle, justifyContent: 'space-between', alignItems: 'flex-start'}}>
-=======
-                  Saturday November 11th
-                </Text>
-                <Text style = {mainTextStyle} >
-                  Sunday November 12th
-                </Text>
-              </View>
-              <View style={columnStyle}>
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
+
                 <Text style = {mainTextStyle}>
                   6:00 PM - 9:00 PM
                 </Text>
 
-<<<<<<< HEAD
                 <Text style = {{...mainTextStyle, paddingTop: 0}}>
-=======
-                <Text style = {{...mainTextStyle, paddingTop: 13}}>
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
+
                   10:00 AM - 6:00 PM
                 </Text>
 
@@ -82,18 +63,13 @@ export default class Sponsors extends Component{
                 </View>
                 <View style={arrowDown}></View>
             </View>
-<<<<<<< HEAD
             <Text style = {{...mainTextStyle, paddingLeft: 30, paddingRight: 25, textAlign: 'justify'}}>
                Greenville Open Studios allows you to experience the life of
-=======
-            <Text style = {{...mainTextStyle, paddingLeft: 30, paddingRight: 30}}>
-               GreenVille Open Studios allows you to experience the life of
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
+
                local artists at work in thier studios for one full weekend,
                November 11-12. This free, self-guided tour is a unique
                experience to engage with our community's incredible talent,
                learn about artistic processes, enhance or begin your art
-<<<<<<< HEAD
                collection and become inspired.
             </Text>
             <Text style = {{...mainTextStyle, paddingLeft: 30, paddingRight: 25, marginTop: 5, textAlign: 'justify'}}>
@@ -101,15 +77,7 @@ export default class Sponsors extends Component{
               within a 15-mile radius of downtown Greenville with Easley, Greer,
               Travelers Rest and Simpsonville included. Open Studios catalogues
               can be found at all the studios as well as here at MAC in late
-=======
-               collection and become inspired
-            </Text>
-            <Text style = {{...mainTextStyle, paddingLeft: 30, paddingRight: 30}}>
-              Now in its 16th year, the 2017 tour features 145 artists all
-              within a 15-mile radius of downtown Greenville with Easley, Greer,
-              Travelers Rest and Simpsonville included. Open Studios catalogues
-              can be found at all the studios as wellas here at MAC in late
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
+
               October.
             </Text>
             <View style={barColumnStyle}>
@@ -159,30 +127,19 @@ export default class Sponsors extends Component{
                 </View>
                 <View style={arrowDown}></View>
             </View>
-<<<<<<< HEAD
             <View style={{...columnStyle, alignItems: 'center', paddingLeft: 25, paddingRight: 25}}>
               <View style={{...rowStyle}}>
                 <View style={{...columnStyle, flex: 1, alignItems: 'flex-start'}}>
-=======
-            <View style={{...columnStyle, alignItems: 'center', paddingLeft: 50, paddingRight: 50}}>
-              <View style={{...rowStyle}}>
-                <View style={{...columnStyle, flex: 1}}>
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
+
                   <Image source={require('../assets/images/socialMedia/GPSiconR.png')} style={{...iconStyle}}/>
                   <View style={{height: 20}}/>
                   <Image source={require('../assets/images/socialMedia/phoneiconR.png')} style={{...iconStyle, paddingLeft: 78}}/>
                   <Image source={require('../assets/images/socialMedia/atR.png')} style={iconStyle}/>
-<<<<<<< HEAD
                   <Image source={require('../assets/images/socialMedia/GlobeiconR.png')} style={{...iconStyle}}/>
                 </View>
 
                 <View style={{...columnStyle, justifyContent: 'flex-start', flex: 4, marginLeft: 5, alignItems: 'flex-start'}}>
-=======
-                  <Image source={require('../assets/images/socialMedia/GlobeiconR.png')} style={iconStyle}/>
-                </View>
 
-                <View style={{...columnStyle, justifyContent: 'flex-start', flex: 4, marginLeft: 9}}>
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
                   <View >
                     <Text style={mainTextStyle}>Metropolitan Arts Council</Text>
                     <Text style={mainTextStyle}>16 Augusta Street</Text>
@@ -192,40 +149,28 @@ export default class Sponsors extends Component{
                   <TouchableOpacity
                     style={rowStyle}
                     onPress = {() => Linking.openURL('tel:8644673132')}>
-<<<<<<< HEAD
                       <Text style={{...mainTextStyle, textDecorationLine: 'underline',  paddingTop: 0}}>(864) 467-3132</Text>
-=======
-                      <Text style={{...mainTextStyle, textDecorationLine: 'underline',  paddingTop: 20}}>(864) 467-3132</Text>
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
+
                   </TouchableOpacity>
 
                   <TouchableOpacity
                     style={rowStyle}
                     onPress = {() => Linking.openURL("mailto:mac@greenvilleARTS.com")}>
-<<<<<<< HEAD
                     <Text style={{...mainTextStyle, textDecorationLine: 'underline',  paddingTop: 0}}>mac@greenvilleARTS.com</Text>
-=======
-                    <Text style={{...mainTextStyle, textDecorationLine: 'underline',  paddingTop: 20}}>mac@greenvilleARTS.com</Text>
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
+
                   </TouchableOpacity>
                   <TouchableOpacity
                     style={rowStyle}
                     onPress = {() => Linking.openURL("http://greenvilleARTS.com")}>
-<<<<<<< HEAD
                     <Text style={{...mainTextStyle,  textDecorationLine: 'underline', paddingTop: 0}}>greenvilleARTS.com</Text>
-=======
-                    <Text style={{...mainTextStyle,  textDecorationLine: 'underline', paddingTop: 20}}>greenvilleARTS.com</Text>
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
+
                   </TouchableOpacity>
                 </View>
               </View>
               <View style={{...rowStyle, paddingLeft: 0, paddingRight: 0}}>
                 <TouchableOpacity
-<<<<<<< HEAD
                   onPress={()=>Linking.openURL('https://www.facebook.com/macartscouncil/')}
-=======
-                  onPress={()=>'https://www.google.com'}
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
+
                   style={{ flex: 1, alignItems: 'center', height: 25}}
                 >
                   <Image
@@ -234,11 +179,8 @@ export default class Sponsors extends Component{
                   />
                 </TouchableOpacity>
                 <TouchableOpacity
-<<<<<<< HEAD
                   onPress={()=>Linking.openURL('https://www.instagram.com/macartscouncil/')}
-=======
-                  onPress={()=>'https://www.google.com'}
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
+
                   style={{flex: 1, alignItems: 'center', height: 25}}
                 >
                   <Image
@@ -247,11 +189,8 @@ export default class Sponsors extends Component{
                   />
                 </TouchableOpacity>
                 <TouchableOpacity
-<<<<<<< HEAD
                   onPress={()=>Linking.openURL('https://twitter.com/MACartscouncil')}
-=======
-                  onPress={()=>'https://www.google.com'}
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
+
                   style={{flex: 1, alignItems: 'center', height: 25}}
                 >
                   <Image
@@ -262,11 +201,8 @@ export default class Sponsors extends Component{
               </View>
               <Image
                 source={require('../assets/images/logos/Maclogo.png')}
-<<<<<<< HEAD
                 style={{width: 200, resizeMode: 'contain'}}
-=======
-                style={{width: 230, resizeMode: 'contain'}}
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
+
               />
             </View>
 

@@ -46,11 +46,7 @@
 		</data>
 		<key>Headers/XCTest.apinotes</key>
 		<data>
-<<<<<<< HEAD
 		WqUywzmEAqoV6c0qeOnMA2dcIQc=
-=======
-		l410mkYRoGuDFbvfidu2srJJ2kA=
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 		</data>
 		<key>Headers/XCTest.h</key>
 		<data>
@@ -178,11 +174,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-<<<<<<< HEAD
 		CYfyvPIGUR84QvCD7SuNDvG6Bxc=
-=======
-		vaYGxV5xeNv3Xwbh9qrg229EZ5w=
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -199,11 +191,7 @@
 		</dict>
 		<key>version.plist</key>
 		<data>
-<<<<<<< HEAD
 		Etc/8BPenX54rv1uBx24u4bnqTg=
-=======
-		yLUgLGsvOrTOJzFlbX+XYKXM31s=
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 		</data>
 	</dict>
 	<key>files2</key>
@@ -322,19 +310,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-<<<<<<< HEAD
 			WqUywzmEAqoV6c0qeOnMA2dcIQc=
 			</data>
 			<key>hash2</key>
 			<data>
 			k+5JrEIKeIUahHN4rMRX6ihL13259MqcP597ms2vgMs=
-=======
-			l410mkYRoGuDFbvfidu2srJJ2kA=
-			</data>
-			<key>hash2</key>
-			<data>
-			RJX2E2M3fPSJ4UsmrrEtHZASueEfbesTD8Ows36jkg8=
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 			</data>
 		</dict>
 		<key>Headers/XCTest.h</key>
@@ -706,19 +686,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-<<<<<<< HEAD
 			Etc/8BPenX54rv1uBx24u4bnqTg=
 			</data>
 			<key>hash2</key>
 			<data>
 			Jh5i9giCFfo5GhN25CjMKdDJ6Kdlz/p4L95RITR+WeA=
-=======
-			yLUgLGsvOrTOJzFlbX+XYKXM31s=
-			</data>
-			<key>hash2</key>
-			<data>
-			psn3f9GzyAkXmzTU+vf5xjnZ5KNVLj89BwSJrmxGCqc=
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
 			</data>
 		</dict>
 	</dict>

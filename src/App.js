@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -13,29 +12,23 @@ import { StackNavigator, addNavigationHelpers} from 'react-navigation';
 import ArtistInfo from './components/ArtistInfo';
 import reducers from './redux/reducers';
 import { AppNavigator } from './config/router';
-<<<<<<< HEAD
-
-class App extends React.Component {
-
-=======
 import { pullData } from './redux/actions/ArtistListActions';
 
 class App extends React.Component {
 
   componentWillMount() {
     const config = {
-    apiKey: "AIzaSyB7JN4-mdvwFmOStz5kPnkoLzC1Ub-wAQU",
-    authDomain: "macapp-ca440.firebaseapp.com",
-    databaseURL: "https://macapp-ca440.firebaseio.com",
-    projectId: "macapp-ca440",
-    storageBucket: "macapp-ca440.appspot.com",
-    messagingSenderId: "400236357643"
-  };
-  firebase.initializeApp(config);
+    apiKey: "AIzaSyB7JN4-mdvwFmOStz5kPnkoLzC1Ub-wAQU",
+    authDomain: "macapp-ca440.firebaseapp.com",
+    databaseURL: "https://macapp-ca440.firebaseio.com",
+    projectId: "macapp-ca440",
+    storageBucket: "macapp-ca440.appspot.com",
+    messagingSenderId: "400236357643"
+  };
+  firebase.initializeApp(config);
   this.props.pullData();
 }
 
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
   render() {
     return(
       <AppNavigator
@@ -66,8 +59,4 @@ class Root extends Component {
   }
 }
 
-<<<<<<< HEAD
-export default Root;
-=======
-export default connect(mapStateToProps, { pullData })(App);
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
+// export default connect(mapStateToProps, { pullData })(App);

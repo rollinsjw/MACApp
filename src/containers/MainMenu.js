@@ -1,19 +1,15 @@
 import React, { Component } from 'react';
-<<<<<<< HEAD
 import { Text, View, Image, TouchableOpacity, Linking} from 'react-native';
 import { Button, SocialIcon } from 'react-native-elements';
 import { screen } from '../config/Metrics';
 import { CustomIcon } from '../components/commonComponents/CustomIcon';
 
-=======
-import { Text, View, Image, TouchableOpacity} from 'react-native';
-import { Button, SocialIcon } from 'react-native-elements';
-import { screen } from '../config/Metrics';
-import { CustomIcon } from '../components/commonComponents/CustomIcon';
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
+
 //TODO: how to turn off the header for this specific one
 
 export default class MainMenu extends React.Component {
+
+
   render() {
     const { textRowStyle, copyStyle, iconStyle, backgroundImageStyle, doorStyle, doorStyleView, logoStyle, containerStyle, buttonTextStyle, logoViewStyle, logoImageStyle, dateStyle, greenvilleStyle, openStyle, studiosStyle, clearBackground, columnStyle, rowStyle, imageStyle, imageViewStyle, buttonStyle, H1, H3, GreenvilleStyle } = styles;
     return(
@@ -28,11 +24,8 @@ export default class MainMenu extends React.Component {
                   />
                 <View style={columnStyle}>
                   <Button
-<<<<<<< HEAD
                     title={'artists'}
-=======
-                    title={'Artists'}
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
+
                     color={'rgb(255, 255, 255)'}
                     backgroundColor={'rgba(51, 53, 61, .451)'}
                     textStyle={buttonTextStyle}
@@ -42,33 +35,26 @@ export default class MainMenu extends React.Component {
 
                   <Button
                     backgroundColor={'rgba(51, 53, 61, .451)'}
-<<<<<<< HEAD
                     title={'maps'}
-=======
-                    title={'Maps'}
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
+
                     textStyle={buttonTextStyle}
                     style={buttonStyle}
                     //TODO: add geolocating
                     onPress={() => this.props.navigation.navigate('Map', )}
                   />
                   <Button
-<<<<<<< HEAD
+
                     title={'about'}
-=======
-                    title={'About'}
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
+
                     textStyle={buttonTextStyle}
                     style={buttonStyle}
                     backgroundColor={'rgba(51, 53, 61, .451)'}
                     onPress={() => this.props.navigation.navigate('About')}
                   />
                   <Button
-<<<<<<< HEAD
+
                     title={'sponsors'}
-=======
-                    title={'Sponsors'}
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
+
                     textStyle={buttonTextStyle}
                     style={buttonStyle}
                     backgroundColor={'rgba(51, 53, 61, .451)'}
@@ -77,11 +63,9 @@ export default class MainMenu extends React.Component {
                 </View>
                 <View style={rowStyle}>
                   <TouchableOpacity
-<<<<<<< HEAD
+
                     onPress={()=>Linking.openURL('https://www.facebook.com/macartscouncil/')}
-=======
-                    onPress={()=>'https://www.google.com'}
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
+
                     style={{ flex: 1, alignItems: 'center', height: 30}}
                   >
                     <Image
@@ -90,11 +74,9 @@ export default class MainMenu extends React.Component {
                     />
                   </TouchableOpacity>
                   <TouchableOpacity
-<<<<<<< HEAD
+
                     onPress={()=>Linking.openURL('https://www.instagram.com/macartscouncil/')}
-=======
-                    onPress={()=>'https://www.google.com'}
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
+
                     style={{flex: 1, alignItems: 'center', height: 30}}
                   >
                     <Image
@@ -103,11 +85,9 @@ export default class MainMenu extends React.Component {
                     />
                   </TouchableOpacity>
                   <TouchableOpacity
-<<<<<<< HEAD
+
                     onPress={()=>Linking.openURL('https://twitter.com/MACartscouncil')}
-=======
-                    onPress={()=>'https://www.google.com'}
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
+
                     style={{flex: 1, alignItems: 'center', height: 30}}
                   >
                     <Image
@@ -123,11 +103,9 @@ export default class MainMenu extends React.Component {
                 />
 
                 <Text style={copyStyle}> © 2017 | Metropolitan Arts Council | greenvilleARTS.com </Text>
-<<<<<<< HEAD
+
                 <Text style={copyStyle}>Background: Jacki Newell | “The Light Changes” | Oil | 36 x 36 inches </Text>
-=======
-                <Text style={copyStyle}> background image: Jacki Newell | “The Light Changes” | Oil | 36 x 36 inches </Text>
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
+
               </View>
             </Image>
         </View>
@@ -213,11 +191,9 @@ const styles = {
 
   },
   buttonTextStyle: {
-<<<<<<< HEAD
+
     fontSize: 16,
-=======
-    fontSize: 18,
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
+
     fontFamily: 'sweez',
     fontWeight: '600'
     // lineHeight: 1.2,
@@ -229,31 +205,8 @@ const styles = {
   clearBackground: {
     backgroundColor: 'rgba(0,0,0,0)'
   },
-<<<<<<< HEAD
-=======
-  openStyle: {
-    color: 'rgb(219, 187, 98)',
-    textShadowColor: 'black',
-    textShadowOffset: {width: -1, height: 1}
-  },
-  greenvilleStyle: {
-    color: 'rgb(171, 202, 191)',
-    textShadowColor: 'black',
-    textShadowOffset: {width: -1, height: 1}
 
-  },
-  studiosStyle: {
-    color: 'rgb(171, 92, 114)',
-    textShadowColor: 'black',
-    textShadowOffset: {width: -1, height: 1}
-  },
-  dateStyle: {
-    color: 'rgb(255, 255, 255)',
-    textShadowColor: 'black',
-    textShadowOffset: {width: -1, height: 1}
 
-  },
->>>>>>> a622a84fa9b65a4b43e8645addefe35ee1624fe7
   copyStyle: {
     fontSize: 10,
     fontFamily: 'FrancophilSans',
