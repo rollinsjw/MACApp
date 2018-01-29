@@ -1,14 +1,22 @@
 import React, { Component } from 'react';
 import { Text, View, Image, TouchableOpacity, Linking} from 'react-native';
 import { Button, SocialIcon } from 'react-native-elements';
+import { connect } from 'react-redux';
 import { screen } from '../config/Metrics';
 import { CustomIcon } from '../components/commonComponents/CustomIcon';
-
+import { pullData } from '../redux/actions/ArtistListActions';
 
 //TODO: how to turn off the header for this specific one
 
-export default class MainMenu extends React.Component {
-
+class MainMenu extends React.Component {
+  componentWillMount() {
+    console.log('hi hi hi')
+    console.log(this.props.artistList)
+    console.log(this.props.artistList.length)
+    if(this.props.artistList.length == 0){
+      this.props.pullData()
+    }
+  }
 
   render() {
     const { textRowStyle, copyStyle, iconStyle, backgroundImageStyle, doorStyle, doorStyleView, logoStyle, containerStyle, buttonTextStyle, logoViewStyle, logoImageStyle, dateStyle, greenvilleStyle, openStyle, studiosStyle, clearBackground, columnStyle, rowStyle, imageStyle, imageViewStyle, buttonStyle, H1, H3, GreenvilleStyle } = styles;
@@ -112,6 +120,12 @@ export default class MainMenu extends React.Component {
     )
   }
 }
+
+const mapStateToProps = (state) => {
+  return {...state};
+}
+
+export default connect(mapStateToProps, { pullData } )(MainMenu);
 
 const styles = {
   iconStyle: {

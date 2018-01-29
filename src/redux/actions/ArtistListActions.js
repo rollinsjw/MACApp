@@ -21,13 +21,16 @@ export function sortByName(x) {
 }
 
 export function pullData() {
+  console.log('pulling Data')
   return (dispatch) => {
      firebase.database().ref('/Artists/')
        .on('value', snapshot => {
+         console.log(snapshot.val())
          dispatch({ type: PULL_SUCCESS, payload: snapshot.val() });
        });
    };
 }
+
 export function handicapAccessible() {
   return {
     type: HANDICAP_ACCESSIBLE

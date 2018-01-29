@@ -17,11 +17,15 @@ const INITIAL_STATE = []
 
 
 export default (state = INITIAL_STATE, action) =>{
+  console.log('action type')
+  console.log(action.type)
   switch(action.type) {
+
     case PULL_SUCCESS:
       console.log(action.payload)
       var temp = _.sortBy(INITIAL_STATE, "Last Name")
-
+      console.log('hi, pull success')
+      
       return _.filter(temp, (val) =>{
         return (val["Last Name"].startsWith(action.payload) || val["Last Name"].startsWith(action.payload.toLowerCase()))
       });

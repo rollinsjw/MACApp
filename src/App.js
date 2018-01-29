@@ -6,13 +6,14 @@ import {
   View
 } from 'react-native';
 import { Provider, connect } from 'react-redux';
-import {createStore} from 'redux';
+import {createStore, compose, applyMiddleware} from 'redux';
 import {provider} from 'react-redux';
+import ReduxThunk from 'redux-thunk';
+import firebase from 'firebase';
 import { StackNavigator, addNavigationHelpers} from 'react-navigation';
 import ArtistInfo from './components/ArtistInfo';
 import reducers from './redux/reducers';
 import { AppNavigator } from './config/router';
-import { pullData } from './redux/actions/ArtistListActions';
 
 class App extends React.Component {
 
@@ -26,7 +27,6 @@ class App extends React.Component {
     messagingSenderId: "400236357643"
   };
   firebase.initializeApp(config);
-  this.props.pullData();
 }
 
   render() {
@@ -50,7 +50,7 @@ const AppWithNavigationState = connect(mapStateToProps)(App);
 class Root extends Component {
 
   render() {
-    const store = createStore(reducers);
+    const store = createStore(reducers, {}, compose(applyMiddleware(ReduxThunk)));
     return (
       <Provider store={store}>
         <AppWithNavigationState />
@@ -59,4 +59,4 @@ class Root extends Component {
   }
 }
 
-// export default connect(mapStateToProps, { pullData })(App);
+export default Root;

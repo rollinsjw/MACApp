@@ -151,7 +151,6 @@ export default connect(mapStateToProps, {
   jewelryAndGlass,
   mixedMedia,
   painting,
-
   printmaking,
   sculptureAndMetal,
   photographAndVideo
